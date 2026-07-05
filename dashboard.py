@@ -3,8 +3,8 @@ import json
 import database as db
 
 def render():
-    st.title("Your Learning Dashboard 🚀")
-    st.write(f"Welcome back, **{st.session_state.user['username']}**!")
+    st.title("🚀 Your Learning Dashboard")
+    st.write(f"Welcome back, **{st.session_state.user['username']}**! Let's conquer some English concepts today.")
     st.divider()
     
     with open('data/questions.json', 'r') as f:
@@ -35,14 +35,17 @@ def render():
                     topic_unlocked = False
                     break
         
-        st.subheader(f"📖 Topic: {topic_name}")
+        st.header(f"📚 Topic: {topic_name}")
         
         if not topic_unlocked:
-            st.warning(f"🔒 Complete the previous topic to unlock {topic_name}.")
+            st.warning(f"🔒 Complete the previous topic to unlock **{topic_name}**.")
             st.divider()
             continue
             
-        for rnd in rounds:
+        # Create a grid for rounds using columns
+        cols = st.columns(3)
+        
+        for idx, rnd in enumerate(rounds):
             r_num = rnd['round_number']
             title = rnd['title']
             
@@ -55,23 +58,27 @@ def render():
             passed = status.get('passed', False)
             high_score = status.get('high_score', 0)
             
-            col1, col2 = st.columns([3, 1])
-            with col1:
-                st.markdown(f"**Round {r_num}: {title}**")
-                if passed:
-                    st.success(f"✅ Passed (Score: {high_score}/10)")
-                elif round_unlocked:
-                    st.info(f"▶️ Ready (High Score: {high_score}/10)")
-                else:
-                    st.error("🔒 Locked")
+            with cols[idx % 3]:
+                # Wrap each round in a styled container
+                with st.container(border=True):
+                    st.subheader(f"Round {r_num}")
+                    st.write(f"**{title}**")
                     
-            with col2:
-                if round_unlocked:
-                    if st.button("Start Quiz", key=f"btn_{topic_name}_{r_num}", use_container_width=True):
-                        st.session_state.current_topic = topic_name
-                        st.session_state.current_round = r_num
-                        st.session_state.page = "quiz"
-                        st.rerun()
-                else:
-                    st.button("Locked", key=f"lock_{topic_name}_{r_num}", disabled=True, use_container_width=True)
-            st.write("---")
+                    if passed:
+                        st.success(f"✅ Passed ({high_score}/10)")
+                    elif round_unlocked:
+                        st.info(f"▶️ Ready ({high_score}/10)")
+                    else:
+                        st.error("🔒 Locked")
+                        
+                    st.write("") # Spacer
+                    if round_unlocked:
+                        if st.button("Start Quiz", key=f"btn_{topic_name}_{r_num}", use_container_width=True, type="primary"):
+                            st.session_state.current_topic = topic_name
+                            st.session_state.current_round = r_num
+                            st.session_state.page = "quiz"
+                            st.rerun()
+                    else:
+                        st.button("Locked", key=f"lock_{topic_name}_{r_num}", disabled=True, use_container_width=True)
+        
+        st.divider()
