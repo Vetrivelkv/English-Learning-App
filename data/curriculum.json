@@ -754,6 +754,570 @@
                             "explanation": "Truth, beauty, and wisdom are all concepts/ideas."
                         }
                     ]
+                },
+                {
+                    "id": "noun_sub_5",
+                    "title": "Countable & Uncountable Nouns",
+                    "image": "assets/noun_countable_uncountable.jpg",
+                    "content": "### What can you count?\n\n**Countable Nouns** are things we can count using numbers. They have a singular and a plural form.\n- Examples: one apple, two apples, three books.\n\n**Uncountable Nouns** are things we *cannot* count with numbers. They do not have a plural form and are always treated as singular. You cannot say 'one water' or 'two waters'.\n- Examples: water, air, knowledge, rice, information.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**Countable Nouns (எண்ணக்கூடியவை):**\nஎண்களால் எளிதில் எண்ணக்கூடிய பொருட்கள். இவற்றுக்கு ஒருமை, பன்மை (singular, plural) உண்டு. (எ.கா: ஒரு ஆப்பிள், இரண்டு ஆப்பிள்கள்).\n\n**Uncountable Nouns (எண்ண முடியாதவை):**\nஎண்களால் எண்ண முடியாத பொருட்கள். இவற்றுக்குப் பன்மை வடிவம் கிடையாது, எப்போதும் ஒருமையாகவே கருதப்படும். (எ.கா: தண்ணீர், காற்று, அறிவு, அரிசி).",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which is a countable noun?",
+                            "options": [
+                                "water",
+                                "milk",
+                                "apple",
+                                "sugar"
+                            ],
+                            "correct": 2,
+                            "explanation": "You can count apples (one apple, two apples)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is an uncountable noun?",
+                            "options": [
+                                "car",
+                                "book",
+                                "rice",
+                                "tree"
+                            ],
+                            "correct": 2,
+                            "explanation": "You cannot count individual grains of rice practically; it is treated as an uncountable mass."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Can uncountable nouns be plural?",
+                            "options": [
+                                "Yes, always",
+                                "No, they are always singular",
+                                "Sometimes",
+                                "Only in British English"
+                            ],
+                            "correct": 1,
+                            "explanation": "Uncountable nouns do not have a plural form."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Knowledge' is an example of an ___ noun.",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "proper",
+                                "collective"
+                            ],
+                            "correct": 1,
+                            "explanation": "You cannot count knowledge."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Chair' is an example of a ___ noun.",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "abstract",
+                                "collective"
+                            ],
+                            "correct": 0,
+                            "explanation": "You can have one chair, two chairs, etc."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which sentence is correct?",
+                            "options": [
+                                "I need an information.",
+                                "I need some information.",
+                                "I need two informations.",
+                                "I need informations."
+                            ],
+                            "correct": 1,
+                            "explanation": "'Information' is uncountable, so it cannot take 'an' or 's'."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which sentence is correct?",
+                            "options": [
+                                "She drank three waters.",
+                                "She drank a water.",
+                                "She drank some water.",
+                                "She drank many waters."
+                            ],
+                            "correct": 2,
+                            "explanation": "'Water' is uncountable."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the countable noun.",
+                            "options": [
+                                "happiness",
+                                "sand",
+                                "coin",
+                                "gold"
+                            ],
+                            "correct": 2,
+                            "explanation": "You can count coins."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Money' is grammatically considered ___.",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "plural",
+                                "proper"
+                            ],
+                            "correct": 1,
+                            "explanation": "You can count coins and bills, but the word 'money' itself is uncountable."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Dollar' is grammatically considered ___.",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "abstract",
+                                "proper"
+                            ],
+                            "correct": 0,
+                            "explanation": "You can say 'one dollar, two dollars'."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is uncountable?",
+                            "options": [
+                                "egg",
+                                "bottle",
+                                "milk",
+                                "cup"
+                            ],
+                            "correct": 2,
+                            "explanation": "Liquids like milk are uncountable."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is countable?",
+                            "options": [
+                                "music",
+                                "song",
+                                "art",
+                                "poetry"
+                            ],
+                            "correct": 1,
+                            "explanation": "You can count songs, but music is the general uncountable concept."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Is 'furniture' countable or uncountable?",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "both",
+                                "neither"
+                            ],
+                            "correct": 1,
+                            "explanation": "In English, 'furniture' is uncountable (no 'furnitures')."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "You should use 'many' with ___ nouns.",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "proper",
+                                "abstract"
+                            ],
+                            "correct": 0,
+                            "explanation": "'Many' is used for things you can count (many cars)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "You should use 'much' with which nouns?",
+                            "options": [
+                                "countable",
+                                "uncountable",
+                                "proper",
+                                "collective"
+                            ],
+                            "correct": 1,
+                            "explanation": "'Much' is used for things you cannot count (much water)."
+                        }
+                    ]
+                },
+                {
+                    "id": "noun_sub_6",
+                    "title": "Compound Nouns",
+                    "image": "assets/noun_compound.jpg",
+                    "content": "### Joining Words Together\n\nA **Compound Noun** is a noun made by joining two or more words together to create a completely new word with a new meaning.\n\nCompound nouns can be written in three ways:\n1. **Closed (One word):** toothpaste, bedroom, keyboard\n2. **Open (Separate words):** ice cream, living room, post office\n3. **Hyphenated:** mother-in-law, self-esteem, dry-cleaning\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**கூட்டுப் பெயர்ச்சொற்கள் (Compound Nouns):**\nஇரண்டு அல்லது அதற்கு மேற்பட்ட வார்த்தைகள் இணைந்து ஒரு புதிய பெயர்ச்சொல்லை (புதிய அர்த்தத்துடன்) உருவாக்குவது.\n\nஇவை மூன்று வழிகளில் எழுதப்படலாம்:\n1. **இணைந்து (Closed):** toothpaste (பற்பசை), bedroom\n2. **தனித்தனியாக (Open):** ice cream (ஐஸ்கிரீம்), post office\n3. **நடுக்கோடிட்டு (Hyphenated):** mother-in-law (மாமியார்)",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following is a compound noun?",
+                            "options": [
+                                "beautiful",
+                                "running",
+                                "toothbrush",
+                                "quickly"
+                            ],
+                            "correct": 2,
+                            "explanation": "Tooth + brush = toothbrush."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What two words make up the compound noun 'sunflower'?",
+                            "options": [
+                                "sun + flow",
+                                "sun + flower",
+                                "sunny + flower",
+                                "su + flower"
+                            ],
+                            "correct": 1,
+                            "explanation": "It combines sun and flower."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is an open compound noun (written as separate words)?",
+                            "options": [
+                                "football",
+                                "ice cream",
+                                "mother-in-law",
+                                "bedroom"
+                            ],
+                            "correct": 1,
+                            "explanation": "Ice cream is written as two separate words but acts as one noun."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Mother-in-law' is an example of a ___ compound noun.",
+                            "options": [
+                                "closed",
+                                "open",
+                                "hyphenated",
+                                "proper"
+                            ],
+                            "correct": 2,
+                            "explanation": "It uses hyphens to connect the words."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Snowman' is an example of a ___ compound noun.",
+                            "options": [
+                                "closed",
+                                "open",
+                                "hyphenated",
+                                "abstract"
+                            ],
+                            "correct": 0,
+                            "explanation": "It is written as a single combined word."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of these is NOT a compound noun?",
+                            "options": [
+                                "rainbow",
+                                "pancake",
+                                "happiness",
+                                "waterfall"
+                            ],
+                            "correct": 2,
+                            "explanation": "Happiness is formed with a suffix (-ness), not by joining two distinct words."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the plural of 'mother-in-law'?",
+                            "options": [
+                                "mother-in-laws",
+                                "mothers-in-law",
+                                "mothers-in-laws",
+                                "mother-ins-law"
+                            ],
+                            "correct": 1,
+                            "explanation": "You pluralize the main noun (mother)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the compound noun: 'We ate at the seafood restaurant.'",
+                            "options": [
+                                "We",
+                                "ate",
+                                "seafood",
+                                "restaurant"
+                            ],
+                            "correct": 2,
+                            "explanation": "Sea + food = seafood."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A room where you sleep is a ___ (compound noun).",
+                            "options": [
+                                "sleeproom",
+                                "bedroom",
+                                "bed room",
+                                "bed-room"
+                            ],
+                            "correct": 1,
+                            "explanation": "Bedroom is a closed compound noun."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A board with keys you type on is a ___.",
+                            "options": [
+                                "typeboard",
+                                "keyboard",
+                                "key board",
+                                "key-board"
+                            ],
+                            "correct": 1,
+                            "explanation": "Keyboard is a closed compound noun."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is a hyphenated compound noun?",
+                            "options": [
+                                "check-in",
+                                "checkout",
+                                "post office",
+                                "mailbox"
+                            ],
+                            "correct": 0,
+                            "explanation": "Check-in uses a hyphen."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Is 'swimming pool' a compound noun?",
+                            "options": [
+                                "Yes, closed",
+                                "Yes, open",
+                                "Yes, hyphenated",
+                                "No"
+                            ],
+                            "correct": 1,
+                            "explanation": "It is an open compound noun (two words acting as one)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What two words form 'firefly'?",
+                            "options": [
+                                "fire + fly",
+                                "fir + fly",
+                                "fire + flee",
+                                "fi + refly"
+                            ],
+                            "correct": 0,
+                            "explanation": "Fire and fly."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A cut for your hair is called a ___.",
+                            "options": [
+                                "haircut",
+                                "hair cut",
+                                "hair-cut",
+                                "cuthair"
+                            ],
+                            "correct": 0,
+                            "explanation": "Haircut is a closed compound noun."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which sentence contains a compound noun?",
+                            "options": [
+                                "She is very tall.",
+                                "He likes to run fast.",
+                                "I lost my backpack.",
+                                "They will arrive soon."
+                            ],
+                            "correct": 2,
+                            "explanation": "Back + pack = backpack."
+                        }
+                    ]
+                },
+                {
+                    "id": "noun_sub_7",
+                    "title": "Noun Genders",
+                    "image": "assets/noun_gender.jpg",
+                    "content": "### Masculine, Feminine, Common, and Neuter\n\nIn English, nouns can have four genders:\n- **Masculine:** Refers to males (e.g., boy, king, lion, uncle).\n- **Feminine:** Refers to females (e.g., girl, queen, lioness, aunt).\n- **Common:** Can refer to either males or females (e.g., teacher, doctor, friend, baby).\n- **Neuter:** Refers to non-living things that have no gender (e.g., table, car, book, water).\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**பெயர்ச்சொல் பாலினம் (Noun Genders):**\nஆங்கிலத்தில் பெயர்ச்சொற்கள் 4 பாலினங்களைக் கொண்டுள்ளன:\n- **ஆண்பால் (Masculine):** ஆண்களைக் குறிப்பது (எ.கா: boy, king, lion).\n- **பெண்பால் (Feminine):** பெண்களைக் குறிப்பது (எ.கா: girl, queen, lioness).\n- **பொதுப்பால் (Common):** ஆண், பெண் இருவரையும் பொதுவாகக் குறிப்பது (எ.கா: teacher - ஆசிரியர், doctor - மருத்துவர்).\n- **அஃறிணை (Neuter):** உயிரற்ற பொருட்களைக் குறிப்பது (எ.கா: table, car, book).",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following is a masculine noun?",
+                            "options": [
+                                "aunt",
+                                "queen",
+                                "uncle",
+                                "table"
+                            ],
+                            "correct": 2,
+                            "explanation": "Uncle refers specifically to a male."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following is a feminine noun?",
+                            "options": [
+                                "lion",
+                                "lioness",
+                                "cub",
+                                "den"
+                            ],
+                            "correct": 1,
+                            "explanation": "Lioness is the female counterpart to a lion."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What gender is the word 'doctor'?",
+                            "options": [
+                                "Masculine",
+                                "Feminine",
+                                "Common",
+                                "Neuter"
+                            ],
+                            "correct": 2,
+                            "explanation": "A doctor can be either male or female."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'car' is a ___ gender noun.",
+                            "options": [
+                                "masculine",
+                                "feminine",
+                                "common",
+                                "neuter"
+                            ],
+                            "correct": 3,
+                            "explanation": "A car is non-living and has no gender."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'friend' is a ___ gender noun.",
+                            "options": [
+                                "masculine",
+                                "feminine",
+                                "common",
+                                "neuter"
+                            ],
+                            "correct": 2,
+                            "explanation": "A friend can be of any gender."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the feminine counterpart of 'king'?",
+                            "options": [
+                                "princess",
+                                "duchess",
+                                "queen",
+                                "empress"
+                            ],
+                            "correct": 2,
+                            "explanation": "Queen is the female equivalent of king."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the masculine counterpart of 'niece'?",
+                            "options": [
+                                "uncle",
+                                "nephew",
+                                "brother",
+                                "son"
+                            ],
+                            "correct": 1,
+                            "explanation": "Nephew is the male equivalent of niece."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the neuter noun.",
+                            "options": [
+                                "computer",
+                                "teacher",
+                                "father",
+                                "sister"
+                            ],
+                            "correct": 0,
+                            "explanation": "A computer is a lifeless object."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A 'baby' is an example of a ___ noun.",
+                            "options": [
+                                "masculine",
+                                "feminine",
+                                "common",
+                                "neuter"
+                            ],
+                            "correct": 2,
+                            "explanation": "A baby can be a boy or a girl."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A 'mountain' is an example of a ___ noun.",
+                            "options": [
+                                "masculine",
+                                "feminine",
+                                "common",
+                                "neuter"
+                            ],
+                            "correct": 3,
+                            "explanation": "A mountain is an inanimate object."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the feminine of 'actor'?",
+                            "options": [
+                                "actress",
+                                "she-actor",
+                                "actrix",
+                                "actor"
+                            ],
+                            "correct": 0,
+                            "explanation": "Actress is the female form of actor."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is masculine?",
+                            "options": [
+                                "bride",
+                                "groom",
+                                "ring",
+                                "wedding"
+                            ],
+                            "correct": 1,
+                            "explanation": "Groom refers to the male getting married."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of these is a common gender noun?",
+                            "options": [
+                                "rooster",
+                                "hen",
+                                "chicken",
+                                "egg"
+                            ],
+                            "correct": 2,
+                            "explanation": "Chicken can refer to a rooster (male) or a hen (female)."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'waitress' is ___.",
+                            "options": [
+                                "masculine",
+                                "feminine",
+                                "common",
+                                "neuter"
+                            ],
+                            "correct": 1,
+                            "explanation": "Waitress refers specifically to a female server."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which list contains only neuter nouns?",
+                            "options": [
+                                "pen, paper, desk",
+                                "boy, girl, student",
+                                "cat, dog, bird",
+                                "sun, moon, god"
+                            ],
+                            "correct": 0,
+                            "explanation": "Pen, paper, and desk are all non-living objects."
+                        }
+                    ]
                 }
             ]
         }
