@@ -1,10 +1,11 @@
 import streamlit as st
+
+st.set_page_config(page_title="English Learning Quiz", page_icon="📚", layout="wide")
+
 import auth
 import dashboard
 import quiz
 import profile
-
-st.set_page_config(page_title="English Learning Quiz", page_icon="📚", layout="wide")
 
 if 'page' not in st.session_state:
     st.session_state.page = 'login'
