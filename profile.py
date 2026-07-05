@@ -6,46 +6,54 @@ def render():
     st.title("👤 User Profile")
     st.markdown(f"### Hello, {st.session_state.user['username']}!")
     
-    prog = db.get_progress(st.session_state.user['id'])
+    l_prog = db.get_learning_progress(st.session_state.user['id'])
+    c_prog = db.get_progress(st.session_state.user['id'])
     
     st.divider()
-    st.subheader("📊 Overall Performance")
     
-    if not prog:
-        st.info("No progress yet. Start playing from the Dashboard!")
+    # --- LEARNING PROGRESS ---
+    st.subheader("📖 Learning Journey Progress")
+    if not l_prog:
+        st.info("You haven't started your learning journey yet.")
     else:
-        total_rounds_attempted = len(prog)
-        total_rounds_passed = sum(1 for p in prog if p['passed'])
-        total_attempts = sum(p['attempts'] for p in prog)
-        
-        col1, col2, col3 = st.columns(3)
-        col1.metric("Rounds Attempted", total_rounds_attempted)
-        col2.metric("Rounds Passed", total_rounds_passed)
-        col3.metric("Total Quiz Attempts", total_attempts)
-        
-        st.divider()
-        st.subheader("📚 Topic Breakdown")
-        
-        # Get unique topics
-        topics = []
-        for p in prog:
-            if p['topic_name'] not in topics:
-                topics.append(p['topic_name'])
-                
-        for topic in topics:
-            with st.expander(f"📖 {topic} Progress Details", expanded=True):
-                topic_data = [p for p in prog if p['topic_name'] == topic]
-                topic_data = sorted(topic_data, key=lambda x: x['round_number'])
+        l_topics = list(set([p['topic_name'] for p in l_prog]))
+        for topic in l_topics:
+            with st.expander(f"📚 {topic} Learning Modules", expanded=True):
+                t_data = [p for p in l_prog if p['topic_name'] == topic]
+                # Try sorting by subtopic id assuming format noun_sub_1
+                t_data = sorted(t_data, key=lambda x: x['subtopic_id'])
                 
                 table_data = []
-                for p in topic_data:
+                for p in t_data:
+                    table_data.append({
+                        "Module ID": p['subtopic_id'],
+                        "Status": "✅ Learned" if p['passed'] else "❌ Attempting",
+                        "High Score": f"{p['high_score']} / 15",
+                        "Attempts": p['attempts']
+                    })
+                st.table(table_data)
+
+    st.divider()
+    
+    # --- CHALLENGE PROGRESS ---
+    st.subheader("⚔️ Challenge Rounds Progress")
+    if not c_prog:
+        st.info("You haven't attempted any challenge rounds yet.")
+    else:
+        c_topics = list(set([p['topic_name'] for p in c_prog]))
+        for topic in c_topics:
+            with st.expander(f"🎯 {topic} Challenge Details", expanded=True):
+                t_data = [p for p in c_prog if p['topic_name'] == topic]
+                t_data = sorted(t_data, key=lambda x: x['round_number'])
+                
+                table_data = []
+                for p in t_data:
                     table_data.append({
                         "Round": f"Round {p['round_number']}",
                         "Status": "✅ Passed" if p['passed'] else "❌ Attempting",
                         "High Score": f"{p['high_score']} / 10",
                         "Attempts": p['attempts']
                     })
-                
                 st.table(table_data)
                 
     st.divider()

@@ -1,0 +1,761 @@
+{
+    "topics": [
+        {
+            "name": "Noun",
+            "subtopics": [
+                {
+                    "id": "noun_sub_1",
+                    "title": "Introduction to Nouns and its Types",
+                    "image": "assets/noun_intro.jpg",
+                    "content": "### What is a Noun?\n\nA noun is a fundamental part of speech in English. Simply put, a noun is a **naming word**.\nIt can name a:\n- **Person:** doctor, John, girl\n- **Place:** city, Paris, kitchen\n- **Thing:** table, car, computer\n- **Idea/Concept:** freedom, happiness, love\n\nNouns can be categorized into various types based on their specific function. In the upcoming subtopics, you will learn about the different types of nouns and how they behave.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**பெயர்ச்சொல் (Noun) என்றால் என்ன?**\n\nஆங்கிலத்தில் பெயர்ச்சொல் என்பது ஒரு முக்கியமான பகுதி. எளிமையாகச் சொன்னால், இது ஒரு **பெயரைக் குறிக்கும் சொல்**.\nஇது பின்வருவனவற்றைக் குறிக்கலாம்:\n- **நபர் (Person):** மருத்துவர், ஜான், சிறுமி\n- **இடம் (Place):** நகரம், பாரிஸ், சமையலறை\n- **பொருள் (Thing):** மேஜை, கார், கணினி\n- **எண்ணம்/கருத்து (Idea):** சுதந்திரம், மகிழ்ச்சி, காதல்\n\nபெயர்ச்சொற்களை அவற்றின் பயன்பாட்டைப் பொறுத்து பல்வேறு வகைகளாகப் பிரிக்கலாம். வரவிருக்கும் பகுதிகளில், இந்த வகைகளைப் பற்றி விரிவாகப் படிப்போம்.",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following is a person?",
+                            "options": [
+                                "tree",
+                                "teacher",
+                                "running",
+                                "blue"
+                            ],
+                            "correct": 1,
+                            "explanation": "'teacher' is a noun naming a person."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the place among the options.",
+                            "options": [
+                                "beautiful",
+                                "quickly",
+                                "library",
+                                "jump"
+                            ],
+                            "correct": 2,
+                            "explanation": "'library' is a noun naming a place."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word represents an idea?",
+                            "options": [
+                                "box",
+                                "honesty",
+                                "apple",
+                                "dog"
+                            ],
+                            "correct": 1,
+                            "explanation": "'honesty' is an idea or concept, making it a noun."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the noun in this sentence: 'The cat slept.'?",
+                            "options": [
+                                "The",
+                                "cat",
+                                "slept",
+                                "None"
+                            ],
+                            "correct": 1,
+                            "explanation": "'cat' is the thing performing the action."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is NOT a noun?",
+                            "options": [
+                                "happiness",
+                                "Paris",
+                                "eat",
+                                "car"
+                            ],
+                            "correct": 2,
+                            "explanation": "'eat' is a verb, not a noun."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A noun is a word that represents a person, place, thing, or ___.",
+                            "options": [
+                                "idea",
+                                "verb",
+                                "adjective",
+                                "number"
+                            ],
+                            "correct": 0,
+                            "explanation": "Nouns also represent ideas (like freedom)."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "In the sentence 'London is big', the noun is ___.",
+                            "options": [
+                                "London",
+                                "is",
+                                "big",
+                                "the"
+                            ],
+                            "correct": 0,
+                            "explanation": "London is a place."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "Love is an example of an ___ noun.",
+                            "options": [
+                                "idea",
+                                "thing",
+                                "place",
+                                "person"
+                            ],
+                            "correct": 0,
+                            "explanation": "Love is an abstract idea."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is a thing?",
+                            "options": [
+                                "computer",
+                                "sing",
+                                "he",
+                                "very"
+                            ],
+                            "correct": 0,
+                            "explanation": "A computer is an object/thing."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the noun: 'She drove the car.'",
+                            "options": [
+                                "She",
+                                "drove",
+                                "the",
+                                "car"
+                            ],
+                            "correct": 3,
+                            "explanation": "'car' is the noun (a thing). 'She' is a pronoun."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of these is a noun?",
+                            "options": [
+                                "quickly",
+                                "beautiful",
+                                "happiness",
+                                "jumping"
+                            ],
+                            "correct": 2,
+                            "explanation": "Happiness is a state or idea."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'doctor' is a noun because it names a ___.",
+                            "options": [
+                                "person",
+                                "place",
+                                "thing",
+                                "idea"
+                            ],
+                            "correct": 0,
+                            "explanation": "A doctor is a person."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'kitchen' is a noun because it names a ___.",
+                            "options": [
+                                "person",
+                                "place",
+                                "thing",
+                                "idea"
+                            ],
+                            "correct": 1,
+                            "explanation": "A kitchen is a place in a house."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Find the noun: 'The dog barked loudly.'",
+                            "options": [
+                                "The",
+                                "dog",
+                                "barked",
+                                "loudly"
+                            ],
+                            "correct": 1,
+                            "explanation": "Dog is a thing/animal."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Is 'sadness' a noun?",
+                            "options": [
+                                "Yes",
+                                "No",
+                                "Only on Tuesdays",
+                                "It is a verb"
+                            ],
+                            "correct": 0,
+                            "explanation": "Yes, sadness is a concept/idea noun."
+                        }
+                    ]
+                },
+                {
+                    "id": "noun_sub_2",
+                    "title": "Common & Proper Nouns",
+                    "image": "assets/noun_common_proper.jpg",
+                    "content": "### Common vs. Proper Nouns\n\n**Common Nouns**\nA common noun names a *general* item. It does not refer to a specific person, place, or thing, and it is usually not capitalized unless it starts a sentence.\n- Examples: city, man, river, mountain.\n\n**Proper Nouns**\nA proper noun gives a *specific* name to a person, place, or thing. Proper nouns ALWAYS begin with a capital letter.\n- Examples: New York (specific city), John (specific man), Amazon (specific river), Mount Everest (specific mountain).\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**பொதுப் பெயர்ச்சொல் (Common Nouns)**\nஇது பொதுவாக ஒரு பொருளைக் குறிக்கும். குறிப்பிட்ட நபரையோ, இடத்தையோ குறிக்காது. (எ.கா: நகரம், மனிதன், ஆறு, மலை).\n\n**சிறப்புப் பெயர்ச்சொல் (Proper Nouns)**\nஇது ஒரு குறிப்பிட்ட நபர், இடம் அல்லது பொருளுக்கு வழங்கப்படும் பெயர். இது எப்போதும் **Capital Letter** (பெரிய எழுத்து)-ல் தொடங்க வேண்டும். (எ.கா: நியூயார்க், ஜான், அமேசான்).",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following is a proper noun?",
+                            "options": [
+                                "city",
+                                "country",
+                                "France",
+                                "village"
+                            ],
+                            "correct": 2,
+                            "explanation": "France is a specific country and is capitalized."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the common noun.",
+                            "options": [
+                                "Google",
+                                "website",
+                                "Microsoft",
+                                "Amazon"
+                            ],
+                            "correct": 1,
+                            "explanation": "Website is general; the others are specific companies."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which noun must always be capitalized?",
+                            "options": [
+                                "common noun",
+                                "proper noun",
+                                "both",
+                                "neither"
+                            ],
+                            "correct": 1,
+                            "explanation": "Proper nouns always require capitalization."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'ocean' is a ___ noun.",
+                            "options": [
+                                "common",
+                                "proper",
+                                "abstract",
+                                "collective"
+                            ],
+                            "correct": 0,
+                            "explanation": "Ocean is general. 'Pacific Ocean' would be proper."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The word 'David' is a ___ noun.",
+                            "options": [
+                                "common",
+                                "proper",
+                                "abstract",
+                                "collective"
+                            ],
+                            "correct": 1,
+                            "explanation": "David is a specific name."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Find the proper noun in: 'My friend Sarah is here.'",
+                            "options": [
+                                "friend",
+                                "Sarah",
+                                "here",
+                                "My"
+                            ],
+                            "correct": 1,
+                            "explanation": "Sarah is a specific person's name."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Find the common noun in: 'We visited London last year.'",
+                            "options": [
+                                "We",
+                                "visited",
+                                "London",
+                                "year"
+                            ],
+                            "correct": 3,
+                            "explanation": "'year' is a general common noun. 'London' is proper."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which sentence uses proper nouns correctly?",
+                            "options": [
+                                "i saw dr. smith.",
+                                "I saw Dr. Smith.",
+                                "I saw dr. Smith.",
+                                "I saw Dr. smith."
+                            ],
+                            "correct": 1,
+                            "explanation": "Both the title 'Dr.' and the name 'Smith' must be capitalized."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Burger King' is an example of a ___ noun.",
+                            "options": [
+                                "common",
+                                "proper",
+                                "action",
+                                "idea"
+                            ],
+                            "correct": 1,
+                            "explanation": "It is a specific name of a restaurant."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Restaurant' is an example of a ___ noun.",
+                            "options": [
+                                "common",
+                                "proper",
+                                "action",
+                                "idea"
+                            ],
+                            "correct": 0,
+                            "explanation": "It is a general place."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is a common noun?",
+                            "options": [
+                                "Tuesday",
+                                "October",
+                                "month",
+                                "Christmas"
+                            ],
+                            "correct": 2,
+                            "explanation": "'month' is general. The others are specific days/months/holidays."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the proper noun: 'He drives a Toyota.'",
+                            "options": [
+                                "He",
+                                "drives",
+                                "a",
+                                "Toyota"
+                            ],
+                            "correct": 3,
+                            "explanation": "Toyota is a specific brand name."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Is 'president' a common or proper noun?",
+                            "options": [
+                                "common",
+                                "proper",
+                                "both depending on context",
+                                "neither"
+                            ],
+                            "correct": 2,
+                            "explanation": "It's common ('the president'), but proper when a title before a name ('President Lincoln')."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "Every proper noun must begin with a ___ letter.",
+                            "options": [
+                                "small",
+                                "capital",
+                                "vowel",
+                                "consonant"
+                            ],
+                            "correct": 1,
+                            "explanation": "Capitalization is the hallmark of proper nouns."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which list contains only proper nouns?",
+                            "options": [
+                                "dog, cat, mouse",
+                                "London, Paris, city",
+                                "Earth, Mars, Venus",
+                                "car, Ford, fast"
+                            ],
+                            "correct": 2,
+                            "explanation": "Earth, Mars, and Venus are specific names of planets."
+                        }
+                    ]
+                },
+                {
+                    "id": "noun_sub_3",
+                    "title": "Singular, Plural & Possessive Nouns",
+                    "image": "assets/noun_singular_plural.jpg",
+                    "content": "### Number and Ownership\n\n**Singular Nouns** refer to one person, place, or thing (e.g., *cat*, *box*).\n**Plural Nouns** refer to more than one. Usually, you add '-s' or '-es' (e.g., *cats*, *boxes*). Some are irregular (e.g., *child* -> *children*, *mouse* -> *mice*).\n\n**Possessive Nouns** show ownership.\n- For singular nouns, add an apostrophe and 's' (`'s`) -> *The boy's ball*.\n- For plural nouns ending in 's', just add an apostrophe (`'`) -> *The boys' ball*.\n- For irregular plural nouns not ending in 's', add `'s` -> *The children's toys*.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**ஒருமை (Singular Nouns)**\nஒரே ஒரு நபர், இடம் அல்லது பொருளைக் குறிக்கும் (எ.கா: cat, box).\n**பன்மை (Plural Nouns)**\nஒன்றுக்கு மேற்பட்டவற்றைக் குறிக்கும். பொதுவாக '-s' அல்லது '-es' சேர்க்கப்படும் (எ.கா: cats, boxes). சில மாறுபடும் (எ.கா: child -> children).\n\n**உரிமையைக் குறிக்கும் பெயர்ச்சொற்கள் (Possessive Nouns)**\n- ஒருமைக்கு `'s` சேர்க்கவும் -> *The boy's ball* (பையனுடைய பந்து).\n- பன்மைக்கு `'` மட்டும் சேர்க்கவும் -> *The boys' ball* (பையன்களுடைய பந்து).",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "What is the plural of 'child'?",
+                            "options": [
+                                "childs",
+                                "children",
+                                "childrens",
+                                "childes"
+                            ],
+                            "correct": 1,
+                            "explanation": "'children' is the irregular plural form."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the plural of 'box'?",
+                            "options": [
+                                "boxs",
+                                "boxies",
+                                "boxes",
+                                "box"
+                            ],
+                            "correct": 2,
+                            "explanation": "Words ending in x take '-es' to become plural."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which indicates ownership by one cat?",
+                            "options": [
+                                "cat's",
+                                "cats'",
+                                "cats",
+                                "cat"
+                            ],
+                            "correct": 0,
+                            "explanation": "Singular possessive uses `'s`."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which indicates ownership by multiple cats?",
+                            "options": [
+                                "cat's",
+                                "cats'",
+                                "cats's",
+                                "cats"
+                            ],
+                            "correct": 1,
+                            "explanation": "Plural possessive for words ending in s just takes an apostrophe at the end."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The plural of 'mouse' is ___.",
+                            "options": [
+                                "mouses",
+                                "mice",
+                                "meese",
+                                "mouse"
+                            ],
+                            "correct": 1,
+                            "explanation": "'mice' is an irregular plural."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "To show the car belongs to John, we write: ___ car.",
+                            "options": [
+                                "John",
+                                "Johns",
+                                "John's",
+                                "Johns'"
+                            ],
+                            "correct": 2,
+                            "explanation": "Add `'s` to singular proper nouns."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the plural of 'foot'?",
+                            "options": [
+                                "foots",
+                                "feet",
+                                "feets",
+                                "foot"
+                            ],
+                            "correct": 1,
+                            "explanation": "The irregular plural is 'feet'."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the correct possessive: 'The toys belonging to the children.'",
+                            "options": [
+                                "the childrens toys",
+                                "the children's toys",
+                                "the childrens' toys",
+                                "the childs toys"
+                            ],
+                            "correct": 1,
+                            "explanation": "Since 'children' doesn't end in s, we add `'s`."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is singular?",
+                            "options": [
+                                "geese",
+                                "teeth",
+                                "woman",
+                                "men"
+                            ],
+                            "correct": 2,
+                            "explanation": "'woman' is singular. The plural is 'women'."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "The plural of 'city' is ___.",
+                            "options": [
+                                "citys",
+                                "cities",
+                                "cityes",
+                                "citeis"
+                            ],
+                            "correct": 1,
+                            "explanation": "Change y to i and add es."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is the correct singular possessive?",
+                            "options": [
+                                "the dogs bone",
+                                "the dogs' bone",
+                                "the dog's bone",
+                                "the dog bone"
+                            ],
+                            "correct": 2,
+                            "explanation": "'dog's' shows it belongs to one dog."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "One leaf, two ___.",
+                            "options": [
+                                "leafs",
+                                "leaves",
+                                "leafes",
+                                "leave"
+                            ],
+                            "correct": 1,
+                            "explanation": "Words ending in f or fe often change to v and add es."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the plural of 'deer'?",
+                            "options": [
+                                "deers",
+                                "deer",
+                                "deeries",
+                                "deeren"
+                            ],
+                            "correct": 1,
+                            "explanation": "'deer' is the same in singular and plural."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Select the correct sentence.",
+                            "options": [
+                                "My boss's office is big.",
+                                "My boss office is big.",
+                                "My bosss office is big.",
+                                "My boss' office is big."
+                            ],
+                            "correct": 0,
+                            "explanation": "Singular nouns ending in s usually still take `'s` (boss's)."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A noun that refers to only one thing is called ___.",
+                            "options": [
+                                "singular",
+                                "plural",
+                                "possessive",
+                                "proper"
+                            ],
+                            "correct": 0,
+                            "explanation": "Singular means single (one)."
+                        }
+                    ]
+                },
+                {
+                    "id": "noun_sub_4",
+                    "title": "Concrete, Abstract & Collective Nouns",
+                    "image": "assets/noun_concrete_abstract.jpg",
+                    "content": "### What they represent\n\n**Concrete Nouns** are things you can experience with your five senses (sight, smell, hearing, taste, touch).\n- Examples: table, music, apple, perfume.\n\n**Abstract Nouns** are concepts, ideas, or feelings that you *cannot* experience with your five senses.\n- Examples: love, courage, time, education.\n\n**Collective Nouns** represent a group or collection of people, animals, or things as a single unit.\n- Examples: a *team* of players, a *flock* of birds, a *family*, a *committee*.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**Concrete Nouns:** ஐம்புலன்களால் உணரக்கூடிய பொருட்கள் (பார்த்தல், கேட்டல், சுவைத்தல், நுகர்தல், தொடுதல்). (எ.கா: மேஜை, இசை, ஆப்பிள்).\n\n**Abstract Nouns:** ஐம்புலன்களால் உணர முடியாத உணர்வுகள் அல்லது கருத்துக்கள். (எ.கா: காதல், தைரியம், நேரம்).\n\n**Collective Nouns:** ஒரு குழுவைக் குறிக்கும் சொல். பல தனி நபர்கள் சேர்ந்த ஒரு கூட்டத்தை ஒருமையாகக் குறிக்கும். (எ.கா: அணி - team, குடும்பம் - family, பறவைக் கூட்டம் - flock).",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which is a concrete noun?",
+                            "options": [
+                                "bravery",
+                                "water",
+                                "hope",
+                                "intelligence"
+                            ],
+                            "correct": 1,
+                            "explanation": "You can touch, taste, and see water."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is an abstract noun?",
+                            "options": [
+                                "book",
+                                "anger",
+                                "chair",
+                                "wind"
+                            ],
+                            "correct": 1,
+                            "explanation": "Anger is an emotion/concept; you cannot physically touch it."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which is a collective noun?",
+                            "options": [
+                                "team",
+                                "players",
+                                "game",
+                                "stadium"
+                            ],
+                            "correct": 0,
+                            "explanation": "A team represents a group of players as a single unit."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A ___ of birds flew by.",
+                            "options": [
+                                "pack",
+                                "school",
+                                "flock",
+                                "herd"
+                            ],
+                            "correct": 2,
+                            "explanation": "The collective noun for birds is flock."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A ___ of fish swam past.",
+                            "options": [
+                                "pack",
+                                "school",
+                                "flock",
+                                "herd"
+                            ],
+                            "correct": 1,
+                            "explanation": "The collective noun for fish is school."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Is 'music' concrete or abstract?",
+                            "options": [
+                                "concrete",
+                                "abstract",
+                                "collective",
+                                "neither"
+                            ],
+                            "correct": 0,
+                            "explanation": "Concrete, because you can hear it (five senses)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Is 'knowledge' concrete or abstract?",
+                            "options": [
+                                "concrete",
+                                "abstract",
+                                "collective",
+                                "proper"
+                            ],
+                            "correct": 1,
+                            "explanation": "Abstract, because it's an idea you cannot physically touch/see/hear."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the collective noun in: 'The jury reached a verdict.'",
+                            "options": [
+                                "The",
+                                "jury",
+                                "reached",
+                                "verdict"
+                            ],
+                            "correct": 1,
+                            "explanation": "A jury is a group of people."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Family' is a ___ noun.",
+                            "options": [
+                                "concrete",
+                                "abstract",
+                                "collective",
+                                "proper"
+                            ],
+                            "correct": 2,
+                            "explanation": "It refers to a group of related people."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "'Air' is a ___ noun.",
+                            "options": [
+                                "concrete",
+                                "abstract",
+                                "collective",
+                                "proper"
+                            ],
+                            "correct": 0,
+                            "explanation": "Concrete, because you can feel it."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is an abstract noun?",
+                            "options": [
+                                "car",
+                                "tree",
+                                "friendship",
+                                "friend"
+                            ],
+                            "correct": 2,
+                            "explanation": "Friendship is a concept/bond."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the collective noun.",
+                            "options": [
+                                "students",
+                                "class",
+                                "teachers",
+                                "school"
+                            ],
+                            "correct": 1,
+                            "explanation": "'class' represents a group of students as one unit."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which sense can detect the concrete noun 'perfume'?",
+                            "options": [
+                                "sight",
+                                "sound",
+                                "smell",
+                                "taste"
+                            ],
+                            "correct": 2,
+                            "explanation": "You can smell perfume, making it concrete."
+                        },
+                        {
+                            "type": "fill",
+                            "question": "A ___ of wolves.",
+                            "options": [
+                                "pack",
+                                "swarm",
+                                "gaggle",
+                                "pride"
+                            ],
+                            "correct": 0,
+                            "explanation": "The collective noun for wolves is pack."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which list contains ONLY abstract nouns?",
+                            "options": [
+                                "love, peace, dog",
+                                "truth, beauty, wisdom",
+                                "courage, fear, sword",
+                                "time, space, planet"
+                            ],
+                            "correct": 1,
+                            "explanation": "Truth, beauty, and wisdom are all concepts/ideas."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

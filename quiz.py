@@ -9,7 +9,7 @@ def render():
     st.button("🔙 Back to Dashboard", on_click=lambda: st.session_state.update({'page': 'dashboard'}))
     st.title(f"Quiz: {topic_name} - Round {round_num}")
     
-    with open('data/questions.json', 'r') as f:
+    with open('data/questions.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
         
     topic = next(t for t in data['topics'] if t['name'] == topic_name)

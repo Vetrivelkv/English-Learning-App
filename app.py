@@ -5,6 +5,7 @@ st.set_page_config(page_title="English Learning Quiz", page_icon="📚", layout=
 import auth
 import dashboard
 import quiz
+import learn
 import profile
 
 if 'page' not in st.session_state:
@@ -33,6 +34,12 @@ elif st.session_state.page == 'dashboard':
 elif st.session_state.page == 'quiz':
     if st.session_state.user:
         quiz.render()
+    else:
+        st.session_state.page = 'login'
+        st.rerun()
+elif st.session_state.page == 'learn':
+    if st.session_state.user:
+        learn.render()
     else:
         st.session_state.page = 'login'
         st.rerun()

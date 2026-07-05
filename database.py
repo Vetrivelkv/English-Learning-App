@@ -74,3 +74,33 @@ def save_progress(user_id, topic_name, round_number, passed, score):
             'attempts': 1,
             'high_score': score
         }).execute()
+
+def get_learning_progress(user_id):
+    if not is_db_connected(): return []
+    res = supabase.table('learning_progress').select('*').eq('user_id', user_id).execute()
+    return res.data
+
+def save_learning_progress(user_id, topic_name, subtopic_id, passed, score):
+    if not is_db_connected(): return
+    res = supabase.table('learning_progress').select('*').eq('user_id', user_id).eq('topic_name', topic_name).eq('subtopic_id', subtopic_id).execute()
+    
+    if len(res.data) > 0:
+        prog = res.data[0]
+        new_attempts = prog['attempts'] + 1
+        new_high = max(prog['high_score'], score)
+        new_passed = prog['passed'] or passed
+        supabase.table('learning_progress').update({
+            'passed': new_passed,
+            'attempts': new_attempts,
+            'high_score': new_high,
+            'last_attempted_at': 'now()'
+        }).eq('id', prog['id']).execute()
+    else:
+        supabase.table('learning_progress').insert({
+            'user_id': user_id,
+            'topic_name': topic_name,
+            'subtopic_id': subtopic_id,
+            'passed': passed,
+            'attempts': 1,
+            'high_score': score
+        }).execute()
