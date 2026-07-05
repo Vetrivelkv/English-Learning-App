@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit secrets (NEVER COMMIT THIS)
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+
+# SQLite (if used)
+*.sqlite3
+*.db

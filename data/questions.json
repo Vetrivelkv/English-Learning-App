@@ -1,0 +1,297 @@
+{
+    "topics": [
+        {
+            "name": "Noun",
+            "rounds": [
+                {
+                    "round_number": 1,
+                    "title": "Basic Nouns (Common & Proper)",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following words is a common noun?",
+                            "options": [
+                                "Paris",
+                                "Dog",
+                                "Eiffel Tower",
+                                "Monday"
+                            ],
+                            "correct_option_index": 1,
+                            "explanation": "'Dog' is a general name for an animal (Common Noun). The others are specific names (Proper Nouns)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the proper noun in this sentence: 'The boy traveled to London.'",
+                            "options": [
+                                "boy",
+                                "traveled",
+                                "to",
+                                "London"
+                            ],
+                            "correct_option_index": 3,
+                            "explanation": "'London' is the specific name of a city, so it is a Proper Noun. It always starts with a capital letter."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What type of noun is 'Teacher'?",
+                            "options": [
+                                "Abstract Noun",
+                                "Proper Noun",
+                                "Common Noun",
+                                "Collective Noun"
+                            ],
+                            "correct_option_index": 2,
+                            "explanation": "'Teacher' refers to a general profession or person, making it a Common Noun."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is a noun in the sentence: 'The red car is fast.'?",
+                            "options": [
+                                "The",
+                                "red",
+                                "fast",
+                                "car"
+                            ],
+                            "correct_option_index": 3,
+                            "explanation": "'Car' is the name of a thing, making it a noun. 'Red' is an adjective, and 'fast' is an adjective/adverb here."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following should ALWAYS be capitalized?",
+                            "options": [
+                                "Proper nouns",
+                                "Common nouns",
+                                "All nouns",
+                                "Animal names"
+                            ],
+                            "correct_option_index": 0,
+                            "explanation": "Proper nouns name specific people, places, or things and must always start with a capital letter (e.g., John, India)."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "A noun is a naming word for a person, place, or _____.",
+                            "answer": "thing",
+                            "explanation": "Nouns name people, places, things, and ideas."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "The specific name given to a person or place is called a _____ noun.",
+                            "answer": "proper",
+                            "explanation": "Proper nouns give a specific name to a common noun (e.g., City -> New York)."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "In the sentence 'Mary is happy', the proper noun is _____.",
+                            "answer": "Mary",
+                            "explanation": "'Mary' is a specific name of a person."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "General names for things like 'chair' or 'table' are known as _____ nouns.",
+                            "answer": "common",
+                            "explanation": "Common nouns do not specify a unique entity."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "In the sentence 'I saw a huge elephant', the noun is _____.",
+                            "answer": "elephant",
+                            "explanation": "'Elephant' is the name of an animal, which is a noun."
+                        }
+                    ]
+                },
+                {
+                    "round_number": 2,
+                    "title": "Singular and Plural Nouns",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "What is the plural of 'Box'?",
+                            "options": [
+                                "Boxs",
+                                "Boxes",
+                                "Boxies",
+                                "Boxen"
+                            ],
+                            "correct_option_index": 1,
+                            "explanation": "Nouns ending in s, x, z, ch, sh usually add 'es' to become plural."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the correct plural form of 'Child'?",
+                            "options": [
+                                "Children",
+                                "Childs",
+                                "Childrens",
+                                "Childes"
+                            ],
+                            "correct_option_index": 0,
+                            "explanation": "'Child' is an irregular noun. Its plural completely changes to 'Children'."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following nouns is plural?",
+                            "options": [
+                                "Mouse",
+                                "Woman",
+                                "Teeth",
+                                "Foot"
+                            ],
+                            "correct_option_index": 2,
+                            "explanation": "'Teeth' is the plural form of 'Tooth'."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is the singular form of 'Leaves'?",
+                            "options": [
+                                "Leafe",
+                                "Leaf",
+                                "Leaff",
+                                "Leave"
+                            ],
+                            "correct_option_index": 1,
+                            "explanation": "Nouns ending in 'f' often change the 'f' to 'v' and add 'es'. So, Leaf -> Leaves."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which of these words stays the same in both singular and plural forms?",
+                            "options": [
+                                "Sheep",
+                                "Cow",
+                                "Dog",
+                                "Bird"
+                            ],
+                            "correct_option_index": 0,
+                            "explanation": "'Sheep' is both singular (one sheep) and plural (many sheep)."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "The plural of 'man' is _____.",
+                            "answer": "men",
+                            "explanation": "'Man' is an irregular noun where the vowel changes."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "The plural of 'baby' is _____.",
+                            "answer": "babies",
+                            "explanation": "When a noun ends in a consonant + y, change the 'y' to 'i' and add 'es'."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "To make 'cat' plural, you just add the letter _____ at the end.",
+                            "answer": "s",
+                            "explanation": "Most regular nouns just take an 's' at the end."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "The plural of 'foot' is _____.",
+                            "answer": "feet",
+                            "explanation": "'Foot' changes its vowels 'oo' to 'ee'."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "If you have more than one mouse, you have _____.",
+                            "answer": "mice",
+                            "explanation": "'Mouse' completely changes to 'mice' in plural form."
+                        }
+                    ]
+                },
+                {
+                    "round_number": 3,
+                    "title": "Abstract and Collective Nouns",
+                    "questions": [
+                        {
+                            "type": "mcq",
+                            "question": "Which of the following is an Abstract Noun?",
+                            "options": [
+                                "Table",
+                                "Honesty",
+                                "Apple",
+                                "Car"
+                            ],
+                            "correct_option_index": 1,
+                            "explanation": "Abstract nouns refer to ideas, qualities, or feelings that you cannot physically touch (like Honesty)."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What do we call a group of cows?",
+                            "options": [
+                                "A flock",
+                                "A swarm",
+                                "A herd",
+                                "A school"
+                            ],
+                            "correct_option_index": 2,
+                            "explanation": "A 'herd' is the collective noun used for a group of cattle or cows."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Identify the collective noun: 'A flock of birds flew across the sky.'",
+                            "options": [
+                                "birds",
+                                "sky",
+                                "flew",
+                                "flock"
+                            ],
+                            "correct_option_index": 3,
+                            "explanation": "'Flock' is the word used to describe a group of birds."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "Which word is an abstract noun in: 'His bravery saved the day.'",
+                            "options": [
+                                "bravery",
+                                "day",
+                                "saved",
+                                "His"
+                            ],
+                            "correct_option_index": 0,
+                            "explanation": "'Bravery' is a quality you cannot touch or see physically; it is an idea/concept."
+                        },
+                        {
+                            "type": "mcq",
+                            "question": "What is a group of fish called?",
+                            "options": [
+                                "A pack",
+                                "A school",
+                                "A bunch",
+                                "A team"
+                            ],
+                            "correct_option_index": 1,
+                            "explanation": "A group of fish is called a 'school' or a 'shoal'."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "A _____ of wolves hunted in the forest. (Hint: group name)",
+                            "answer": "pack",
+                            "explanation": "The collective noun for wolves or dogs is 'pack'."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "'Love', 'Anger', and 'Joy' are all examples of _____ nouns.",
+                            "answer": "abstract",
+                            "explanation": "These are emotions and ideas, making them abstract nouns."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "A group of bees is called a _____.",
+                            "answer": "swarm",
+                            "explanation": "The collective noun for flying insects like bees is 'swarm'."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "The noun 'Knowledge' is an _____ noun because you cannot touch it.",
+                            "answer": "abstract",
+                            "explanation": "Concepts of the mind are abstract nouns."
+                        },
+                        {
+                            "type": "fib",
+                            "question": "A group of players is called a _____.",
+                            "answer": "team",
+                            "explanation": "The collective noun for players playing together is a 'team'."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
