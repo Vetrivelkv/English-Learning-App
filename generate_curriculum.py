@@ -165,6 +165,75 @@ curriculum = {
                         {"type": "fill", "question": "The word 'waitress' is ___.", "options": ["masculine", "feminine", "common", "neuter"], "correct": 1, "explanation": "Waitress refers specifically to a female server."},
                         {"type": "mcq", "question": "Which list contains only neuter nouns?", "options": ["pen, paper, desk", "boy, girl, student", "cat, dog, bird", "sun, moon, god"], "correct": 0, "explanation": "Pen, paper, and desk are all non-living objects."}
                     ]
+                },
+                {
+                    "id": "noun_sub_8",
+                    "title": "Noun Cases",
+                    "image": "assets/noun_cases.jpg",
+                    "content": "### Subjective, Objective, and Possessive Cases\n\nNouns change their role in a sentence depending on their **case**:\n- **Subjective (Nominative) Case:** When the noun is the subject (the one doing the action). \n  - *Example:* The **dog** barked.\n- **Objective Case:** When the noun is the object (the one receiving the action).\n  - *Example:* I petted the **dog**.\n- **Possessive Case:** When the noun shows ownership (usually ends in 's).\n  - *Example:* The **dog's** collar is red.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**பெயர்ச்சொல் வேற்றுமைகள் (Noun Cases):**\nவாக்கியத்தில் பெயர்ச்சொல்லின் பங்கைப் பொறுத்து அது மூவகைப்படும்:\n- **Subjective Case (எழுவாய்):** செயலைச் செய்பவராக வரும்போது. (எ.கா: **நாய்** குரைத்தது - The dog barked).\n- **Objective Case (செயப்படுபொருள்):** செயலை ஏற்பவராக வரும்போது. (எ.கா: நான் **நாயை** தடவினேன் - I petted the dog).\n- **Possessive Case (உரிமை):** ஒன்றின் உரிமையைக் குறிக்கும்போது. (எ.கா: **நாயின்** கழுத்துப்பட்டை - The dog's collar).",
+                    "questions": [
+                        {"type": "mcq", "question": "What case is the noun 'boy' in this sentence? 'The boy runs.'", "options": ["Subjective", "Objective", "Possessive", "None of these"], "correct": 0, "explanation": "The boy is performing the action (subject)."},
+                        {"type": "mcq", "question": "What case is the noun 'apple' in this sentence? 'She ate the apple.'", "options": ["Subjective", "Objective", "Possessive", "None of these"], "correct": 1, "explanation": "The apple is receiving the action (object)."},
+                        {"type": "mcq", "question": "What case is 'John's' in this sentence? 'That is John's book.'", "options": ["Subjective", "Objective", "Possessive", "Vocative"], "correct": 2, "explanation": "It shows ownership."},
+                        {"type": "fill", "question": "When a noun does the action, it is in the ___ case.", "options": ["subjective", "objective", "possessive", "verb"], "correct": 0, "explanation": "Subjective means it acts as the subject."},
+                        {"type": "fill", "question": "When a noun receives the action, it is in the ___ case.", "options": ["subjective", "objective", "possessive", "verb"], "correct": 1, "explanation": "Objective means it acts as the object."},
+                        {"type": "mcq", "question": "Identify the noun in the possessive case.", "options": ["girl", "girls", "girl's", "girly"], "correct": 2, "explanation": "The apostrophe 's' indicates possession."},
+                        {"type": "mcq", "question": "In 'The sun shines loudly', 'sun' is in which case?", "options": ["Subjective", "Objective", "Possessive", "Both A and B"], "correct": 0, "explanation": "The sun is the one shining."},
+                        {"type": "mcq", "question": "In 'He kicked the ball', 'ball' is in which case?", "options": ["Subjective", "Objective", "Possessive", "Neither"], "correct": 1, "explanation": "The ball is being kicked (object)."},
+                        {"type": "fill", "question": "Possessive nouns usually end with an ___ and an 's'.", "options": ["comma", "apostrophe", "period", "hyphen"], "correct": 1, "explanation": "An apostrophe is used for possessive nouns."},
+                        {"type": "mcq", "question": "Which of these is NOT a noun case?", "options": ["Subjective", "Objective", "Possessive", "Adjective"], "correct": 3, "explanation": "Adjective is a separate part of speech."},
+                        {"type": "mcq", "question": "In 'The teacher's desk is messy', 'desk' is in what case?", "options": ["Subjective", "Objective", "Possessive", "None"], "correct": 0, "explanation": "Desk is the subject of the sentence ('is messy'). 'Teacher's' is possessive."},
+                        {"type": "mcq", "question": "In 'The teacher's desk is messy', 'teacher's' is in what case?", "options": ["Subjective", "Objective", "Possessive", "None"], "correct": 2, "explanation": "It shows whose desk it is."},
+                        {"type": "fill", "question": "Nouns used as the direct receiver of an action are ___.", "options": ["subjects", "objects", "possessives", "verbs"], "correct": 1, "explanation": "Objects receive the action."},
+                        {"type": "mcq", "question": "Identify the subjective noun: 'The cat chased the mouse.'", "options": ["cat", "chased", "the", "mouse"], "correct": 0, "explanation": "The cat is doing the chasing."},
+                        {"type": "mcq", "question": "Identify the objective noun: 'The cat chased the mouse.'", "options": ["cat", "chased", "the", "mouse"], "correct": 3, "explanation": "The mouse is receiving the action (being chased)."}
+                    ]
+                },
+                {
+                    "id": "noun_sub_9",
+                    "title": "Appositive Nouns",
+                    "image": "assets/noun_appositive.jpg",
+                    "content": "### Renaming Another Noun\n\nAn **Appositive** is a noun or a noun phrase that sits right next to another noun to rename it or describe it in another way.\n\n- *Example 1:* My friend, **Sarah**, is coming over. (Sarah renames 'friend')\n- *Example 2:* **The fastest runner**, Usain Bolt, won the race. (The fastest runner describes Usain Bolt)\n\nAppositives are usually separated by commas if they provide extra, non-essential information.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**அப்போசிட்டிவ் பெயர்ச்சொற்கள் (Appositive Nouns):**\nஇது ஒரு பெயர்ச்சொல்லுக்கு அருகில் வந்து, அதைப் பற்றி மேலும் விளக்கமளிக்கும் மற்றொரு பெயர்ச்சொல் ஆகும்.\n\n- *எ.கா:* என் நண்பன், **சரவணன்**, வந்தான். (இங்கு 'சரவணன்' என்பது நண்பன் யார் என்பதை விளக்குகிறது).\nபொதுவாக இவை காற்புள்ளிகளால் (commas) பிரிக்கப்பட்டிருக்கும்.",
+                    "questions": [
+                        {"type": "mcq", "question": "What is an appositive?", "options": ["A verb that acts like a noun", "A noun that renames another noun next to it", "A noun showing ownership", "A plural noun"], "correct": 1, "explanation": "An appositive sits next to another noun to rename or describe it."},
+                        {"type": "mcq", "question": "Identify the appositive: 'My brother, a doctor, lives in London.'", "options": ["brother", "a doctor", "lives", "London"], "correct": 1, "explanation": "'a doctor' renames 'brother'."},
+                        {"type": "mcq", "question": "Identify the appositive: 'Our dog, Max, barks loudly.'", "options": ["Our", "dog", "Max", "barks"], "correct": 2, "explanation": "'Max' renames 'dog'."},
+                        {"type": "fill", "question": "Appositives are usually set off by ___ in a sentence.", "options": ["periods", "commas", "hyphens", "semicolons"], "correct": 1, "explanation": "Commas are used to separate non-essential appositives."},
+                        {"type": "fill", "question": "An appositive ___ another noun.", "options": ["deletes", "renames", "ignores", "replaces"], "correct": 1, "explanation": "It provides another name or description for the noun."},
+                        {"type": "mcq", "question": "Which sentence contains an appositive?", "options": ["He is a good boy.", "The capital of France, Paris, is beautiful.", "She ran very fast.", "They went to the store."], "correct": 1, "explanation": "'Paris' is an appositive renaming 'The capital of France'."},
+                        {"type": "mcq", "question": "What noun does the appositive rename here: 'George Washington, the first president, was tall.'", "options": ["tall", "George Washington", "president", "was"], "correct": 1, "explanation": "'the first president' renames George Washington."},
+                        {"type": "mcq", "question": "Identify the appositive phrase: 'The insect, a large cockroach, crawled across the floor.'", "options": ["The insect", "crawled across", "the floor", "a large cockroach"], "correct": 3, "explanation": "It renames 'the insect'."},
+                        {"type": "fill", "question": "In 'My friend Tom is here', 'Tom' acts as an ___.", "options": ["appositive", "verb", "adjective", "object"], "correct": 0, "explanation": "Tom renames 'friend'."},
+                        {"type": "fill", "question": "Appositives provide extra ___ about a noun.", "options": ["verbs", "information", "punctuation", "plurals"], "correct": 1, "explanation": "They give more details or clarify the noun."},
+                        {"type": "mcq", "question": "Which sentence lacks an appositive?", "options": ["My car, a Honda, is blue.", "I like pizza.", "Mr. Lee, the principal, spoke to us.", "Earth, our planet, revolves around the sun."], "correct": 1, "explanation": "There is no noun renaming another noun in 'I like pizza'."},
+                        {"type": "mcq", "question": "Identify the appositive: 'Have you read the novel Moby Dick?'", "options": ["you", "read", "novel", "Moby Dick"], "correct": 3, "explanation": "'Moby Dick' renames 'the novel'."},
+                        {"type": "mcq", "question": "True or false: An appositive must always be a single word.", "options": ["True", "False", "Only in plural", "Only for proper nouns"], "correct": 1, "explanation": "False. It can be a phrase (e.g., 'the first president')."},
+                        {"type": "fill", "question": "The noun that the appositive renames comes right ___ it.", "options": ["before or after", "above", "below", "inside"], "correct": 0, "explanation": "It sits right next to the noun it modifies."},
+                        {"type": "mcq", "question": "Which is the appositive? 'Her favorite fruit, the strawberry, is red.'", "options": ["favorite", "fruit", "the strawberry", "red"], "correct": 2, "explanation": "It renames 'Her favorite fruit'."}
+                    ]
+                },
+                {
+                    "id": "noun_sub_10",
+                    "title": "Gerunds (Verbal Nouns)",
+                    "image": "assets/noun_gerund.jpg",
+                    "content": "### When Verbs Act Like Nouns\n\nA **Gerund** is a word that looks like a verb (because it ends in *-ing*) but actually functions as a **noun** in the sentence.\n\n- *Example 1:* **Running** is good for your health. (Here, 'Running' is the subject of the sentence, so it acts as a noun).\n- *Example 2:* She loves **reading**. (Here, 'reading' is the object she loves, acting as a noun).\n\nIf it is doing the action (e.g., 'He is running'), it is a verb. If it IS the thing itself (e.g., 'Running is fun'), it is a gerund.\n\n---\n\n### தமிழ் விளக்கம் (Tamil Explanation)\n\n**ஜெரண்ட் (Gerund - Verbal Nouns):**\nவினைச்சொல்லுடன் (Verb) \"-ing\" சேர்ந்து, வாக்கியத்தில் ஒரு பெயர்ச்சொல்லாக (Noun) செயல்படுவது.\n\n- *எ.கா 1:* **Running** is good. (ஓடுவது நல்லது - இதில் 'ஓடுவது' என்பது எழுவாயாக/பெயர்ச்சொல்லாக வந்துள்ளது).\n- *எ.கா 2:* He likes **reading**. (அவனுக்குப் படிப்பது பிடிக்கும்).\nஇது ஒரு செயலைக் குறிக்காமல், அந்தச் செயலின் பெயராகவே மாறும்.",
+                    "questions": [
+                        {"type": "mcq", "question": "What is a gerund?", "options": ["A verb that ends in -ing and acts as a noun", "A plural noun", "A proper noun", "A verb in past tense"], "correct": 0, "explanation": "A gerund acts as a noun but is formed from a verb."},
+                        {"type": "mcq", "question": "Which of these is a gerund? 'Swimming is my favorite sport.'", "options": ["is", "favorite", "Swimming", "sport"], "correct": 2, "explanation": "'Swimming' acts as the subject noun of the sentence."},
+                        {"type": "mcq", "question": "Is 'running' a gerund in this sentence? 'He is running fast.'", "options": ["Yes", "No", "Maybe", "Only in British English"], "correct": 1, "explanation": "No, here it is part of the present continuous verb 'is running'."},
+                        {"type": "fill", "question": "Gerunds always end in ___.", "options": ["-ed", "-s", "-ing", "-ly"], "correct": 2, "explanation": "They are formed by adding -ing to the base verb."},
+                        {"type": "fill", "question": "A gerund functions as a ___ in a sentence.", "options": ["verb", "adjective", "noun", "adverb"], "correct": 2, "explanation": "Despite coming from verbs, they act completely like nouns."},
+                        {"type": "mcq", "question": "Identify the gerund: 'Cooking takes a lot of time.'", "options": ["takes", "time", "lot", "Cooking"], "correct": 3, "explanation": "'Cooking' is the subject of the sentence."},
+                        {"type": "mcq", "question": "Identify the gerund: 'I enjoy reading.'", "options": ["I", "enjoy", "reading", "none"], "correct": 2, "explanation": "'reading' acts as the object that I enjoy."},
+                        {"type": "mcq", "question": "Which sentence contains a gerund?", "options": ["She is sleeping.", "Sleeping is important.", "They slept well.", "Go to sleep."], "correct": 1, "explanation": "In 'Sleeping is important', 'Sleeping' is the noun/subject."},
+                        {"type": "fill", "question": "Gerunds can be used as the ___ of a sentence, just like regular nouns.", "options": ["subject", "verb", "adjective", "preposition"], "correct": 0, "explanation": "For example, 'Running is fun' (subject)."},
+                        {"type": "fill", "question": "Because gerunds come from verbs, they are often called ___ nouns.", "options": ["proper", "verbal", "collective", "abstract"], "correct": 1, "explanation": "They are verbal nouns."},
+                        {"type": "mcq", "question": "Identify the gerund: 'Walking in the park is relaxing.'", "options": ["Walking", "park", "is", "relaxing"], "correct": 0, "explanation": "'Walking' is the subject. 'relaxing' is an adjective here."},
+                        {"type": "mcq", "question": "Is 'painting' a gerund in 'Her hobby is painting'?", "options": ["Yes", "No", "It is an adjective", "It is a proper noun"], "correct": 0, "explanation": "Yes, it acts as a noun describing her hobby."},
+                        {"type": "mcq", "question": "Which is NOT a gerund?", "options": ["I hate waiting.", "Singing makes me happy.", "The dog is barking.", "Dancing is hard."], "correct": 2, "explanation": "In 'The dog is barking', barking is the main verb, not a noun."},
+                        {"type": "fill", "question": "In the sentence 'Eating vegetables is healthy', ___ is the gerund.", "options": ["vegetables", "Eating", "is", "healthy"], "correct": 1, "explanation": "'Eating' is the verbal noun acting as the subject."},
+                        {"type": "mcq", "question": "Can a gerund be the object of a verb?", "options": ["Yes", "No", "Only if it is plural", "Only if capitalized"], "correct": 0, "explanation": "Yes, e.g., 'I love swimming'."}
+                    ]
                 }
             ]
         }
@@ -174,4 +243,4 @@ curriculum = {
 with open('data/curriculum.json', 'w', encoding='utf-8') as f:
     json.dump(curriculum, f, indent=4, ensure_ascii=False)
 
-print("curriculum.json updated with 3 new subtopics, images and tamil translations!")
+print("curriculum.json updated with topics 8, 9, 10, images and tamil translations!")
