@@ -62,5 +62,6 @@ def render():
     with col2:
         if st.button("Logout", type="primary", use_container_width=True):
             st.session_state.user = None
+            st.session_state.selected_course = None
             st.session_state.page = "login"
             st.rerun()

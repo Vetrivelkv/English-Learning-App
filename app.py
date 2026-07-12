@@ -12,6 +12,8 @@ if 'page' not in st.session_state:
     st.session_state.page = 'login'
 if 'user' not in st.session_state:
     st.session_state.user = None
+if 'selected_course' not in st.session_state:
+    st.session_state.selected_course = None
 
 # Top bar for user profile
 if st.session_state.user:
