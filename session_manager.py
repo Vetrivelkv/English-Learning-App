@@ -13,10 +13,19 @@ import streamlit as st
 SESSION_SECONDS = 2 * 60 * 60
 COOKIE_NAME = "english_quiz_session"
 OLD_SESSION_QUERY_PARAM = "session_token"
+COOKIE_MANAGER_STATE_KEY = "_english_quiz_cookie_manager"
 
 
 def _cookie_manager():
-    return stx.CookieManager()
+    if COOKIE_MANAGER_STATE_KEY not in st.session_state:
+        st.session_state[COOKIE_MANAGER_STATE_KEY] = stx.CookieManager(key="english_quiz_cookie_init")
+    return st.session_state[COOKIE_MANAGER_STATE_KEY]
+
+
+def _component_key(action: str) -> str:
+    counter_key = f"_english_quiz_cookie_{action}_counter"
+    st.session_state[counter_key] = st.session_state.get(counter_key, 0) + 1
+    return f"english_quiz_cookie_{action}_{st.session_state[counter_key]}"
 
 
 def _b64_encode(data: bytes) -> str:
@@ -68,12 +77,12 @@ def _read_cookie_token():
 
 
 def _write_cookie_token(token: str) -> None:
-    _cookie_manager().set(COOKIE_NAME, token, expires_at=_cookie_expires_at())
+    _cookie_manager().set(COOKIE_NAME, token, key=_component_key("set"), expires_at=_cookie_expires_at())
 
 
 def _clear_cookie_token() -> None:
     try:
-        _cookie_manager().delete(COOKIE_NAME)
+        _cookie_manager().delete(COOKIE_NAME, key=_component_key("delete"))
     except Exception:
         pass
 
