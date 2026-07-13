@@ -4,12 +4,20 @@ import hmac
 import json
 import secrets
 import time
+from datetime import datetime, timedelta, timezone
 
+import extra_streamlit_components as stx
 import streamlit as st
 
 
 SESSION_SECONDS = 2 * 60 * 60
-SESSION_QUERY_PARAM = "session_token"
+COOKIE_NAME = "english_quiz_session"
+OLD_SESSION_QUERY_PARAM = "session_token"
+
+
+@st.cache_resource
+def _cookie_manager():
+    return stx.CookieManager()
 
 
 def _b64_encode(data: bytes) -> str:
@@ -49,20 +57,31 @@ def _make_token(user: dict) -> str:
     return f"{signing_input}.{_sign(signing_input)}"
 
 
-def _read_query_token():
-    value = st.query_params.get(SESSION_QUERY_PARAM)
-    if isinstance(value, list):
-        return value[0] if value else None
-    return value
+def _cookie_expires_at():
+    return datetime.now(timezone.utc) + timedelta(seconds=SESSION_SECONDS)
 
 
-def _write_query_token(token: str) -> None:
-    st.query_params[SESSION_QUERY_PARAM] = token
+def _read_cookie_token():
+    try:
+        return _cookie_manager().get(COOKIE_NAME)
+    except Exception:
+        return None
 
 
-def _clear_query_token() -> None:
-    if SESSION_QUERY_PARAM in st.query_params:
-        del st.query_params[SESSION_QUERY_PARAM]
+def _write_cookie_token(token: str) -> None:
+    _cookie_manager().set(COOKIE_NAME, token, expires_at=_cookie_expires_at())
+
+
+def _clear_cookie_token() -> None:
+    try:
+        _cookie_manager().delete(COOKIE_NAME)
+    except Exception:
+        pass
+
+
+def _remove_legacy_url_token() -> None:
+    if OLD_SESSION_QUERY_PARAM in st.query_params:
+        del st.query_params[OLD_SESSION_QUERY_PARAM]
 
 
 def _validate_token(token: str):
@@ -87,25 +106,28 @@ def _validate_token(token: str):
 
 
 def start_session(user: dict) -> None:
+    _remove_legacy_url_token()
     safe_user = {"id": user["id"], "username": user["username"]}
     token = _make_token(safe_user)
     st.session_state.user = safe_user
     st.session_state.session_token = token
     st.session_state.session_expired = False
-    _write_query_token(token)
+    _write_cookie_token(token)
 
 
 def end_session(expired: bool = False) -> None:
+    _remove_legacy_url_token()
     st.session_state.user = None
     st.session_state.selected_course = None
     st.session_state.session_token = None
     st.session_state.page = "login"
     st.session_state.session_expired = expired
-    _clear_query_token()
+    _clear_cookie_token()
 
 
 def restore_or_refresh_session() -> bool:
-    token = st.session_state.get("session_token") or _read_query_token()
+    _remove_legacy_url_token()
+    token = st.session_state.get("session_token") or _read_cookie_token()
     if not token:
         return False
 
@@ -119,7 +141,7 @@ def restore_or_refresh_session() -> bool:
     st.session_state.user = safe_user
     st.session_state.session_token = refreshed_token
     st.session_state.session_expired = False
-    _write_query_token(refreshed_token)
+    _write_cookie_token(refreshed_token)
     return True
 
 
