@@ -88,43 +88,42 @@ def render():
 
     for topic in curriculum["topics"]:
         t_name = topic["name"]
-        st.subheader(f"{t_name} Modules")
+        with st.expander(f"{t_name} Modules", expanded=False):
+            subtopics = topic["subtopics"]
+            for i in range(0, len(subtopics), 3):
+                cols = st.columns(3)
+                for j, sub in enumerate(subtopics[i:i + 3]):
+                    s_idx = i + j
+                    s_id = sub["id"]
 
-        subtopics = topic["subtopics"]
-        for i in range(0, len(subtopics), 3):
-            cols = st.columns(3)
-            for j, sub in enumerate(subtopics[i:i + 3]):
-                s_idx = i + j
-                s_id = sub["id"]
+                    is_unlocked = True
+                    if s_idx > 0:
+                        prev_id = topic["subtopics"][s_idx - 1]["id"]
+                        if not l_map.get(t_name, {}).get(prev_id, {}).get("passed", False):
+                            is_unlocked = False
 
-                is_unlocked = True
-                if s_idx > 0:
-                    prev_id = topic["subtopics"][s_idx - 1]["id"]
-                    if not l_map.get(t_name, {}).get(prev_id, {}).get("passed", False):
-                        is_unlocked = False
+                    status = l_map.get(t_name, {}).get(s_id, {})
+                    passed = status.get("passed", False)
+                    h_score = status.get("high_score", 0)
 
-                status = l_map.get(t_name, {}).get(s_id, {})
-                passed = status.get("passed", False)
-                h_score = status.get("high_score", 0)
+                    with cols[j]:
+                        with st.container(border=True):
+                            st.write(f"**{sub['title']}**")
+                            if passed:
+                                st.success(f"Learned ({h_score}/15)")
+                            elif is_unlocked:
+                                st.info("Start Module")
+                            else:
+                                st.error("Locked")
 
-                with cols[j]:
-                    with st.container(border=True):
-                        st.write(f"**{sub['title']}**")
-                        if passed:
-                            st.success(f"Learned ({h_score}/15)")
-                        elif is_unlocked:
-                            st.info("Start Module")
-                        else:
-                            st.error("Locked")
-
-                        if is_unlocked:
-                            if st.button("Learn", key=f"learn_{s_id}", use_container_width=True, type="secondary"):
-                                st.session_state.learn_topic = t_name
-                                st.session_state.learn_subtopic = s_id
-                                st.session_state.page = "learn"
-                                st.rerun()
-                        else:
-                            st.button("Locked", key=f"lock_l_{s_id}", disabled=True, use_container_width=True)
+                            if is_unlocked:
+                                if st.button("Learn", key=f"learn_{s_id}", use_container_width=True, type="secondary"):
+                                    st.session_state.learn_topic = t_name
+                                    st.session_state.learn_subtopic = s_id
+                                    st.session_state.page = "learn"
+                                    st.rerun()
+                            else:
+                                st.button("Locked", key=f"lock_l_{s_id}", disabled=True, use_container_width=True)
 
     if not course["show_challenges"] or not challenge_data:
         return
@@ -135,38 +134,37 @@ def render():
 
     for topic in challenge_data["topics"]:
         t_name = topic["name"]
-        st.subheader(f"{t_name} Challenges")
+        with st.expander(f"{t_name} Challenges", expanded=False):
+            rounds = topic["rounds"]
+            for i in range(0, len(rounds), 3):
+                cols = st.columns(3)
+                for j, rnd in enumerate(rounds[i:i + 3]):
+                    r_num = rnd["round_number"]
 
-        rounds = topic["rounds"]
-        for i in range(0, len(rounds), 3):
-            cols = st.columns(3)
-            for j, rnd in enumerate(rounds[i:i + 3]):
-                r_num = rnd["round_number"]
+                    is_unlocked = True
+                    if r_num > 1:
+                        if not c_map.get(t_name, {}).get(r_num - 1, {}).get("passed", False):
+                            is_unlocked = False
 
-                is_unlocked = True
-                if r_num > 1:
-                    if not c_map.get(t_name, {}).get(r_num - 1, {}).get("passed", False):
-                        is_unlocked = False
+                    status = c_map.get(t_name, {}).get(r_num, {})
+                    passed = status.get("passed", False)
+                    h_score = status.get("high_score", 0)
 
-                status = c_map.get(t_name, {}).get(r_num, {})
-                passed = status.get("passed", False)
-                h_score = status.get("high_score", 0)
+                    with cols[j]:
+                        with st.container(border=True):
+                            st.write(f"**Round {r_num}:** {rnd['title']}")
+                            if passed:
+                                st.success(f"Passed ({h_score}/10)")
+                            elif is_unlocked:
+                                st.info("Ready")
+                            else:
+                                st.error("Locked")
 
-                with cols[j]:
-                    with st.container(border=True):
-                        st.write(f"**Round {r_num}:** {rnd['title']}")
-                        if passed:
-                            st.success(f"Passed ({h_score}/10)")
-                        elif is_unlocked:
-                            st.info("Ready")
-                        else:
-                            st.error("Locked")
-
-                        if is_unlocked:
-                            if st.button("Start Challenge", key=f"chal_{t_name}_{r_num}", use_container_width=True, type="primary"):
-                                st.session_state.current_topic = t_name
-                                st.session_state.current_round = r_num
-                                st.session_state.page = "quiz"
-                                st.rerun()
-                        else:
-                            st.button("Locked", key=f"lock_c_{t_name}_{r_num}", disabled=True, use_container_width=True)
+                            if is_unlocked:
+                                if st.button("Start Challenge", key=f"chal_{t_name}_{r_num}", use_container_width=True, type="primary"):
+                                    st.session_state.current_topic = t_name
+                                    st.session_state.current_round = r_num
+                                    st.session_state.page = "quiz"
+                                    st.rerun()
+                            else:
+                                st.button("Locked", key=f"lock_c_{t_name}_{r_num}", disabled=True, use_container_width=True)

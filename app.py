@@ -7,6 +7,7 @@ import dashboard
 import quiz
 import learn
 import profile
+import session_manager
 
 if 'page' not in st.session_state:
     st.session_state.page = 'login'
@@ -14,6 +15,21 @@ if 'user' not in st.session_state:
     st.session_state.user = None
 if 'selected_course' not in st.session_state:
     st.session_state.selected_course = None
+if 'session_token' not in st.session_state:
+    st.session_state.session_token = None
+if 'session_expired' not in st.session_state:
+    st.session_state.session_expired = False
+
+if st.session_state.user:
+    session_manager.restore_or_refresh_session()
+elif session_manager.restore_or_refresh_session():
+    if st.session_state.page == 'login':
+        st.session_state.page = 'dashboard'
+elif st.session_state.page != 'login':
+    if not session_manager.restore_or_refresh_session():
+        st.session_state.page = 'login'
+
+session_manager.render_expired_dialog()
 
 # Top bar for user profile
 if st.session_state.user:

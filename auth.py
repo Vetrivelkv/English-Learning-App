@@ -1,5 +1,6 @@
 import streamlit as st
 import database as db
+import session_manager
 
 def render():
     st.title("English Quiz Application 📚")
@@ -29,7 +30,7 @@ def render():
                     if username and password:
                         success, result = db.login_user(username, password)
                         if success:
-                            st.session_state.user = result
+                            session_manager.start_session(result)
                             st.session_state.page = "dashboard"
                             st.rerun()
                         else:
