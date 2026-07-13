@@ -15,7 +15,6 @@ COOKIE_NAME = "english_quiz_session"
 OLD_SESSION_QUERY_PARAM = "session_token"
 
 
-@st.cache_resource
 def _cookie_manager():
     return stx.CookieManager()
 
