@@ -71,7 +71,8 @@ def _cookie_expires_at():
 
 def _read_cookie_token():
     try:
-        return _cookie_manager().get(COOKIE_NAME)
+        cookies = _cookie_manager().get_all(key=_component_key("get_all"))
+        return cookies.get(COOKIE_NAME)
     except Exception:
         return None
 
