@@ -11,15 +11,24 @@ import streamlit as st
 
 
 SESSION_SECONDS = 2 * 60 * 60
+COOKIE_REFRESH_SECONDS = 10 * 60
 COOKIE_NAME = "english_quiz_session"
 OLD_SESSION_QUERY_PARAM = "session_token"
-COOKIE_MANAGER_STATE_KEY = "_english_quiz_cookie_manager"
+COOKIE_RESTORE_ATTEMPTED_KEY = "_english_quiz_cookie_restore_attempted"
+LAST_COOKIE_REFRESH_KEY = "_english_quiz_last_cookie_refresh"
+_COOKIE_MANAGER = None
+
+
+def prepare_cookie_manager() -> None:
+    global _COOKIE_MANAGER
+    _COOKIE_MANAGER = stx.CookieManager(key="english_quiz_cookie_init")
 
 
 def _cookie_manager():
-    if COOKIE_MANAGER_STATE_KEY not in st.session_state:
-        st.session_state[COOKIE_MANAGER_STATE_KEY] = stx.CookieManager(key="english_quiz_cookie_init")
-    return st.session_state[COOKIE_MANAGER_STATE_KEY]
+    global _COOKIE_MANAGER
+    if _COOKIE_MANAGER is None:
+        prepare_cookie_manager()
+    return _COOKIE_MANAGER
 
 
 def _component_key(action: str) -> str:
@@ -71,8 +80,7 @@ def _cookie_expires_at():
 
 def _read_cookie_token():
     try:
-        cookies = _cookie_manager().get_all(key=_component_key("get_all"))
-        return cookies.get(COOKIE_NAME)
+        return _cookie_manager().get(COOKIE_NAME)
     except Exception:
         return None
 
@@ -114,6 +122,23 @@ def _validate_token(token: str):
     return payload
 
 
+def should_wait_for_cookie_restore() -> bool:
+    if st.session_state.get(COOKIE_RESTORE_ATTEMPTED_KEY):
+        return False
+    if st.session_state.get("user") or st.session_state.get("session_expired"):
+        return False
+    st.session_state[COOKIE_RESTORE_ATTEMPTED_KEY] = True
+    return True
+
+
+def _should_refresh_cookie(payload: dict) -> bool:
+    now = int(time.time())
+    last_refresh = st.session_state.get(LAST_COOKIE_REFRESH_KEY, 0)
+    if now - last_refresh < COOKIE_REFRESH_SECONDS:
+        return False
+    return int(payload.get("exp", 0)) - now < SESSION_SECONDS - COOKIE_REFRESH_SECONDS
+
+
 def start_session(user: dict) -> None:
     _remove_legacy_url_token()
     safe_user = {"id": user["id"], "username": user["username"]}
@@ -121,6 +146,8 @@ def start_session(user: dict) -> None:
     st.session_state.user = safe_user
     st.session_state.session_token = token
     st.session_state.session_expired = False
+    st.session_state[COOKIE_RESTORE_ATTEMPTED_KEY] = True
+    st.session_state[LAST_COOKIE_REFRESH_KEY] = int(time.time())
     _write_cookie_token(token)
 
 
@@ -131,6 +158,8 @@ def end_session(expired: bool = False) -> None:
     st.session_state.session_token = None
     st.session_state.page = "login"
     st.session_state.session_expired = expired
+    st.session_state[COOKIE_RESTORE_ATTEMPTED_KEY] = True
+    st.session_state[LAST_COOKIE_REFRESH_KEY] = 0
     _clear_cookie_token()
 
 
@@ -146,11 +175,17 @@ def restore_or_refresh_session() -> bool:
         return False
 
     safe_user = {"id": payload["sub"], "username": payload["username"]}
-    refreshed_token = _make_token(safe_user)
     st.session_state.user = safe_user
-    st.session_state.session_token = refreshed_token
+    st.session_state.session_token = token
     st.session_state.session_expired = False
-    _write_cookie_token(refreshed_token)
+    st.session_state[COOKIE_RESTORE_ATTEMPTED_KEY] = True
+
+    if _should_refresh_cookie(payload):
+        refreshed_token = _make_token(safe_user)
+        st.session_state.session_token = refreshed_token
+        st.session_state[LAST_COOKIE_REFRESH_KEY] = int(time.time())
+        _write_cookie_token(refreshed_token)
+
     return True
 
 

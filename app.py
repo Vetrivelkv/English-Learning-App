@@ -20,11 +20,16 @@ if 'session_token' not in st.session_state:
 if 'session_expired' not in st.session_state:
     st.session_state.session_expired = False
 
+session_manager.prepare_cookie_manager()
+
 if st.session_state.user:
     session_manager.restore_or_refresh_session()
 elif session_manager.restore_or_refresh_session():
     if st.session_state.page == 'login':
         st.session_state.page = 'dashboard'
+elif st.session_state.page == 'login' and session_manager.should_wait_for_cookie_restore():
+    st.info("Checking existing session...")
+    st.stop()
 elif st.session_state.page != 'login':
     if not session_manager.restore_or_refresh_session():
         st.session_state.page = 'login'
