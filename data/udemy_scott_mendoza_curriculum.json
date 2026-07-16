@@ -2161,128 +2161,224 @@
         {
           "id": "udemy_verb_conj_03_use_it",
           "title": "Use it! - Verb Conjugation (1st, 2nd, 3rd Person)",
-          "image": "",
-          "content": "The use-it lesson gives a short conversation so learners can hear verb conjugation in natural speech. A grandchild asks a grandmother about an old goal. The story includes past simple forms, present simple forms, and to be forms. The grandmother says, When I was your age, I wanted to become a nurse. I liked the idea of helping people when they needed it the most. The child asks, Why aren't you a nurse then, Grandma? She answers, Well, sweetie, we grow up and sometimes our goals change. I'm a teacher now, and I have never regretted my choice. The child replies, And you are helping people anyway. The grandmother says, That's true.\n\nThe point is not only to memorize a chart, but to notice conjugation inside real sentences. I was uses the past form of to be with first person singular. I wanted and I liked show regular past tense with ed. They needed uses regular past tense with ed. We grow and our goals change are simple present plural subjects using the base form. I am, contracted as I'm, identifies the speaker now. You are uses the second person form of to be. The story also shows that verb forms depend on meaning and time: was, wanted, liked, and needed point to the past, while grow, change, am, and are describe the present.",
+          "image": "assets/verb_conjugation_use_it_story.jpg",
+          "content": "### Use-It Lesson: Hear Conjugation In A Real Conversation\n\nThis short video is not a rule chart. It is a conversation slide. Your job is to **notice the verb forms while the dialogue sounds natural**.\n\n### The Conversation\n\n> When I was your age, I wanted to become a nurse. I liked the idea of helping people when they needed it the most.  \n> Why aren't you a nurse then, grandma?  \n> Well, sweetie, we grow up, and sometimes our goals change. I'm a teacher now, and I have never regretted my choice.  \n> And you are helping people anyway!  \n> That's true!\n\n### What To Notice\n\nThe conversation mixes past memories, present facts, and present actions.\n\n| Line From The Story | Verb Form | What It Shows |\n|---|---|---|\n| I was your age | was | past form of **to be** with I |\n| I wanted to become a nurse | wanted | regular past tense |\n| I liked the idea | liked | regular past tense |\n| they needed it the most | needed | regular past tense |\n| we grow up | grow | simple present, first person plural |\n| our goals change | change | simple present, plural subject |\n| I'm a teacher now | am | present form of **to be** with I |\n| I have never regretted my choice | have regretted | present perfect idea: past experience connected to now |\n| you are helping people | are helping | present continuous with you |\n\n### The Cool Part: Why The Verb Changes\n\nThis mini story shows why conjugation matters. The speaker is not just listing verbs. She is moving through time:\n\n1. **Past dream:** I was, I wanted, I liked, they needed.\n2. **General life truth:** we grow up, goals change.\n3. **Present identity:** I'm a teacher now.\n4. **Life experience until now:** I have never regretted my choice.\n5. **Present action/result:** you are helping people anyway.\n\n### Read It Like A Learner\n\nWhen you read a real conversation, ask:\n\n| Question | Example Answer |\n|---|---|\n| Who is the subject? | I, you, we, they, our goals |\n| Is the sentence about past, present, or experience up to now? | was/wanted/liked = past; am/are = present |\n| Is the verb regular or irregular? | wanted/liked/needed are regular; was/am/are are irregular |\n| Does the verb match the subject? | I was, I am, you are, we grow |\n\n### Practice Reading\n\nTry reading the conversation out loud twice:\n\n- First time: read naturally, like a real dialogue.\n- Second time: pause after each verb and identify the subject.\n\nExample: **I was** -> subject is **I**, verb is **was**, time is **past**.\n\n### Recap\n\n- `was`, `am`, and `are` come from the irregular verb **to be**.\n- `wanted`, `liked`, and `needed` are regular past tense verbs.\n- `we grow` and `goals change` use the base form because their subjects are plural.\n- `you are helping` uses **are** because the subject is **you**.\n- Good conjugation is not only charts. It is choosing the verb form that matches the subject and the time in real speech.\n",
           "questions": [
             {
               "type": "mcq",
-              "question": "What is the purpose of the use-it lesson?",
+              "question": "What is the purpose of the use-it video?",
               "options": [
-                "To hear verb conjugation in real conversation",
-                "To list only dictionary definitions",
-                "To remove subjects from sentences",
-                "To teach only punctuation"
+                "To notice conjugation inside natural conversation",
+                "To memorize only a chart",
+                "To study punctuation marks",
+                "To remove verbs from sentences"
               ],
               "correct": 0,
-              "explanation": "The lecture uses a short story so learners hear conjugation in context."
+              "explanation": "The video uses a short dialogue so learners can hear verb forms in context."
             },
             {
               "type": "mcq",
-              "question": "In 'When I was your age,' what form of to be is used?",
+              "question": "In 'When I was your age,' what does 'was' show?",
               "options": [
-                "were",
-                "was",
-                "am",
-                "are"
+                "Simple present with he",
+                "Past form of to be with I",
+                "Plural base form",
+                "Future tense"
               ],
               "correct": 1,
-              "explanation": "I was is the past form used in the story."
+              "explanation": "I was uses the past form of the irregular verb to be."
             },
             {
               "type": "mcq",
-              "question": "Which sentence from the story uses a regular past tense verb?",
+              "question": "Which verbs from the story are regular past tense forms?",
               "options": [
-                "We grow up.",
-                "You are helping people.",
-                "I wanted to become a nurse.",
-                "I'm a teacher now."
+                "am, are, was",
+                "grow, change, helping",
+                "wanted, liked, needed",
+                "become, nurse, choice"
               ],
               "correct": 2,
-              "explanation": "Wanted is a regular past tense form ending in ed."
+              "explanation": "Wanted, liked, and needed are regular past tense forms ending in ed."
             },
             {
               "type": "mcq",
-              "question": "Which verb in 'I liked the idea of helping people' is regular past tense?",
-              "options": [
-                "helping",
-                "idea",
-                "people",
-                "liked"
-              ],
-              "correct": 3,
-              "explanation": "Liked is the regular past form of like."
-            },
-            {
-              "type": "mcq",
-              "question": "In 'when they needed it the most,' what does needed show?",
-              "options": [
-                "Regular past tense",
-                "Simple present third person singular",
-                "Future tense",
-                "A subject pronoun"
-              ],
-              "correct": 0,
-              "explanation": "Needed is a regular past tense verb."
-            },
-            {
-              "type": "mcq",
-              "question": "In 'we grow up,' why is grow in the base form?",
+              "question": "Why is 'grow' in 'we grow up' in the base form?",
               "options": [
                 "We is third person singular",
-                "We is first person plural",
+                "Grow is past tense",
                 "Grow is a noun",
-                "Past tense always uses base form"
-              ],
-              "correct": 1,
-              "explanation": "We is first person plural, so the simple present verb stays base form."
-            },
-            {
-              "type": "mcq",
-              "question": "In 'our goals change,' why is change in the base form?",
-              "options": [
-                "Goals is third person singular",
-                "Change is past tense",
-                "The subject goals is plural",
-                "The sentence has no subject"
-              ],
-              "correct": 2,
-              "explanation": "Goals is plural, so the simple present verb stays base form."
-            },
-            {
-              "type": "mcq",
-              "question": "What is 'I'm' a contraction of?",
-              "options": [
-                "I is",
-                "I are",
-                "I was",
-                "I am"
+                "We is first person plural"
               ],
               "correct": 3,
-              "explanation": "I'm contracts I am."
+              "explanation": "We is plural, so simple present uses the base form grow."
             },
             {
               "type": "mcq",
-              "question": "Which form appears in 'you are helping people anyway'?",
+              "question": "Why is 'change' in 'our goals change' in the base form?",
               "options": [
-                "you are",
-                "you is",
-                "you am",
-                "you was"
+                "Goals is plural",
+                "Goals is third person singular",
+                "Change is always past tense",
+                "Our removes the verb"
               ],
               "correct": 0,
-              "explanation": "You takes are."
+              "explanation": "Goals is plural, so the verb stays change."
             },
             {
               "type": "mcq",
-              "question": "Which sentence refers to a present role?",
+              "question": "What is 'I'm' a contraction of in the story?",
+              "options": [
+                "I is",
+                "I am",
+                "I are",
+                "I was"
+              ],
+              "correct": 1,
+              "explanation": "I'm means I am."
+            },
+            {
+              "type": "mcq",
+              "question": "Which line shows the speaker's present identity?",
               "options": [
                 "When I was your age.",
-                "I'm a teacher now.",
                 "I wanted to become a nurse.",
+                "I'm a teacher now.",
+                "They needed it the most."
+              ],
+              "correct": 2,
+              "explanation": "Now and I'm show the speaker's present identity."
+            },
+            {
+              "type": "mcq",
+              "question": "What does 'I have never regretted my choice' express?",
+              "options": [
+                "A simple future plan",
+                "A third person singular habit",
+                "A command",
+                "A life experience connected to now"
+              ],
+              "correct": 3,
+              "explanation": "Have never regretted connects past experience to the present."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'you are helping people anyway,' why is 'are' used?",
+              "options": [
+                "You takes are",
+                "You takes is",
+                "People is singular",
+                "Helping is past tense"
+              ],
+              "correct": 0,
+              "explanation": "The subject you uses are."
+            },
+            {
+              "type": "mcq",
+              "question": "Which line is a question in the dialogue?",
+              "options": [
+                "That's true!",
+                "Why aren't you a nurse then, grandma?",
+                "I'm a teacher now.",
                 "I liked the idea."
               ],
               "correct": 1,
-              "explanation": "Now signals the present, and I'm means I am."
+              "explanation": "The line with why asks a question."
+            },
+            {
+              "type": "mcq",
+              "question": "Which group best describes the past dream part of the story?",
+              "options": [
+                "grow, change, am, are",
+                "helping, anyway, true",
+                "was, wanted, liked, needed",
+                "goals, choice, people"
+              ],
+              "correct": 2,
+              "explanation": "Those verbs describe the grandmother's past dream and memory."
+            },
+            {
+              "type": "mcq",
+              "question": "Which group best describes the present part of the story?",
+              "options": [
+                "wanted, liked",
+                "was, needed",
+                "became, had been",
+                "am, are helping"
+              ],
+              "correct": 3,
+              "explanation": "I'm a teacher now and you are helping refer to the present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject matches 'are helping' in the dialogue?",
+              "options": [
+                "you",
+                "I",
+                "goals",
+                "they"
+              ],
+              "correct": 0,
+              "explanation": "The dialogue says you are helping people anyway."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject matches 'change' in 'our goals change'?",
+              "options": [
+                "I",
+                "our goals",
+                "you",
+                "grandma"
+              ],
+              "correct": 1,
+              "explanation": "The subject is our goals."
+            },
+            {
+              "type": "mcq",
+              "question": "Which verb from the story is irregular?",
+              "options": [
+                "wanted",
+                "liked",
+                "was",
+                "needed"
+              ],
+              "correct": 2,
+              "explanation": "Was is an irregular form of to be."
+            },
+            {
+              "type": "mcq",
+              "question": "Which verb from the story is regular past tense?",
+              "options": [
+                "was",
+                "am",
+                "are",
+                "wanted"
+              ],
+              "correct": 3,
+              "explanation": "Wanted is regular past tense."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly keeps the dialogue's meaning?",
+              "options": [
+                "We grow up, and sometimes our goals change.",
+                "We grows up, and sometimes our goals changes.",
+                "We is grow up, and sometimes goals is change.",
+                "We grew up now, and goals changing."
+              ],
+              "correct": 0,
+              "explanation": "We and goals are plural subjects, so grow and change stay in base form for this general present idea."
+            },
+            {
+              "type": "mcq",
+              "question": "What should you do on the second read-through suggested by the lesson?",
+              "options": [
+                "Skip every verb",
+                "Pause after each verb and identify the subject",
+                "Only count punctuation",
+                "Translate every noun first"
+              ],
+              "correct": 1,
+              "explanation": "The lesson asks the learner to pause after each verb and identify the subject."
             }
           ]
         },
