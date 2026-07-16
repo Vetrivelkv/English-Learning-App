@@ -33,12 +33,22 @@ def _topic_names(path: str, child_key: str):
     return {topic["name"] for topic in data["topics"] if child_key in topic}
 
 
-def _learning_table(progress_rows):
+def _learning_question_counts(path: str):
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return {
+        subtopic["id"]: len(subtopic.get("questions", []))
+        for topic in data["topics"]
+        for subtopic in topic.get("subtopics", [])
+    }
+
+
+def _learning_table(progress_rows, question_counts):
     return [
         {
             "Module ID": row["subtopic_id"],
             "Status": "Learned" if row["passed"] else "Attempting",
-            "High Score": f"{row['high_score']} / 15",
+            "High Score": f"{row['high_score']} / {question_counts.get(row['subtopic_id'], 15)}",
             "Attempts": row["attempts"],
         }
         for row in progress_rows
@@ -70,6 +80,7 @@ def render():
     st.caption(f"Showing progress for: {course['title']}")
 
     learning_topics = _topic_names(course["curriculum"], "subtopics")
+    learning_question_counts = _learning_question_counts(course["curriculum"])
     challenge_topics = _topic_names(course["questions"], "rounds") if course["show_challenges"] else set()
 
     l_prog = [
@@ -94,7 +105,7 @@ def render():
                     [row for row in l_prog if row["topic_name"] == topic],
                     key=lambda row: row["subtopic_id"],
                 )
-                st.table(_learning_table(topic_rows))
+                st.table(_learning_table(topic_rows, learning_question_counts))
 
     st.divider()
     st.subheader("Challenge Rounds Progress")

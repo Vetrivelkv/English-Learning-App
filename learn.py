@@ -43,9 +43,10 @@ def render():
 
     st.divider()
     st.subheader("Subtopic Quiz")
-    st.write("You must score a perfect 15/15 to pass this learning module.")
 
     questions = subtopic["questions"]
+    required_score = len(questions)
+    st.write(f"You must score a perfect {required_score}/{required_score} to pass this learning module.")
 
     with st.form("learn_quiz_form"):
         answers = {}
@@ -75,18 +76,18 @@ def render():
             else:
                 feedback.append({"idx": idx + 1, "status": f"Wrong. Correct: {correct_ans}", "expl": q["explanation"]})
 
-        passed = score == 15
+        passed = score == required_score
 
         db.save_learning_progress(st.session_state.user["id"], topic_name, subtopic_id, passed, score)
 
         st.header("Results")
-        st.subheader(f"Your Score: {score}/15")
+        st.subheader(f"Your Score: {score}/{required_score}")
 
         if passed:
-            st.success("Outstanding! You scored a perfect 15/15. The next subtopic is now unlocked.")
+            st.success(f"Outstanding! You scored a perfect {required_score}/{required_score}. The next subtopic is now unlocked.")
             st.balloons()
         else:
-            st.error("You need 15/15 to pass this module. Review your mistakes below and try again.")
+            st.error(f"You need {required_score}/{required_score} to pass this module. Review your mistakes below and try again.")
 
         for fb in feedback:
             with st.expander(f"Question {fb['idx']} - {fb['status']}"):

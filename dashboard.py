@@ -13,7 +13,7 @@ COURSES = {
     },
     "udemy_scott_mendoza": {
         "title": "Udemey Scott Mendosa English Course",
-        "description": "Study Section 2 as a Parts of Speech class with video-based subclasses and quizzes.",
+        "description": "Study the Scott Mendoza Udemy course with video-based classes, subclasses, and quizzes.",
         "curriculum": "data/udemy_scott_mendoza_curriculum.json",
         "questions": None,
         "show_challenges": False,
@@ -105,12 +105,13 @@ def render():
                     status = l_map.get(t_name, {}).get(s_id, {})
                     passed = status.get("passed", False)
                     h_score = status.get("high_score", 0)
+                    question_count = len(sub.get("questions", []))
 
                     with cols[j]:
                         with st.container(border=True):
                             st.write(f"**{sub['title']}**")
                             if passed:
-                                st.success(f"Learned ({h_score}/15)")
+                                st.success(f"Learned ({h_score}/{question_count})")
                             elif is_unlocked:
                                 st.info("Start Module")
                             else:

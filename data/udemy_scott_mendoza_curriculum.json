@@ -1,6 +1,6 @@
 {
   "course_title": "Udemey Scott Mendosa English Course",
-  "source_section": "Section 2: How English Works - A Quick Review",
+  "source_section": "Section 2: How English Works - A Quick Review; Section 6: Verb Conjugation (1st, 2nd, 3rd Person)",
   "topics": [
     {
       "name": "Parts of Speech",
@@ -11,21 +11,186 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains the basic shape of an English sentence. A sentence is a **complete thought**, and a complete English sentence normally needs two main parts: a **subject** and a **predicate**.\n\n### Subject\n\nThe subject is the naming part of the sentence. It tells us who or what the sentence is about.\n\nVideo example: **The dog runs down the street.**\n\nHere, **the dog** is the subject because the sentence is about the dog.\n\n### Predicate\n\nThe predicate is the telling part. It tells what the subject does or what is said about the subject.\n\nIn **The dog runs down the street**, the predicate is **runs down the street**. It starts with the verb **runs**.\n\n### Basic English order\n\nThe video teaches this beginner structure:\n\n**Subject + Predicate**\n\nA more detailed beginner pattern is:\n\n**Subject + Verb + Object**\n\nEnglish usually puts the subject first. **Runs down the street the dog** is wrong because the order is not natural English. The correct sentence is **The dog runs down the street**.\n\n### Video examples\n\n- **The dog runs down the street.** Subject: the dog. Verb: runs.\n- **The cat jumps on the bed.** Subject: the cat. Predicate: jumps on the bed.\n- **The mouse eats cheese.** Subject: the mouse. Verb: eats. Object: cheese.\n- **The bird is in the sky.** Subject: the bird. Predicate: is in the sky.\n- **The man ate pizza.** Subject: the man. Predicate: ate pizza.\n- **Adam went to school.** Subject: Adam. Predicate: went to school.\n- **The bear slept in the cave.** Subject: the bear. Predicate: slept in the cave.\n\n### Correcting word order\n\n- Wrong: **Sinking the boat is.** Correct: **The boat is sinking.**\n- Correct pattern: **A snake eats mice.**\n- Wrong: **Is hot the Sun.** Correct: **The sun is hot.**\n\n### Main point\n\nMaster the small structure first. Once you understand subject + predicate, you can add nouns, verbs, adjectives, adverbs, prepositions, conjunctions, and other words to make longer and more natural sentences.",
           "questions": [
-            {"type": "mcq", "question": "What is a sentence described as in the video?", "options": ["A complete thought", "Only a group of nouns", "Only a question", "A list of verbs"], "correct": 0, "explanation": "The instructor explains that a sentence is a complete thought."},
-            {"type": "mcq", "question": "Which two main parts does a basic sentence need?", "options": ["Article and comma", "Subject and predicate", "Adjective and adverb", "Capital and period"], "correct": 1, "explanation": "A complete sentence needs a subject and a predicate."},
-            {"type": "mcq", "question": "In 'The dog runs down the street', what is the subject?", "options": ["runs", "down", "the dog", "the street"], "correct": 2, "explanation": "The sentence is about the dog."},
-            {"type": "mcq", "question": "In 'The dog runs down the street', what is the predicate?", "options": ["The dog", "runs down the street", "the", "dog"], "correct": 1, "explanation": "The predicate tells what the dog is doing."},
-            {"type": "mcq", "question": "What is the beginner English sentence order taught in the lesson?", "options": ["Object + verb + subject", "Verb + object + subject", "Subject + verb + object", "Adverb + adjective + noun"], "correct": 2, "explanation": "The video teaches subject + verb + object as a basic order."},
-            {"type": "mcq", "question": "Which sentence has correct English word order?", "options": ["Runs down the street the dog.", "The dog runs down the street.", "Down the street dog runs.", "Runs the dog street down."], "correct": 1, "explanation": "English normally puts the subject before the predicate."},
-            {"type": "mcq", "question": "In 'The cat jumps on the bed', what is the subject?", "options": ["the cat", "jumps", "on", "the bed"], "correct": 0, "explanation": "The sentence is about the cat."},
-            {"type": "mcq", "question": "In 'The mouse eats cheese', what is the verb?", "options": ["mouse", "eats", "cheese", "the"], "correct": 1, "explanation": "'Eats' is the action."},
-            {"type": "mcq", "question": "In 'The man ate pizza', what is the predicate?", "options": ["The man", "man", "ate pizza", "pizza"], "correct": 2, "explanation": "The predicate tells what the man did."},
-            {"type": "mcq", "question": "Correct the video exercise: 'Sinking the boat is.'", "options": ["The boat is sinking.", "Is the boat sinking.", "Sinking is the boat.", "The sinking boat is."], "correct": 0, "explanation": "The correct order is subject + predicate."},
-            {"type": "mcq", "question": "Correct the video exercise: 'Is hot the Sun.'", "options": ["Is the sun hot.", "The sun is hot.", "Hot is the sun.", "The hot sun is."], "correct": 1, "explanation": "The natural order is 'The sun is hot.'"},
-            {"type": "fill", "question": "In 'Adam went to school', the subject is ___.", "options": ["Adam", "went", "school", "to"], "correct": 0, "explanation": "The sentence is about Adam."},
-            {"type": "fill", "question": "The predicate is the ___ part of the sentence.", "options": ["telling", "capital", "punctuation", "spelling"], "correct": 0, "explanation": "The predicate tells what the subject does or what is said about it."},
-            {"type": "mcq", "question": "Why should learners master the basic structure first?", "options": ["It makes complex sentences easier later", "It removes the need for verbs", "It means word order no longer matters", "It replaces all nouns"], "correct": 0, "explanation": "The instructor says complex sentences become easier after the basic structure is clear."},
-            {"type": "mcq", "question": "Which word usually starts the predicate?", "options": ["Verb", "Comma", "Capital letter", "Question mark"], "correct": 0, "explanation": "The predicate normally starts with a verb."}
+            {
+              "type": "mcq",
+              "question": "What is a sentence described as in the video?",
+              "options": [
+                "A complete thought",
+                "Only a group of nouns",
+                "Only a question",
+                "A list of verbs"
+              ],
+              "correct": 0,
+              "explanation": "The instructor explains that a sentence is a complete thought."
+            },
+            {
+              "type": "mcq",
+              "question": "Which two main parts does a basic sentence need?",
+              "options": [
+                "Article and comma",
+                "Subject and predicate",
+                "Adjective and adverb",
+                "Capital and period"
+              ],
+              "correct": 1,
+              "explanation": "A complete sentence needs a subject and a predicate."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs down the street', what is the subject?",
+              "options": [
+                "runs",
+                "down",
+                "the dog",
+                "the street"
+              ],
+              "correct": 2,
+              "explanation": "The sentence is about the dog."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs down the street', what is the predicate?",
+              "options": [
+                "The dog",
+                "runs down the street",
+                "the",
+                "dog"
+              ],
+              "correct": 1,
+              "explanation": "The predicate tells what the dog is doing."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the beginner English sentence order taught in the lesson?",
+              "options": [
+                "Object + verb + subject",
+                "Verb + object + subject",
+                "Subject + verb + object",
+                "Adverb + adjective + noun"
+              ],
+              "correct": 2,
+              "explanation": "The video teaches subject + verb + object as a basic order."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence has correct English word order?",
+              "options": [
+                "Runs down the street the dog.",
+                "The dog runs down the street.",
+                "Down the street dog runs.",
+                "Runs the dog street down."
+              ],
+              "correct": 1,
+              "explanation": "English normally puts the subject before the predicate."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The cat jumps on the bed', what is the subject?",
+              "options": [
+                "the cat",
+                "jumps",
+                "on",
+                "the bed"
+              ],
+              "correct": 0,
+              "explanation": "The sentence is about the cat."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The mouse eats cheese', what is the verb?",
+              "options": [
+                "mouse",
+                "eats",
+                "cheese",
+                "the"
+              ],
+              "correct": 1,
+              "explanation": "'Eats' is the action."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The man ate pizza', what is the predicate?",
+              "options": [
+                "The man",
+                "man",
+                "ate pizza",
+                "pizza"
+              ],
+              "correct": 2,
+              "explanation": "The predicate tells what the man did."
+            },
+            {
+              "type": "mcq",
+              "question": "Correct the video exercise: 'Sinking the boat is.'",
+              "options": [
+                "The boat is sinking.",
+                "Is the boat sinking.",
+                "Sinking is the boat.",
+                "The sinking boat is."
+              ],
+              "correct": 0,
+              "explanation": "The correct order is subject + predicate."
+            },
+            {
+              "type": "mcq",
+              "question": "Correct the video exercise: 'Is hot the Sun.'",
+              "options": [
+                "Is the sun hot.",
+                "The sun is hot.",
+                "Hot is the sun.",
+                "The hot sun is."
+              ],
+              "correct": 1,
+              "explanation": "The natural order is 'The sun is hot.'"
+            },
+            {
+              "type": "fill",
+              "question": "In 'Adam went to school', the subject is ___.",
+              "options": [
+                "Adam",
+                "went",
+                "school",
+                "to"
+              ],
+              "correct": 0,
+              "explanation": "The sentence is about Adam."
+            },
+            {
+              "type": "fill",
+              "question": "The predicate is the ___ part of the sentence.",
+              "options": [
+                "telling",
+                "capital",
+                "punctuation",
+                "spelling"
+              ],
+              "correct": 0,
+              "explanation": "The predicate tells what the subject does or what is said about it."
+            },
+            {
+              "type": "mcq",
+              "question": "Why should learners master the basic structure first?",
+              "options": [
+                "It makes complex sentences easier later",
+                "It removes the need for verbs",
+                "It means word order no longer matters",
+                "It replaces all nouns"
+              ],
+              "correct": 0,
+              "explanation": "The instructor says complex sentences become easier after the basic structure is clear."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word usually starts the predicate?",
+              "options": [
+                "Verb",
+                "Comma",
+                "Capital letter",
+                "Question mark"
+              ],
+              "correct": 0,
+              "explanation": "The predicate normally starts with a verb."
+            }
           ]
         },
         {
@@ -34,21 +199,186 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains **nouns**. A noun names a **person, place, thing, animal, or feeling/idea**. The video connects nouns to the sentence structure lesson: subjects and objects are usually nouns.\n\n### Nouns in the main example\n\nVideo sentence: **The dog runs down the street.**\n\nThe nouns are:\n\n- **dog**: an animal and the subject\n- **street**: a place/thing in the predicate area\n\n### Noun categories from the video\n\n- **Person nouns:** fireman, bus driver, man, woman, girl\n- **Place nouns:** New York, America, space\n- **Thing nouns:** pencil, desk, apple\n- **Animal nouns:** dog, bird, cat\n- **Feeling or idea nouns:** love, hate, anger\n\n### Singular and plural nouns\n\nA noun can be singular or plural.\n\n- **Singular** means one: dog, street, cherry.\n- **Plural** means more than one: dogs, streets, cherries.\n\nBasic plural rules discussed:\n\n- Add **s** to many regular nouns.\n- Add **es** to some endings such as **x**.\n- For words like **cherry**, change **y** to **ies**: cherry -> cherries.\n\n### Common nouns, proper nouns, and pronouns\n\n- **Common nouns** are general names: man, woman, bench, mountain.\n- **Proper nouns** are specific names: George Washington, Cleopatra, Queen Elizabeth. They are capitalized.\n- **Pronouns** replace nouns: he can replace George Washington, and she can replace Cleopatra.\n\n### Video exercise examples\n\nSentence: **A mountain has trees, rivers, and lakes.**\n\n- mountain: common singular noun\n- trees: common plural noun\n- rivers: common plural noun\n- lakes: common plural noun\n\nSentence: **Queen Elizabeth sat on a bench.**\n\n- Queen Elizabeth: proper singular noun\n- bench: common singular noun",
           "questions": [
-            {"type": "mcq", "question": "What is a noun?", "options": ["A naming word", "Only an action word", "A joining word only", "A word that describes a verb only"], "correct": 0, "explanation": "A noun names a person, place, thing, animal, or idea."},
-            {"type": "mcq", "question": "In 'The dog runs down the street', which two words are nouns?", "options": ["dog and street", "runs and down", "the and down", "runs and street"], "correct": 0, "explanation": "'Dog' and 'street' are nouns."},
-            {"type": "mcq", "question": "Which option is a person noun from the video?", "options": ["fireman", "quickly", "runs", "blue"], "correct": 0, "explanation": "Fireman names a person."},
-            {"type": "mcq", "question": "Which option is a place noun?", "options": ["America", "anger", "pencil", "bird"], "correct": 0, "explanation": "America names a place."},
-            {"type": "mcq", "question": "Which option is a feeling or idea noun?", "options": ["love", "desk", "cat", "New York"], "correct": 0, "explanation": "Love is a feeling/idea noun."},
-            {"type": "mcq", "question": "What does singular mean?", "options": ["One", "More than one", "A specific name", "A replacement word"], "correct": 0, "explanation": "Singular means one."},
-            {"type": "mcq", "question": "What does plural mean?", "options": ["More than one", "Only one", "Always a person", "Always capitalized"], "correct": 0, "explanation": "Plural means more than one."},
-            {"type": "mcq", "question": "How does 'cherry' become plural in the video?", "options": ["cherrys", "cherries", "cherryes", "cherry"], "correct": 1, "explanation": "Cherry changes y to ies: cherries."},
-            {"type": "mcq", "question": "Which is a proper noun?", "options": ["man", "woman", "George Washington", "bench"], "correct": 2, "explanation": "George Washington is a specific person's name."},
-            {"type": "mcq", "question": "Which pronoun can replace 'Cleopatra'?", "options": ["she", "it", "quickly", "street"], "correct": 0, "explanation": "The video uses she as a replacement for Cleopatra."},
-            {"type": "mcq", "question": "In 'A mountain has trees, rivers, and lakes', which noun is singular?", "options": ["mountain", "trees", "rivers", "lakes"], "correct": 0, "explanation": "Mountain is singular."},
-            {"type": "mcq", "question": "In 'A mountain has trees, rivers, and lakes', which word is plural?", "options": ["mountain", "has", "trees", "A"], "correct": 2, "explanation": "Trees is plural."},
-            {"type": "mcq", "question": "What type of noun is 'Queen Elizabeth'?", "options": ["Proper singular noun", "Common plural noun", "Animal noun", "Verb"], "correct": 0, "explanation": "It is a specific person's name."},
-            {"type": "mcq", "question": "What type of noun is 'bench' in the video exercise?", "options": ["Common singular noun", "Proper plural noun", "Pronoun", "Verb"], "correct": 0, "explanation": "Bench is a general thing and there is one bench."},
-            {"type": "mcq", "question": "Why are subjects and objects often nouns?", "options": ["They name who acts or what receives action", "They always end in -ly", "They are always conjunctions", "They replace verbs"], "correct": 0, "explanation": "Subjects and objects usually name people, places, things, animals, or ideas."}
+            {
+              "type": "mcq",
+              "question": "What is a noun?",
+              "options": [
+                "A naming word",
+                "Only an action word",
+                "A joining word only",
+                "A word that describes a verb only"
+              ],
+              "correct": 0,
+              "explanation": "A noun names a person, place, thing, animal, or idea."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs down the street', which two words are nouns?",
+              "options": [
+                "dog and street",
+                "runs and down",
+                "the and down",
+                "runs and street"
+              ],
+              "correct": 0,
+              "explanation": "'Dog' and 'street' are nouns."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option is a person noun from the video?",
+              "options": [
+                "fireman",
+                "quickly",
+                "runs",
+                "blue"
+              ],
+              "correct": 0,
+              "explanation": "Fireman names a person."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option is a place noun?",
+              "options": [
+                "America",
+                "anger",
+                "pencil",
+                "bird"
+              ],
+              "correct": 0,
+              "explanation": "America names a place."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option is a feeling or idea noun?",
+              "options": [
+                "love",
+                "desk",
+                "cat",
+                "New York"
+              ],
+              "correct": 0,
+              "explanation": "Love is a feeling/idea noun."
+            },
+            {
+              "type": "mcq",
+              "question": "What does singular mean?",
+              "options": [
+                "One",
+                "More than one",
+                "A specific name",
+                "A replacement word"
+              ],
+              "correct": 0,
+              "explanation": "Singular means one."
+            },
+            {
+              "type": "mcq",
+              "question": "What does plural mean?",
+              "options": [
+                "More than one",
+                "Only one",
+                "Always a person",
+                "Always capitalized"
+              ],
+              "correct": 0,
+              "explanation": "Plural means more than one."
+            },
+            {
+              "type": "mcq",
+              "question": "How does 'cherry' become plural in the video?",
+              "options": [
+                "cherrys",
+                "cherries",
+                "cherryes",
+                "cherry"
+              ],
+              "correct": 1,
+              "explanation": "Cherry changes y to ies: cherries."
+            },
+            {
+              "type": "mcq",
+              "question": "Which is a proper noun?",
+              "options": [
+                "man",
+                "woman",
+                "George Washington",
+                "bench"
+              ],
+              "correct": 2,
+              "explanation": "George Washington is a specific person's name."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pronoun can replace 'Cleopatra'?",
+              "options": [
+                "she",
+                "it",
+                "quickly",
+                "street"
+              ],
+              "correct": 0,
+              "explanation": "The video uses she as a replacement for Cleopatra."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'A mountain has trees, rivers, and lakes', which noun is singular?",
+              "options": [
+                "mountain",
+                "trees",
+                "rivers",
+                "lakes"
+              ],
+              "correct": 0,
+              "explanation": "Mountain is singular."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'A mountain has trees, rivers, and lakes', which word is plural?",
+              "options": [
+                "mountain",
+                "has",
+                "trees",
+                "A"
+              ],
+              "correct": 2,
+              "explanation": "Trees is plural."
+            },
+            {
+              "type": "mcq",
+              "question": "What type of noun is 'Queen Elizabeth'?",
+              "options": [
+                "Proper singular noun",
+                "Common plural noun",
+                "Animal noun",
+                "Verb"
+              ],
+              "correct": 0,
+              "explanation": "It is a specific person's name."
+            },
+            {
+              "type": "mcq",
+              "question": "What type of noun is 'bench' in the video exercise?",
+              "options": [
+                "Common singular noun",
+                "Proper plural noun",
+                "Pronoun",
+                "Verb"
+              ],
+              "correct": 0,
+              "explanation": "Bench is a general thing and there is one bench."
+            },
+            {
+              "type": "mcq",
+              "question": "Why are subjects and objects often nouns?",
+              "options": [
+                "They name who acts or what receives action",
+                "They always end in -ly",
+                "They are always conjunctions",
+                "They replace verbs"
+              ],
+              "correct": 0,
+              "explanation": "Subjects and objects usually name people, places, things, animals, or ideas."
+            }
           ]
         },
         {
@@ -57,21 +387,186 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains **verbs**. A verb describes an **action**, a **state of being**, or an **occurrence**. The verb is the main part of the predicate.\n\n### Verb in the main example\n\nVideo sentence: **The dog runs down the street.**\n\n- Subject: the dog\n- Predicate: runs down the street\n- Verb: runs\n\nThe verb tells what the subject is doing.\n\n### Verb time: past, present, future\n\nThe video gives a simple overview:\n\n- **Past:** often add **ed**, such as talk -> talked.\n- **Present:** use the base verb or add **s/es**, such as talk or talks.\n- **Future:** use **will**, such as will talk.\n\nThe lesson does not go deeply into every tense rule; it focuses on recognizing verbs and where they belong in a sentence.\n\n### Action verbs\n\nAction verbs show what the subject does. Examples: running, jumping, swimming, eating.\n\n### Helping verbs\n\nA helping verb supports a main verb.\n\nVideo example: **She is standing on the table.**\n\n- is: helping verb\n- standing: main verb\n\n### Modal verbs\n\nA modal verb adds meaning like possibility or ability.\n\nVideo example: **He could fly in the morning.**\n\n- could: modal verb\n- fly: main verb\n\n### More video examples\n\n- **The cat licks his paws.** Main verb: licks.\n- **The cat is licking at his paws.** Helping verb: is. Main verb: licking.\n- **The cat could lick his paws.** Modal verb: could. Main verb: lick.\n- **The bear could be in the cave.** Modal verb: could. Main verb: be.\n- **She is dancing on the table.** Helping verb: is. Main verb: dancing.",
           "questions": [
-            {"type": "mcq", "question": "What does a verb describe?", "options": ["Action, state of being, or occurrence", "Only a place", "Only a person", "Only punctuation"], "correct": 0, "explanation": "The video defines verbs as action/state/occurrence words."},
-            {"type": "mcq", "question": "In 'The dog runs down the street', what is the verb?", "options": ["dog", "runs", "street", "the"], "correct": 1, "explanation": "'Runs' tells what the dog does."},
-            {"type": "mcq", "question": "The verb is the main part of the ___.", "options": ["predicate", "subject", "capital letter", "article"], "correct": 0, "explanation": "The verb is the main part of the predicate."},
-            {"type": "mcq", "question": "Which is an action verb?", "options": ["running", "the", "blue", "a"], "correct": 0, "explanation": "Running shows an action."},
-            {"type": "mcq", "question": "What is the simple past form of 'talk' shown in the video?", "options": ["talked", "talks", "will talk", "talking"], "correct": 0, "explanation": "Talk -> talked."},
-            {"type": "mcq", "question": "How is simple future shown in the video?", "options": ["Add will", "Add only -s", "Remove the subject", "Use a comma"], "correct": 0, "explanation": "Future uses will, as in will talk."},
-            {"type": "mcq", "question": "In 'She is standing on the table', what is 'is'?", "options": ["Helping verb", "Main noun", "Object", "Article"], "correct": 0, "explanation": "'Is' helps the main verb standing."},
-            {"type": "mcq", "question": "In 'She is standing on the table', what is the main verb?", "options": ["She", "is", "standing", "table"], "correct": 2, "explanation": "Standing is the main action."},
-            {"type": "mcq", "question": "In 'He could fly in the morning', what is 'could'?", "options": ["Modal verb", "Common noun", "Article", "Adjective"], "correct": 0, "explanation": "Could gives possibility."},
-            {"type": "mcq", "question": "In 'He could fly in the morning', what is the main verb?", "options": ["He", "could", "fly", "morning"], "correct": 2, "explanation": "Fly is the main action."},
-            {"type": "mcq", "question": "In 'The cat licks his paws', what is the main verb?", "options": ["cat", "licks", "his", "paws"], "correct": 1, "explanation": "Licks shows the action."},
-            {"type": "mcq", "question": "In 'The cat is licking at his paws', which pair is correct?", "options": ["is = helping, licking = main", "cat = helping, paws = main", "licking = modal, is = object", "his = verb, cat = adjective"], "correct": 0, "explanation": "Is helps the main verb licking."},
-            {"type": "mcq", "question": "In 'The cat could lick his paws', what is the modal verb?", "options": ["cat", "could", "lick", "paws"], "correct": 1, "explanation": "Could is the modal verb."},
-            {"type": "fill", "question": "In 'The bear could be in the cave', the verbs are ___.", "options": ["could be", "the bear", "in the", "cave"], "correct": 0, "explanation": "Could is modal and be is the main verb."},
-            {"type": "fill", "question": "In 'She is dancing on the table', the helping verb is ___.", "options": ["is", "dancing", "table", "She"], "correct": 0, "explanation": "Is helps dancing."}
+            {
+              "type": "mcq",
+              "question": "What does a verb describe?",
+              "options": [
+                "Action, state of being, or occurrence",
+                "Only a place",
+                "Only a person",
+                "Only punctuation"
+              ],
+              "correct": 0,
+              "explanation": "The video defines verbs as action/state/occurrence words."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs down the street', what is the verb?",
+              "options": [
+                "dog",
+                "runs",
+                "street",
+                "the"
+              ],
+              "correct": 1,
+              "explanation": "'Runs' tells what the dog does."
+            },
+            {
+              "type": "mcq",
+              "question": "The verb is the main part of the ___.",
+              "options": [
+                "predicate",
+                "subject",
+                "capital letter",
+                "article"
+              ],
+              "correct": 0,
+              "explanation": "The verb is the main part of the predicate."
+            },
+            {
+              "type": "mcq",
+              "question": "Which is an action verb?",
+              "options": [
+                "running",
+                "the",
+                "blue",
+                "a"
+              ],
+              "correct": 0,
+              "explanation": "Running shows an action."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the simple past form of 'talk' shown in the video?",
+              "options": [
+                "talked",
+                "talks",
+                "will talk",
+                "talking"
+              ],
+              "correct": 0,
+              "explanation": "Talk -> talked."
+            },
+            {
+              "type": "mcq",
+              "question": "How is simple future shown in the video?",
+              "options": [
+                "Add will",
+                "Add only -s",
+                "Remove the subject",
+                "Use a comma"
+              ],
+              "correct": 0,
+              "explanation": "Future uses will, as in will talk."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'She is standing on the table', what is 'is'?",
+              "options": [
+                "Helping verb",
+                "Main noun",
+                "Object",
+                "Article"
+              ],
+              "correct": 0,
+              "explanation": "'Is' helps the main verb standing."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'She is standing on the table', what is the main verb?",
+              "options": [
+                "She",
+                "is",
+                "standing",
+                "table"
+              ],
+              "correct": 2,
+              "explanation": "Standing is the main action."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'He could fly in the morning', what is 'could'?",
+              "options": [
+                "Modal verb",
+                "Common noun",
+                "Article",
+                "Adjective"
+              ],
+              "correct": 0,
+              "explanation": "Could gives possibility."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'He could fly in the morning', what is the main verb?",
+              "options": [
+                "He",
+                "could",
+                "fly",
+                "morning"
+              ],
+              "correct": 2,
+              "explanation": "Fly is the main action."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The cat licks his paws', what is the main verb?",
+              "options": [
+                "cat",
+                "licks",
+                "his",
+                "paws"
+              ],
+              "correct": 1,
+              "explanation": "Licks shows the action."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The cat is licking at his paws', which pair is correct?",
+              "options": [
+                "is = helping, licking = main",
+                "cat = helping, paws = main",
+                "licking = modal, is = object",
+                "his = verb, cat = adjective"
+              ],
+              "correct": 0,
+              "explanation": "Is helps the main verb licking."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The cat could lick his paws', what is the modal verb?",
+              "options": [
+                "cat",
+                "could",
+                "lick",
+                "paws"
+              ],
+              "correct": 1,
+              "explanation": "Could is the modal verb."
+            },
+            {
+              "type": "fill",
+              "question": "In 'The bear could be in the cave', the verbs are ___.",
+              "options": [
+                "could be",
+                "the bear",
+                "in the",
+                "cave"
+              ],
+              "correct": 0,
+              "explanation": "Could is modal and be is the main verb."
+            },
+            {
+              "type": "fill",
+              "question": "In 'She is dancing on the table', the helping verb is ___.",
+              "options": [
+                "is",
+                "dancing",
+                "table",
+                "She"
+              ],
+              "correct": 0,
+              "explanation": "Is helps dancing."
+            }
           ]
         },
         {
@@ -80,21 +575,186 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains that **subject + verb + object** is useful for beginners, but English objects are more detailed. Some sentences have one object, some have two, some have no object, and some use a subject complement instead of an object.\n\n### Transitive verbs\n\nA transitive verb transfers action from the subject to an object.\n\n**Monotransitive pattern:** subject + verb + direct object.\n\nVideo example: **Jeff kicked the ball.**\n\n- Subject: Jeff\n- Verb: kicked\n- Direct object: the ball\n\nThe ball receives the action.\n\n### Ditransitive verbs\n\n**Ditransitive pattern:** subject + verb + indirect object + direct object.\n\nVideo example: **Jeff gave Dan the cake.**\n\n- Subject: Jeff\n- Verb: gave\n- Indirect object: Dan\n- Direct object: the cake\n\nThe cake is the thing given. Dan is the recipient.\n\nAnother video example: **Max pitched Alice the baseball.** The baseball is the direct object; Alice is the indirect object.\n\n### Direct and indirect objects\n\nA direct object answers: what or whom receives the action?\n\nAn indirect object answers: to whom, for whom, from whom, or for what?\n\n### Intransitive verbs\n\nAn intransitive verb does not transfer action to an object. The sentence can be complete with only subject + verb.\n\nVideo examples:\n\n- **She cried.** No object.\n- **She cried at home.** At home tells where; home does not receive crying.\n- **He slept after dinner.** After dinner tells when; dinner does not receive sleeping.\n- **Our car blew up down the street.** Down the street gives location, not a true object.\n\n### Linking verbs and subject complements\n\nA linking verb connects the subject to a subject complement.\n\nVideo example: **Eric is a doctor.**\n\n- Subject: Eric\n- Linking verb: is\n- Subject complement: a doctor\n\nA doctor identifies Eric. It is not receiving an action.",
           "questions": [
-            {"type": "mcq", "question": "What does a transitive verb need?", "options": ["A direct object", "Only an adverb", "No subject", "Only a comma"], "correct": 0, "explanation": "A transitive verb transfers action to an object."},
-            {"type": "mcq", "question": "In 'Jeff kicked the ball', what is the direct object?", "options": ["Jeff", "kicked", "the ball", "the"], "correct": 2, "explanation": "The ball receives the action."},
-            {"type": "mcq", "question": "What is a monotransitive pattern?", "options": ["Subject + verb + direct object", "Subject + adjective only", "Verb + object + subject", "Subject + comma + article"], "correct": 0, "explanation": "Monotransitive sentences have one direct object."},
-            {"type": "mcq", "question": "In 'Jeff gave Dan the cake', what is the direct object?", "options": ["Jeff", "Dan", "the cake", "gave"], "correct": 2, "explanation": "The cake is the thing being given."},
-            {"type": "mcq", "question": "In 'Jeff gave Dan the cake', what is the indirect object?", "options": ["Jeff", "Dan", "cake", "gave"], "correct": 1, "explanation": "Dan receives or is affected by the direct object."},
-            {"type": "mcq", "question": "In 'Max pitched Alice the baseball', what is the indirect object?", "options": ["Max", "pitched", "Alice", "baseball"], "correct": 2, "explanation": "Alice is the recipient."},
-            {"type": "mcq", "question": "In 'Max pitched Alice the baseball', what is the direct object?", "options": ["Max", "Alice", "the baseball", "pitched"], "correct": 2, "explanation": "The baseball receives the action."},
-            {"type": "mcq", "question": "Which sentence is intransitive?", "options": ["She cried.", "Jeff kicked the ball.", "Max pitched Alice the baseball.", "I ate pizza."], "correct": 0, "explanation": "'She cried' has no direct object."},
-            {"type": "mcq", "question": "In 'She cried at home', why is 'home' not a direct object?", "options": ["It tells where, not what received the action", "It is always a verb", "It is the subject", "It is a modal"], "correct": 0, "explanation": "At home is a prepositional phrase giving location."},
-            {"type": "mcq", "question": "In 'He slept after dinner', what does 'after dinner' tell us?", "options": ["When he slept", "What received sleeping", "Who slept", "The direct object"], "correct": 0, "explanation": "It gives time."},
-            {"type": "mcq", "question": "Which sentence has a linking verb?", "options": ["Eric is a doctor.", "Jeff kicked the ball.", "She cried.", "The dog runs."], "correct": 0, "explanation": "Is links Eric to a doctor."},
-            {"type": "mcq", "question": "In 'Eric is a doctor', what is 'a doctor'?", "options": ["Subject complement", "Direct object", "Indirect object", "Action verb"], "correct": 0, "explanation": "It identifies Eric."},
-            {"type": "mcq", "question": "What does an indirect object often answer?", "options": ["To whom or for whom", "What color", "How many letters", "Which punctuation mark"], "correct": 0, "explanation": "Indirect objects identify recipients."},
-            {"type": "mcq", "question": "Which question helps find a direct object?", "options": ["What received the action?", "Where is the comma?", "Is it capitalized?", "How many syllables?"], "correct": 0, "explanation": "The direct object receives the action."},
-            {"type": "mcq", "question": "What is the main warning of this video?", "options": ["Not every noun after a verb is a true object", "Every sentence must have two direct objects", "All verbs are linking verbs", "Prepositional phrases are subjects"], "correct": 0, "explanation": "Some following words are phrases or complements, not objects."}
+            {
+              "type": "mcq",
+              "question": "What does a transitive verb need?",
+              "options": [
+                "A direct object",
+                "Only an adverb",
+                "No subject",
+                "Only a comma"
+              ],
+              "correct": 0,
+              "explanation": "A transitive verb transfers action to an object."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Jeff kicked the ball', what is the direct object?",
+              "options": [
+                "Jeff",
+                "kicked",
+                "the ball",
+                "the"
+              ],
+              "correct": 2,
+              "explanation": "The ball receives the action."
+            },
+            {
+              "type": "mcq",
+              "question": "What is a monotransitive pattern?",
+              "options": [
+                "Subject + verb + direct object",
+                "Subject + adjective only",
+                "Verb + object + subject",
+                "Subject + comma + article"
+              ],
+              "correct": 0,
+              "explanation": "Monotransitive sentences have one direct object."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Jeff gave Dan the cake', what is the direct object?",
+              "options": [
+                "Jeff",
+                "Dan",
+                "the cake",
+                "gave"
+              ],
+              "correct": 2,
+              "explanation": "The cake is the thing being given."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Jeff gave Dan the cake', what is the indirect object?",
+              "options": [
+                "Jeff",
+                "Dan",
+                "cake",
+                "gave"
+              ],
+              "correct": 1,
+              "explanation": "Dan receives or is affected by the direct object."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Max pitched Alice the baseball', what is the indirect object?",
+              "options": [
+                "Max",
+                "pitched",
+                "Alice",
+                "baseball"
+              ],
+              "correct": 2,
+              "explanation": "Alice is the recipient."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Max pitched Alice the baseball', what is the direct object?",
+              "options": [
+                "Max",
+                "Alice",
+                "the baseball",
+                "pitched"
+              ],
+              "correct": 2,
+              "explanation": "The baseball receives the action."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence is intransitive?",
+              "options": [
+                "She cried.",
+                "Jeff kicked the ball.",
+                "Max pitched Alice the baseball.",
+                "I ate pizza."
+              ],
+              "correct": 0,
+              "explanation": "'She cried' has no direct object."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'She cried at home', why is 'home' not a direct object?",
+              "options": [
+                "It tells where, not what received the action",
+                "It is always a verb",
+                "It is the subject",
+                "It is a modal"
+              ],
+              "correct": 0,
+              "explanation": "At home is a prepositional phrase giving location."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'He slept after dinner', what does 'after dinner' tell us?",
+              "options": [
+                "When he slept",
+                "What received sleeping",
+                "Who slept",
+                "The direct object"
+              ],
+              "correct": 0,
+              "explanation": "It gives time."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence has a linking verb?",
+              "options": [
+                "Eric is a doctor.",
+                "Jeff kicked the ball.",
+                "She cried.",
+                "The dog runs."
+              ],
+              "correct": 0,
+              "explanation": "Is links Eric to a doctor."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Eric is a doctor', what is 'a doctor'?",
+              "options": [
+                "Subject complement",
+                "Direct object",
+                "Indirect object",
+                "Action verb"
+              ],
+              "correct": 0,
+              "explanation": "It identifies Eric."
+            },
+            {
+              "type": "mcq",
+              "question": "What does an indirect object often answer?",
+              "options": [
+                "To whom or for whom",
+                "What color",
+                "How many letters",
+                "Which punctuation mark"
+              ],
+              "correct": 0,
+              "explanation": "Indirect objects identify recipients."
+            },
+            {
+              "type": "mcq",
+              "question": "Which question helps find a direct object?",
+              "options": [
+                "What received the action?",
+                "Where is the comma?",
+                "Is it capitalized?",
+                "How many syllables?"
+              ],
+              "correct": 0,
+              "explanation": "The direct object receives the action."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the main warning of this video?",
+              "options": [
+                "Not every noun after a verb is a true object",
+                "Every sentence must have two direct objects",
+                "All verbs are linking verbs",
+                "Prepositional phrases are subjects"
+              ],
+              "correct": 0,
+              "explanation": "Some following words are phrases or complements, not objects."
+            }
           ]
         },
         {
@@ -103,21 +763,186 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains the extra words that add detail to a basic sentence. Nouns and verbs carry the core meaning, but adjectives, adverbs, articles, demonstratives, quantifiers, and distributives make the sentence more specific and natural.\n\nThe instructor starts with the idea **Dog runs street**. The meaning is understandable, but it is not a full natural sentence. Extra words make it better: **The big dog runs down the street quickly.**\n\n### Adjectives\n\nAdjectives describe nouns.\n\nVideo example: **The brown dog runs down the old street.**\n\n- brown describes dog\n- old describes street\n\n### Adverbs\n\nAdverbs describe verbs.\n\nVideo example: **The dog runs quickly down the street.**\n\n- quickly describes how the dog runs\n\n### Articles\n\nArticles are determiners: **a**, **an**, and **the**.\n\nThe video emphasizes that articles are important for natural English.\n\n- **The dog runs down the street.** Specific dog and specific street.\n- **A dog runs down a street.** Any dog and any street.\n- **An orange is a fruit.** Use an before a vowel sound.\n\n### Demonstratives\n\nDemonstratives show which object is being discussed: **this**, **that**, **these**, **those**.\n\nExample: **This ball is red, that ball is blue.**\n\n### Quantifiers\n\nQuantifiers show how much or how many: **many**, **some**, **a lot of**, **few**.\n\nExample: **Many people eat meat, but some do not.**\n\n### Distributives\n\nDistributives talk about members of a group: **each** and **every**.\n\nExamples:\n\n- **Every student will take the test.**\n- **Each student will have different questions.**\n\n### Video exercise examples\n\n- **The blue sky had gray clouds.** Blue and gray are adjectives; the is an article.\n- **The child slowly finished his homework.** Slowly is an adverb; the is an article.\n- **An orange is a fruit.** An and a are articles.\n- **This cat is mine, those cats are yours.** This and those are demonstratives.\n- **Many people will take the test, few will pass.** Many and few are quantifiers.\n- **Every animal is a living thing.** Every is a distributive; a is an article.\n- **Each day of the week brings a fun experience.** Each is a distributive; the is an article; fun is an adjective.\n- **This bear has long legs and walks quickly.** This is a demonstrative; long is an adjective; quickly is an adverb.",
           "questions": [
-            {"type": "mcq", "question": "What do adjectives describe?", "options": ["Nouns", "Only verbs", "Only conjunctions", "Only punctuation"], "correct": 0, "explanation": "Adjectives add detail to nouns."},
-            {"type": "mcq", "question": "In 'The brown dog runs down the old street', which words are adjectives?", "options": ["brown and old", "the and down", "runs and street", "dog and street"], "correct": 0, "explanation": "Brown describes dog; old describes street."},
-            {"type": "mcq", "question": "What do adverbs describe in this lesson?", "options": ["Verbs", "Only nouns", "Only articles", "Only proper nouns"], "correct": 0, "explanation": "Adverbs describe verbs."},
-            {"type": "mcq", "question": "In 'The dog runs quickly down the street', what is the adverb?", "options": ["dog", "runs", "quickly", "street"], "correct": 2, "explanation": "Quickly tells how the dog runs."},
-            {"type": "mcq", "question": "Which set contains English articles?", "options": ["a, an, the", "this, that, those", "many, few, some", "and, but, so"], "correct": 0, "explanation": "A, an, and the are articles."},
-            {"type": "mcq", "question": "What does 'the dog' usually suggest compared with 'a dog'?", "options": ["A specific dog", "Any dog", "No dog", "A plural dog"], "correct": 0, "explanation": "The points to something specific."},
-            {"type": "mcq", "question": "Which article fits before 'orange' in the video example?", "options": ["an", "a", "thee", "those"], "correct": 0, "explanation": "Use an before a vowel sound."},
-            {"type": "mcq", "question": "Which words are demonstratives?", "options": ["this, that, these, those", "many, some, few", "a, an, the", "quickly, slowly"], "correct": 0, "explanation": "Demonstratives tell which object is meant."},
-            {"type": "mcq", "question": "In 'This ball is red, that ball is blue', what are 'this' and 'that'?", "options": ["Demonstratives", "Adverbs", "Verbs", "Proper nouns"], "correct": 0, "explanation": "They point to which ball is meant."},
-            {"type": "mcq", "question": "Which words are quantifiers?", "options": ["many and few", "this and that", "a and an", "is and are"], "correct": 0, "explanation": "Quantifiers show amount or number."},
-            {"type": "mcq", "question": "In 'Many people eat meat, but some do not', what are 'many' and 'some'?", "options": ["Quantifiers", "Articles", "Action verbs", "Subjects"], "correct": 0, "explanation": "They show how many people."},
-            {"type": "mcq", "question": "Which words are distributives?", "options": ["each and every", "run and jump", "brown and gray", "a and the"], "correct": 0, "explanation": "Distributives talk about members of a group."},
-            {"type": "mcq", "question": "In 'Each day of the week brings a fun experience', what is 'fun'?", "options": ["Adjective", "Verb", "Conjunction", "Pronoun"], "correct": 0, "explanation": "Fun describes experience."},
-            {"type": "mcq", "question": "In 'This bear has long legs and walks quickly', what is 'quickly'?", "options": ["Adverb", "Article", "Noun", "Demonstrative"], "correct": 0, "explanation": "Quickly describes how the bear walks."},
-            {"type": "mcq", "question": "Why are these extra words important?", "options": ["They make sentences more detailed, specific, and natural", "They replace all verbs", "They make word order unnecessary", "They remove subjects"], "correct": 0, "explanation": "They fill out the sentence and add detail."}
+            {
+              "type": "mcq",
+              "question": "What do adjectives describe?",
+              "options": [
+                "Nouns",
+                "Only verbs",
+                "Only conjunctions",
+                "Only punctuation"
+              ],
+              "correct": 0,
+              "explanation": "Adjectives add detail to nouns."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The brown dog runs down the old street', which words are adjectives?",
+              "options": [
+                "brown and old",
+                "the and down",
+                "runs and street",
+                "dog and street"
+              ],
+              "correct": 0,
+              "explanation": "Brown describes dog; old describes street."
+            },
+            {
+              "type": "mcq",
+              "question": "What do adverbs describe in this lesson?",
+              "options": [
+                "Verbs",
+                "Only nouns",
+                "Only articles",
+                "Only proper nouns"
+              ],
+              "correct": 0,
+              "explanation": "Adverbs describe verbs."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs quickly down the street', what is the adverb?",
+              "options": [
+                "dog",
+                "runs",
+                "quickly",
+                "street"
+              ],
+              "correct": 2,
+              "explanation": "Quickly tells how the dog runs."
+            },
+            {
+              "type": "mcq",
+              "question": "Which set contains English articles?",
+              "options": [
+                "a, an, the",
+                "this, that, those",
+                "many, few, some",
+                "and, but, so"
+              ],
+              "correct": 0,
+              "explanation": "A, an, and the are articles."
+            },
+            {
+              "type": "mcq",
+              "question": "What does 'the dog' usually suggest compared with 'a dog'?",
+              "options": [
+                "A specific dog",
+                "Any dog",
+                "No dog",
+                "A plural dog"
+              ],
+              "correct": 0,
+              "explanation": "The points to something specific."
+            },
+            {
+              "type": "mcq",
+              "question": "Which article fits before 'orange' in the video example?",
+              "options": [
+                "an",
+                "a",
+                "thee",
+                "those"
+              ],
+              "correct": 0,
+              "explanation": "Use an before a vowel sound."
+            },
+            {
+              "type": "mcq",
+              "question": "Which words are demonstratives?",
+              "options": [
+                "this, that, these, those",
+                "many, some, few",
+                "a, an, the",
+                "quickly, slowly"
+              ],
+              "correct": 0,
+              "explanation": "Demonstratives tell which object is meant."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'This ball is red, that ball is blue', what are 'this' and 'that'?",
+              "options": [
+                "Demonstratives",
+                "Adverbs",
+                "Verbs",
+                "Proper nouns"
+              ],
+              "correct": 0,
+              "explanation": "They point to which ball is meant."
+            },
+            {
+              "type": "mcq",
+              "question": "Which words are quantifiers?",
+              "options": [
+                "many and few",
+                "this and that",
+                "a and an",
+                "is and are"
+              ],
+              "correct": 0,
+              "explanation": "Quantifiers show amount or number."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Many people eat meat, but some do not', what are 'many' and 'some'?",
+              "options": [
+                "Quantifiers",
+                "Articles",
+                "Action verbs",
+                "Subjects"
+              ],
+              "correct": 0,
+              "explanation": "They show how many people."
+            },
+            {
+              "type": "mcq",
+              "question": "Which words are distributives?",
+              "options": [
+                "each and every",
+                "run and jump",
+                "brown and gray",
+                "a and the"
+              ],
+              "correct": 0,
+              "explanation": "Distributives talk about members of a group."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Each day of the week brings a fun experience', what is 'fun'?",
+              "options": [
+                "Adjective",
+                "Verb",
+                "Conjunction",
+                "Pronoun"
+              ],
+              "correct": 0,
+              "explanation": "Fun describes experience."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'This bear has long legs and walks quickly', what is 'quickly'?",
+              "options": [
+                "Adverb",
+                "Article",
+                "Noun",
+                "Demonstrative"
+              ],
+              "correct": 0,
+              "explanation": "Quickly describes how the bear walks."
+            },
+            {
+              "type": "mcq",
+              "question": "Why are these extra words important?",
+              "options": [
+                "They make sentences more detailed, specific, and natural",
+                "They replace all verbs",
+                "They make word order unnecessary",
+                "They remove subjects"
+              ],
+              "correct": 0,
+              "explanation": "They fill out the sentence and add detail."
+            }
           ]
         },
         {
@@ -126,21 +951,186 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains **prepositions**. A preposition shows the relationship between other words. It often gives information about **time**, **place/location**, or **movement**.\n\n### Prepositions in the dog sentence\n\nThe video compares:\n\n- **The dog runs down the street.**\n- **The dog runs on the street.**\n\nThe words **down** and **on** are prepositions. They explain the relationship between the dog running and the street.\n\n### Prepositional phrases\n\nA prepositional phrase includes the preposition and its object.\n\nExamples:\n\n- **down the street** = prepositional phrase\n- **on the street** = prepositional phrase\n\n### Types of prepositions\n\n**Time prepositions** tell when something happens.\n\nExample: **I start school in September.**\n\n**Place/location prepositions** tell where something is.\n\nExample: **She jumped on the table.**\n\n**Movement prepositions** tell direction or movement.\n\nExample: **He walks to work.**\n\n### More examples from the video\n\n- Time: on, from, during, by\n- Movement: into, toward, down, along\n- Location: above, over, under, between\n\n### Video exercise examples\n\n- **I swim at night.** At is a time preposition.\n- **Put the shoes in the box.** In is a place/location preposition.\n- **Lean the box towards the wall.** Towards is a movement preposition.\n- **My birthday is on Friday.** On is a time preposition.\n- **Her house is on the first street.** On is a place preposition.\n- **He is driving to the store.** To is a movement preposition.",
           "questions": [
-            {"type": "mcq", "question": "What does a preposition show?", "options": ["Relationship between words", "Only action", "Only a person's name", "Only a capital letter"], "correct": 0, "explanation": "Prepositions show relationships."},
-            {"type": "mcq", "question": "In 'The dog runs down the street', what is the preposition?", "options": ["dog", "runs", "down", "street"], "correct": 2, "explanation": "Down shows the relationship between running and the street."},
-            {"type": "mcq", "question": "In 'The dog runs on the street', what is the preposition?", "options": ["on", "dog", "runs", "the"], "correct": 0, "explanation": "On shows the relationship to the street."},
-            {"type": "mcq", "question": "What is the prepositional phrase in 'The dog runs down the street'?", "options": ["down the street", "the dog", "runs", "dog runs"], "correct": 0, "explanation": "It includes the preposition down and its object the street."},
-            {"type": "mcq", "question": "What is the prepositional phrase in 'The dog runs on the street'?", "options": ["on the street", "the dog", "runs on", "dog runs"], "correct": 0, "explanation": "It is preposition + object."},
-            {"type": "mcq", "question": "Which type of preposition tells when something happens?", "options": ["Time", "Color", "Subject", "Article"], "correct": 0, "explanation": "Time prepositions answer when."},
-            {"type": "mcq", "question": "In 'I start school in September', what does 'in' show?", "options": ["Time", "Animal", "Subject", "Conjunction"], "correct": 0, "explanation": "In September tells when school starts."},
-            {"type": "mcq", "question": "In 'She jumped on the table', what type of preposition is 'on'?", "options": ["Place/location", "Proper noun", "Article", "Modal"], "correct": 0, "explanation": "On the table tells where."},
-            {"type": "mcq", "question": "In 'He walks to work', what type of preposition is 'to'?", "options": ["Movement", "Article", "Adjective", "Subject"], "correct": 0, "explanation": "To shows direction."},
-            {"type": "mcq", "question": "In 'I swim at night', what is the preposition?", "options": ["I", "swim", "at", "night"], "correct": 2, "explanation": "At is the time preposition."},
-            {"type": "mcq", "question": "In 'Put the shoes in the box', what is the preposition?", "options": ["put", "shoes", "in", "box"], "correct": 2, "explanation": "In shows where to put the shoes."},
-            {"type": "mcq", "question": "In 'Lean the box towards the wall', what is the preposition?", "options": ["lean", "box", "towards", "wall"], "correct": 2, "explanation": "Towards shows movement/direction."},
-            {"type": "mcq", "question": "In 'My birthday is on Friday', what type of preposition is 'on'?", "options": ["Time", "Place", "Movement", "Object"], "correct": 0, "explanation": "On Friday tells when."},
-            {"type": "mcq", "question": "In 'Her house is on the first street', what type of preposition is 'on'?", "options": ["Place", "Time", "Modal", "Pronoun"], "correct": 0, "explanation": "On the first street tells where the house is."},
-            {"type": "mcq", "question": "Which set contains location prepositions from the video?", "options": ["above, over, under, between", "many, some, few", "and, but, so", "a, an, the"], "correct": 0, "explanation": "These are location prepositions."}
+            {
+              "type": "mcq",
+              "question": "What does a preposition show?",
+              "options": [
+                "Relationship between words",
+                "Only action",
+                "Only a person's name",
+                "Only a capital letter"
+              ],
+              "correct": 0,
+              "explanation": "Prepositions show relationships."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs down the street', what is the preposition?",
+              "options": [
+                "dog",
+                "runs",
+                "down",
+                "street"
+              ],
+              "correct": 2,
+              "explanation": "Down shows the relationship between running and the street."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The dog runs on the street', what is the preposition?",
+              "options": [
+                "on",
+                "dog",
+                "runs",
+                "the"
+              ],
+              "correct": 0,
+              "explanation": "On shows the relationship to the street."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the prepositional phrase in 'The dog runs down the street'?",
+              "options": [
+                "down the street",
+                "the dog",
+                "runs",
+                "dog runs"
+              ],
+              "correct": 0,
+              "explanation": "It includes the preposition down and its object the street."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the prepositional phrase in 'The dog runs on the street'?",
+              "options": [
+                "on the street",
+                "the dog",
+                "runs on",
+                "dog runs"
+              ],
+              "correct": 0,
+              "explanation": "It is preposition + object."
+            },
+            {
+              "type": "mcq",
+              "question": "Which type of preposition tells when something happens?",
+              "options": [
+                "Time",
+                "Color",
+                "Subject",
+                "Article"
+              ],
+              "correct": 0,
+              "explanation": "Time prepositions answer when."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'I start school in September', what does 'in' show?",
+              "options": [
+                "Time",
+                "Animal",
+                "Subject",
+                "Conjunction"
+              ],
+              "correct": 0,
+              "explanation": "In September tells when school starts."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'She jumped on the table', what type of preposition is 'on'?",
+              "options": [
+                "Place/location",
+                "Proper noun",
+                "Article",
+                "Modal"
+              ],
+              "correct": 0,
+              "explanation": "On the table tells where."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'He walks to work', what type of preposition is 'to'?",
+              "options": [
+                "Movement",
+                "Article",
+                "Adjective",
+                "Subject"
+              ],
+              "correct": 0,
+              "explanation": "To shows direction."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'I swim at night', what is the preposition?",
+              "options": [
+                "I",
+                "swim",
+                "at",
+                "night"
+              ],
+              "correct": 2,
+              "explanation": "At is the time preposition."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Put the shoes in the box', what is the preposition?",
+              "options": [
+                "put",
+                "shoes",
+                "in",
+                "box"
+              ],
+              "correct": 2,
+              "explanation": "In shows where to put the shoes."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Lean the box towards the wall', what is the preposition?",
+              "options": [
+                "lean",
+                "box",
+                "towards",
+                "wall"
+              ],
+              "correct": 2,
+              "explanation": "Towards shows movement/direction."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'My birthday is on Friday', what type of preposition is 'on'?",
+              "options": [
+                "Time",
+                "Place",
+                "Movement",
+                "Object"
+              ],
+              "correct": 0,
+              "explanation": "On Friday tells when."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'Her house is on the first street', what type of preposition is 'on'?",
+              "options": [
+                "Place",
+                "Time",
+                "Modal",
+                "Pronoun"
+              ],
+              "correct": 0,
+              "explanation": "On the first street tells where the house is."
+            },
+            {
+              "type": "mcq",
+              "question": "Which set contains location prepositions from the video?",
+              "options": [
+                "above, over, under, between",
+                "many, some, few",
+                "and, but, so",
+                "a, an, the"
+              ],
+              "correct": 0,
+              "explanation": "These are location prepositions."
+            }
           ]
         },
         {
@@ -149,21 +1139,1195 @@
           "image": "",
           "content": "### What is discussed in this video\n\nThis lesson explains **conjunctions**. A conjunction connects words, phrases, clauses, or sentences. It helps join simple ideas into stronger sentences.\n\nVideo example:\n\n- **I have a dog. I have a cat.**\n- Combined: **I have a dog and a cat.**\n\nThe repeated words can be removed, and the ideas can be joined.\n\n### Three main types\n\nThe video discusses:\n\n1. **Coordinating conjunctions**\n2. **Subordinating conjunctions**\n3. **Correlative conjunctions**\n\n### Coordinating conjunctions\n\nCoordinating conjunctions join similar words, phrases, or clauses.\n\nMemory word: **FANBOYS**\n\n- For\n- And\n- Nor\n- But\n- Or\n- Yet\n- So\n\nExample:\n\n- **I like dogs. I like cats.**\n- **I like dogs and cats.**\n\nFor longer full sentences, the video notes that you often need a comma before the coordinating conjunction.\n\n### Subordinating conjunctions\n\nSubordinating conjunctions show a relationship between two situations.\n\nExample:\n\n- **It was hot outside. The ice cream melted.**\n- **The ice cream melted since it was hot outside.**\n- **Since it was hot outside, the ice cream melted.**\n\nWhen the subordinating conjunction comes first, use a comma after the first part.\n\n### Correlative conjunctions\n\nCorrelative conjunctions work in pairs.\n\nCommon pairs:\n\n- either/or\n- neither/nor\n- not only/but also\n\nExample:\n\n- **I do not like pizza. I do not like pasta.**\n- **I like neither pizza nor pasta.**\n\n### Practice examples from the video\n\n- **I want chicken. I want fish.** -> **I want either chicken or fish.**\n- **I do not like blue. I like red.** -> **I do not like blue, but I like red.**\n- **I ate carrots. I got sick.** -> Better meaning: **I got sick because I ate carrots.**\n- **They play soccer. They play baseball.** -> **They not only play soccer but also play baseball.**\n- **It rained today. I got wet.** -> **It rained today, so I got wet.**\n- **The dog jumps. The dog runs.** -> **The dog jumps and runs.**",
           "questions": [
-            {"type": "mcq", "question": "What does a conjunction do?", "options": ["Connects words, clauses, or sentences", "Names a person", "Describes only a noun", "Shows only past tense"], "correct": 0, "explanation": "Conjunctions connect ideas."},
-            {"type": "mcq", "question": "Which conjunction joins 'I have a dog' and 'I have a cat'?", "options": ["and", "quickly", "the", "is"], "correct": 0, "explanation": "And joins the two similar ideas."},
-            {"type": "mcq", "question": "What does FANBOYS help you remember?", "options": ["Coordinating conjunctions", "Articles", "Pronouns", "Plural nouns"], "correct": 0, "explanation": "FANBOYS stands for coordinating conjunctions."},
-            {"type": "mcq", "question": "Which word is NOT part of FANBOYS?", "options": ["and", "but", "so", "because"], "correct": 3, "explanation": "Because is subordinating, not one of FANBOYS."},
-            {"type": "mcq", "question": "Combine: 'I like dogs. I like cats.'", "options": ["I like dogs and cats.", "I like dogs because cats.", "I like dogs the cats.", "I like dogs quickly cats."], "correct": 0, "explanation": "And joins the similar nouns."},
-            {"type": "mcq", "question": "What do subordinating conjunctions show?", "options": ["A relationship between two situations", "Only a proper noun", "Only a plural ending", "Only color"], "correct": 0, "explanation": "They show how one situation relates to another."},
-            {"type": "mcq", "question": "Which sentence correctly uses 'since'?", "options": ["The ice cream melted since it was hot outside.", "The ice cream since melted hot outside.", "Since melted the ice cream hot.", "The since ice cream was melted."], "correct": 0, "explanation": "Since shows the reason."},
-            {"type": "mcq", "question": "When a subordinating conjunction begins the sentence, what punctuation is used after the first part?", "options": ["Comma", "Apostrophe", "Colon only", "No punctuation ever"], "correct": 0, "explanation": "Example: Since it was hot outside, the ice cream melted."},
-            {"type": "mcq", "question": "Which pair is a correlative conjunction pair?", "options": ["either/or", "dog/cat", "a/the", "runs/jumps"], "correct": 0, "explanation": "Either/or works as a pair."},
-            {"type": "mcq", "question": "Which sentence correctly uses 'neither/nor'?", "options": ["I like neither pizza nor pasta.", "I neither like pizza or pasta.", "I like neither pizza and pasta.", "Neither I like pizza nor."], "correct": 0, "explanation": "The pair is neither/nor."},
-            {"type": "mcq", "question": "Combine: 'I want chicken. I want fish.'", "options": ["I want either chicken or fish.", "I want neither chicken but fish.", "I want chicken because fish.", "I want chicken quickly fish."], "correct": 0, "explanation": "Either/or joins the choices."},
-            {"type": "mcq", "question": "Combine: 'I do not like blue. I like red.'", "options": ["I do not like blue, but I like red.", "I do not like blue and I like red because.", "I do not like blue the red.", "I do not like blue quickly red."], "correct": 0, "explanation": "But shows contrast."},
-            {"type": "mcq", "question": "Which version gives the intended carrot meaning?", "options": ["I got sick because I ate carrots.", "I ate carrots because I got sick.", "Because carrots I sick ate.", "I sick carrots because got."], "correct": 0, "explanation": "Eating carrots caused the sickness."},
-            {"type": "mcq", "question": "Combine: 'It rained today. I got wet.'", "options": ["It rained today, so I got wet.", "It rained today or I got wet.", "It rained today the I got wet.", "It rained today quickly I got wet."], "correct": 0, "explanation": "So shows the result."},
-            {"type": "mcq", "question": "Combine: 'The dog jumps. The dog runs.'", "options": ["The dog jumps and runs.", "The dog jumps because runs.", "The dog and jumps the dog.", "The dog neither jumps but runs."], "correct": 0, "explanation": "And joins the two actions and removes repetition."}
+            {
+              "type": "mcq",
+              "question": "What does a conjunction do?",
+              "options": [
+                "Connects words, clauses, or sentences",
+                "Names a person",
+                "Describes only a noun",
+                "Shows only past tense"
+              ],
+              "correct": 0,
+              "explanation": "Conjunctions connect ideas."
+            },
+            {
+              "type": "mcq",
+              "question": "Which conjunction joins 'I have a dog' and 'I have a cat'?",
+              "options": [
+                "and",
+                "quickly",
+                "the",
+                "is"
+              ],
+              "correct": 0,
+              "explanation": "And joins the two similar ideas."
+            },
+            {
+              "type": "mcq",
+              "question": "What does FANBOYS help you remember?",
+              "options": [
+                "Coordinating conjunctions",
+                "Articles",
+                "Pronouns",
+                "Plural nouns"
+              ],
+              "correct": 0,
+              "explanation": "FANBOYS stands for coordinating conjunctions."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is NOT part of FANBOYS?",
+              "options": [
+                "and",
+                "but",
+                "so",
+                "because"
+              ],
+              "correct": 3,
+              "explanation": "Because is subordinating, not one of FANBOYS."
+            },
+            {
+              "type": "mcq",
+              "question": "Combine: 'I like dogs. I like cats.'",
+              "options": [
+                "I like dogs and cats.",
+                "I like dogs because cats.",
+                "I like dogs the cats.",
+                "I like dogs quickly cats."
+              ],
+              "correct": 0,
+              "explanation": "And joins the similar nouns."
+            },
+            {
+              "type": "mcq",
+              "question": "What do subordinating conjunctions show?",
+              "options": [
+                "A relationship between two situations",
+                "Only a proper noun",
+                "Only a plural ending",
+                "Only color"
+              ],
+              "correct": 0,
+              "explanation": "They show how one situation relates to another."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses 'since'?",
+              "options": [
+                "The ice cream melted since it was hot outside.",
+                "The ice cream since melted hot outside.",
+                "Since melted the ice cream hot.",
+                "The since ice cream was melted."
+              ],
+              "correct": 0,
+              "explanation": "Since shows the reason."
+            },
+            {
+              "type": "mcq",
+              "question": "When a subordinating conjunction begins the sentence, what punctuation is used after the first part?",
+              "options": [
+                "Comma",
+                "Apostrophe",
+                "Colon only",
+                "No punctuation ever"
+              ],
+              "correct": 0,
+              "explanation": "Example: Since it was hot outside, the ice cream melted."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pair is a correlative conjunction pair?",
+              "options": [
+                "either/or",
+                "dog/cat",
+                "a/the",
+                "runs/jumps"
+              ],
+              "correct": 0,
+              "explanation": "Either/or works as a pair."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses 'neither/nor'?",
+              "options": [
+                "I like neither pizza nor pasta.",
+                "I neither like pizza or pasta.",
+                "I like neither pizza and pasta.",
+                "Neither I like pizza nor."
+              ],
+              "correct": 0,
+              "explanation": "The pair is neither/nor."
+            },
+            {
+              "type": "mcq",
+              "question": "Combine: 'I want chicken. I want fish.'",
+              "options": [
+                "I want either chicken or fish.",
+                "I want neither chicken but fish.",
+                "I want chicken because fish.",
+                "I want chicken quickly fish."
+              ],
+              "correct": 0,
+              "explanation": "Either/or joins the choices."
+            },
+            {
+              "type": "mcq",
+              "question": "Combine: 'I do not like blue. I like red.'",
+              "options": [
+                "I do not like blue, but I like red.",
+                "I do not like blue and I like red because.",
+                "I do not like blue the red.",
+                "I do not like blue quickly red."
+              ],
+              "correct": 0,
+              "explanation": "But shows contrast."
+            },
+            {
+              "type": "mcq",
+              "question": "Which version gives the intended carrot meaning?",
+              "options": [
+                "I got sick because I ate carrots.",
+                "I ate carrots because I got sick.",
+                "Because carrots I sick ate.",
+                "I sick carrots because got."
+              ],
+              "correct": 0,
+              "explanation": "Eating carrots caused the sickness."
+            },
+            {
+              "type": "mcq",
+              "question": "Combine: 'It rained today. I got wet.'",
+              "options": [
+                "It rained today, so I got wet.",
+                "It rained today or I got wet.",
+                "It rained today the I got wet.",
+                "It rained today quickly I got wet."
+              ],
+              "correct": 0,
+              "explanation": "So shows the result."
+            },
+            {
+              "type": "mcq",
+              "question": "Combine: 'The dog jumps. The dog runs.'",
+              "options": [
+                "The dog jumps and runs.",
+                "The dog jumps because runs.",
+                "The dog and jumps the dog.",
+                "The dog neither jumps but runs."
+              ],
+              "correct": 0,
+              "explanation": "And joins the two actions and removes repetition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verb Conjugation",
+      "subtopics": [
+        {
+          "id": "udemy_verb_conj_01_learn_it",
+          "title": "Learn it! - Verb Conjugation (1st, 2nd, 3rd Person)",
+          "image": "",
+          "content": "This lesson explains verb conjugation: changing the form of a verb so it agrees with the subject and the sentence. The instructor names four properties that can affect a verb: person, number, tense, and mood. This class focuses mainly on person, number, and tense, especially in the simple present tense. Mood is mentioned as another property, but it is not taught in detail here.\n\nPerson tells us whether the subject is first person, second person, or third person. First person includes I and we. Second person is you, whether you means one person or a group. Third person includes he, she, it, and they. Number tells us whether the subject is singular or plural. I is first person singular. We is first person plural. You is second person singular or plural depending on context. He, she, and it are third person singular. They is third person plural.\n\nThe main simple present rule is this: most subjects use the base form of the verb, but third person singular subjects add s or es. The instructor contrasts I eat apples with he eats apples. The verb is the same verb, to eat, but the subject changes from I to he, so the verb changes from eat to eats. More examples from the lesson are I walk to school, we walk to school, you walk to school, they walk to school, but he walks to school. Likewise, I eat breakfast, we eat breakfast, you eat breakfast, and they eat breakfast use eat, while she eats breakfast uses eats.\n\nSubject pronouns replace a subject name or title. John likes bread can become he likes bread because John is male and singular. John and I like bread can become we like bread because the subject includes the speaker and another person. John and Mary walk to school can become they walk to school because it is a third person plural subject. Sara stretches for yoga class can become she stretches for yoga class because Sara is third person singular. Sarah and John stretch for yoga class can become they stretch for yoga class because the subject is plural.\n\nThe lesson also introduces irregular verbs. Regular verbs follow the normal pattern: base form for most subjects, s or es for third person singular. The verb to be is irregular because it has special simple present forms: I am, you are, he/she/it is, we are, and they are. In the simple past, to be uses was and were: I was, he/she/it was, you were, we were, and they were. The big memory tip is: in simple present, first check whether the subject is third person singular. If it is he, she, it, or one singular noun, add s or es to regular verbs. If not, use the base form. For to be, memorize the special forms.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "What is verb conjugation?",
+              "options": [
+                "Changing a verb form to match grammar",
+                "Changing a noun into a pronoun",
+                "Adding an adjective before every verb",
+                "Removing the subject from a sentence"
+              ],
+              "correct": 0,
+              "explanation": "The lesson defines conjugation as changing the form of a verb."
+            },
+            {
+              "type": "mcq",
+              "question": "Which three verb properties does this lesson focus on most?",
+              "options": [
+                "Person, number, and tense",
+                "Mood, voice, and spelling",
+                "Article, noun, and adjective",
+                "Punctuation, stress, and rhythm"
+              ],
+              "correct": 0,
+              "explanation": "The instructor mentions person, number, tense, and mood, but focuses on person, number, and tense."
+            },
+            {
+              "type": "mcq",
+              "question": "In the lesson's example, why does 'I eat apples' become 'he eats apples'?",
+              "options": [
+                "Because he is third person singular",
+                "Because apples is plural",
+                "Because eat is always irregular",
+                "Because I is past tense"
+              ],
+              "correct": 0,
+              "explanation": "He is third person singular, so simple present regular verbs add s or es."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject pronouns are first person?",
+              "options": [
+                "I and we",
+                "You and they",
+                "He and she",
+                "It and they"
+              ],
+              "correct": 0,
+              "explanation": "I is first person singular and we is first person plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject pronoun is second person?",
+              "options": [
+                "You",
+                "I",
+                "He",
+                "They"
+              ],
+              "correct": 0,
+              "explanation": "You is the second person pronoun, whether singular or plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Which set contains only third person pronouns?",
+              "options": [
+                "He, she, it, they",
+                "I, we, you",
+                "I, he, we",
+                "You, we, they"
+              ],
+              "correct": 0,
+              "explanation": "He, she, it, and they are third person pronouns."
+            },
+            {
+              "type": "mcq",
+              "question": "What does singular mean for a subject?",
+              "options": [
+                "One person or thing",
+                "Two or more people or things",
+                "Only a verb",
+                "Only a place"
+              ],
+              "correct": 0,
+              "explanation": "A singular subject is one person or thing."
+            },
+            {
+              "type": "mcq",
+              "question": "What does plural mean for a subject?",
+              "options": [
+                "Two or more people or things",
+                "Exactly one thing",
+                "A verb in past tense",
+                "A sentence with no subject"
+              ],
+              "correct": 0,
+              "explanation": "A plural subject means two or more people or things."
+            },
+            {
+              "type": "mcq",
+              "question": "How should you describe the subject 'I'?",
+              "options": [
+                "First person singular",
+                "First person plural",
+                "Second person plural",
+                "Third person singular"
+              ],
+              "correct": 0,
+              "explanation": "I is first person singular."
+            },
+            {
+              "type": "mcq",
+              "question": "How should you describe the subject 'we'?",
+              "options": [
+                "First person plural",
+                "Second person singular",
+                "Third person singular",
+                "Third person plural"
+              ],
+              "correct": 0,
+              "explanation": "We includes the speaker and at least one other person, so it is first person plural."
+            },
+            {
+              "type": "mcq",
+              "question": "How should you describe 'he', 'she', and 'it'?",
+              "options": [
+                "Third person singular",
+                "Third person plural",
+                "Second person singular",
+                "First person plural"
+              ],
+              "correct": 0,
+              "explanation": "He, she, and it are third person singular subjects."
+            },
+            {
+              "type": "mcq",
+              "question": "How should you describe 'they'?",
+              "options": [
+                "Third person plural",
+                "Third person singular",
+                "Second person plural",
+                "First person singular"
+              ],
+              "correct": 0,
+              "explanation": "They is third person plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses the base form with a first person singular subject?",
+              "options": [
+                "I walk to school.",
+                "I walks to school.",
+                "I walking to school.",
+                "I is walk to school."
+              ],
+              "correct": 0,
+              "explanation": "With I in simple present, use the base form: walk."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses the base form with a first person plural subject?",
+              "options": [
+                "We eat breakfast every morning.",
+                "We eats breakfast every morning.",
+                "We is eating breakfast every morning.",
+                "We eaten breakfast every morning."
+              ],
+              "correct": 0,
+              "explanation": "With we in simple present, use the base form: eat."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses a second person subject?",
+              "options": [
+                "You need to take a break.",
+                "You needs to take a break.",
+                "You is need to take a break.",
+                "You needing to take a break."
+              ],
+              "correct": 0,
+              "explanation": "You uses the base form in simple present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses a third person singular subject?",
+              "options": [
+                "She eats breakfast every morning.",
+                "She eat breakfast every morning.",
+                "She eating breakfast every morning.",
+                "She are eat breakfast every morning."
+              ],
+              "correct": 0,
+              "explanation": "She is third person singular, so eat becomes eats."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses a third person plural subject?",
+              "options": [
+                "They walk to school.",
+                "They walks to school.",
+                "They is walk to school.",
+                "They walking to school."
+              ],
+              "correct": 0,
+              "explanation": "They is third person plural, so the verb stays in the base form."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'It snows during winter,' why does the verb end in s?",
+              "options": [
+                "It is third person singular",
+                "Winter is singular",
+                "Snow is always plural",
+                "The sentence is future tense"
+              ],
+              "correct": 0,
+              "explanation": "It is third person singular, so the simple present verb adds s."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the best simple present memory tip from the lesson?",
+              "options": [
+                "Check whether the subject is third person singular",
+                "Always add s to every verb",
+                "Always use are with every subject",
+                "Ignore the subject and change the object"
+              ],
+              "correct": 0,
+              "explanation": "The instructor says to check whether the subject is he, she, it, or another third person singular subject."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject pronoun correctly replaces 'John' in 'John likes bread'?",
+              "options": [
+                "He",
+                "We",
+                "They",
+                "It"
+              ],
+              "correct": 0,
+              "explanation": "John is a male singular subject, so he is the correct pronoun."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject pronoun correctly replaces 'John and I' in 'John and I like bread'?",
+              "options": [
+                "We",
+                "They",
+                "He",
+                "You"
+              ],
+              "correct": 0,
+              "explanation": "John and I includes the speaker plus another person, so use we."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly replaces 'John and Mary walk to school'?",
+              "options": [
+                "They walk to school.",
+                "They walks to school.",
+                "He walks to school.",
+                "It walks to school."
+              ],
+              "correct": 0,
+              "explanation": "John and Mary are third person plural, so use they and the base form walk."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly replaces 'Sara stretches for yoga class'?",
+              "options": [
+                "She stretches for yoga class.",
+                "She stretch for yoga class.",
+                "They stretches for yoga class.",
+                "It stretch for yoga class."
+              ],
+              "correct": 0,
+              "explanation": "Sara is third person singular, so use she and stretches."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly replaces 'Sarah and John stretch for yoga class'?",
+              "options": [
+                "They stretch for yoga class.",
+                "They stretches for yoga class.",
+                "She stretches for yoga class.",
+                "He stretch for yoga class."
+              ],
+              "correct": 0,
+              "explanation": "Sarah and John are third person plural, so use they and the base form stretch."
+            },
+            {
+              "type": "mcq",
+              "question": "Which simple present form of to be goes with I?",
+              "options": [
+                "am",
+                "is",
+                "are",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "The lesson gives I am as the correct simple present form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which simple present form of to be goes with he, she, or it?",
+              "options": [
+                "is",
+                "am",
+                "are",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "The lesson gives he is, she is, and it is."
+            },
+            {
+              "type": "mcq",
+              "question": "Which simple present form of to be goes with we, you, and they?",
+              "options": [
+                "are",
+                "am",
+                "is",
+                "was"
+              ],
+              "correct": 0,
+              "explanation": "The lesson gives you are, we are, and they are."
+            },
+            {
+              "type": "mcq",
+              "question": "Which past form of to be goes with I and he/she/it?",
+              "options": [
+                "was",
+                "were",
+                "am",
+                "are"
+              ],
+              "correct": 0,
+              "explanation": "The lesson says I was and he/she/it was."
+            },
+            {
+              "type": "mcq",
+              "question": "Which past form of to be goes with you, we, and they?",
+              "options": [
+                "were",
+                "was",
+                "is",
+                "am"
+              ],
+              "correct": 0,
+              "explanation": "The lesson says you were, we were, and they were."
+            }
+          ]
+        },
+        {
+          "id": "udemy_verb_conj_02_review_it",
+          "title": "Review it! - Verb Conjugation (1st, 2nd, 3rd Person)",
+          "image": "",
+          "content": "The review lesson turns the rules into quiz-style decisions. For third person singular subjects, he, she, and it, regular verbs in the simple present add s or es. The instructor's example is he watches TV every evening. Because watch ends in ch, the spelling takes es, producing watches.\n\nFor simple present negatives, use do not/don't or does not/doesn't plus the base form of the main verb. The subject controls do or does. She does not like coffee becomes she doesn't like coffee. Does carries the third person singular change, so the main verb stays as like, not likes. They do not eat meat or they don't eat meat uses do because they is third person plural.\n\nFor questions in the simple present, use do or does before the subject. The instructor calls this inversion because the helping verb moves before the subject. Does she like pizza? is correct, not Does she likes pizza? Do they work on weekends? is correct because they is third person plural, so do is used and work stays in the base form.\n\nThe review also practices the irregular verb to be. We are ready to go is correct because we takes are. We are excited about the trip is correct for the same reason. I am, you are, he/she/it is, we are, and they are must be memorized. The review includes subject-pronoun practice: Mrs. Glaire is the friendliest person on earth becomes she; a bird is sitting on my windowsill becomes it when its gender is unknown; the Lakers are going to stay at our place becomes they when the sentence means a family/group. The review ends with forms of to be: my parents are, Steve is, I am, are you free tonight, and it was so cold yesterday because yesterday signals past time.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Which rule correctly describes third person singular in simple present?",
+              "options": [
+                "Add s or es to the base form",
+                "Use the base form for all subjects",
+                "Use are for every subject",
+                "Use was for every subject"
+              ],
+              "correct": 0,
+              "explanation": "The review says third person singular subjects add s or es."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence from the review correctly shows third person singular?",
+              "options": [
+                "He watches TV every evening.",
+                "He watch TV every evening.",
+                "He are watching TV every evening.",
+                "He do watch TV every evening."
+              ],
+              "correct": 0,
+              "explanation": "He is third person singular, so watch becomes watches."
+            },
+            {
+              "type": "mcq",
+              "question": "Why does 'watch' become 'watches' in the review example?",
+              "options": [
+                "Watch ends in ch, so it takes es",
+                "All verbs always take es",
+                "He is plural",
+                "TV is singular"
+              ],
+              "correct": 0,
+              "explanation": "The instructor notes that verbs ending in ch take es."
+            },
+            {
+              "type": "mcq",
+              "question": "Which structure forms simple present negatives correctly?",
+              "options": [
+                "do not/don't or does not/doesn't + base verb",
+                "is not + past verb",
+                "add s to the main verb",
+                "was not + base verb for all subjects"
+              ],
+              "correct": 0,
+              "explanation": "The review gives do not/don't or does not/doesn't with the base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence is correct?",
+              "options": [
+                "She doesn't like coffee.",
+                "She doesn't likes coffee.",
+                "She don't likes coffee.",
+                "She not like coffee."
+              ],
+              "correct": 0,
+              "explanation": "Doesn't carries the third person singular change, so like stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'She doesn't like coffee,' why is the main verb 'like' not 'likes'?",
+              "options": [
+                "Does is already conjugated",
+                "Coffee is singular",
+                "Negative sentences never use verbs",
+                "She is plural"
+              ],
+              "correct": 0,
+              "explanation": "The helping verb does is the conjugated verb; the main verb stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which form is used with you in simple present?",
+              "options": [
+                "The base form",
+                "The verb with s or es",
+                "The past form",
+                "The infinitive with to"
+              ],
+              "correct": 0,
+              "explanation": "The review states that you uses the base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses you?",
+              "options": [
+                "You walk to work every day.",
+                "You walks to work every day.",
+                "You does walk to work every day.",
+                "You is walk to work every day."
+              ],
+              "correct": 0,
+              "explanation": "You takes the base form walk."
+            },
+            {
+              "type": "mcq",
+              "question": "Which question is correctly formed?",
+              "options": [
+                "Does she like pizza?",
+                "Does she likes pizza?",
+                "She does like pizza?",
+                "She do like pizza?"
+              ],
+              "correct": 0,
+              "explanation": "In a simple present question, does comes before she and like stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which question from the review is correct for they?",
+              "options": [
+                "Do they work on weekends?",
+                "Does they work on weekends?",
+                "Do they works on weekends?",
+                "They do works on weekends?"
+              ],
+              "correct": 0,
+              "explanation": "They is third person plural, so use do and keep work in base form."
+            },
+            {
+              "type": "mcq",
+              "question": "What does inversion mean in the review's question explanation?",
+              "options": [
+                "The helping verb moves before the subject",
+                "The subject is removed",
+                "The main verb becomes past tense",
+                "The object becomes the subject"
+              ],
+              "correct": 0,
+              "explanation": "The instructor explains that in questions the verb and subject switch places."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the correct simple present to be form with we?",
+              "options": [
+                "We are",
+                "We is",
+                "We am",
+                "We was"
+              ],
+              "correct": 0,
+              "explanation": "The review asks this directly and gives we are."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence is correct?",
+              "options": [
+                "We are ready to go.",
+                "We is ready to go.",
+                "We am ready to go.",
+                "We was ready to go."
+              ],
+              "correct": 0,
+              "explanation": "We takes are in the simple present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'She ___ to the market every Saturday.'",
+              "options": [
+                "goes",
+                "go",
+                "going",
+                "are going"
+              ],
+              "correct": 0,
+              "explanation": "She is third person singular, and go becomes goes."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'They ___ meat.'",
+              "options": [
+                "do not eat",
+                "does not eat",
+                "do not eats",
+                "does not eats"
+              ],
+              "correct": 0,
+              "explanation": "They is third person plural, so use do not plus the base form eat."
+            },
+            {
+              "type": "mcq",
+              "question": "Which question is correct?",
+              "options": [
+                "Does he play the piano?",
+                "Do he play the piano?",
+                "Does he plays the piano?",
+                "He does plays the piano?"
+              ],
+              "correct": 0,
+              "explanation": "He is third person singular, so use does; play stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'We ___ excited about the trip.'",
+              "options": [
+                "are",
+                "is",
+                "am",
+                "was"
+              ],
+              "correct": 0,
+              "explanation": "We takes are in the simple present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'You ___ to finish your homework before dinner.'",
+              "options": [
+                "need",
+                "needs",
+                "does need",
+                "is need"
+              ],
+              "correct": 0,
+              "explanation": "You takes the base form need."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pronoun best replaces 'Mrs. Glaire' in the review sentence?",
+              "options": [
+                "She",
+                "It",
+                "They",
+                "We"
+              ],
+              "correct": 0,
+              "explanation": "Mrs. Glaire is referred to as she."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pronoun can replace 'a bird' when its gender is unknown?",
+              "options": [
+                "It",
+                "He",
+                "We",
+                "You"
+              ],
+              "correct": 0,
+              "explanation": "The review says an animal of unknown gender can generally be referred to as it."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pronoun replaces 'the Lakers' when the sentence means a family/group staying at your place?",
+              "options": [
+                "They",
+                "It",
+                "He",
+                "She"
+              ],
+              "correct": 0,
+              "explanation": "The review treats the Lakers as a group of people, so use they."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'My parents ___ watching a movie.'",
+              "options": [
+                "are",
+                "is",
+                "am",
+                "was"
+              ],
+              "correct": 0,
+              "explanation": "My parents is third person plural, like they, so use are."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'Steve ___ playing outside.'",
+              "options": [
+                "is",
+                "are",
+                "am",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "Steve is third person singular, so use is."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct? 'I ___ melting on the couch.'",
+              "options": [
+                "am",
+                "is",
+                "are",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "I takes am."
+            },
+            {
+              "type": "mcq",
+              "question": "Which question is correct?",
+              "options": [
+                "Are you free tonight?",
+                "Is you free tonight?",
+                "Am you free tonight?",
+                "Was you free tonight?"
+              ],
+              "correct": 0,
+              "explanation": "You takes are, and questions place are before the subject."
+            },
+            {
+              "type": "mcq",
+              "question": "Why is 'It was so cold yesterday' correct instead of 'It is so cold yesterday'?",
+              "options": [
+                "Yesterday signals past time",
+                "It is plural",
+                "Cold is a verb",
+                "Was is always present tense"
+              ],
+              "correct": 0,
+              "explanation": "The review points out that yesterday moves the sentence into the past."
+            }
+          ]
+        },
+        {
+          "id": "udemy_verb_conj_03_use_it",
+          "title": "Use it! - Verb Conjugation (1st, 2nd, 3rd Person)",
+          "image": "",
+          "content": "The use-it lesson gives a short conversation so learners can hear verb conjugation in natural speech. A grandchild asks a grandmother about an old goal. The story includes past simple forms, present simple forms, and to be forms. The grandmother says, When I was your age, I wanted to become a nurse. I liked the idea of helping people when they needed it the most. The child asks, Why aren't you a nurse then, Grandma? She answers, Well, sweetie, we grow up and sometimes our goals change. I'm a teacher now, and I have never regretted my choice. The child replies, And you are helping people anyway. The grandmother says, That's true.\n\nThe point is not only to memorize a chart, but to notice conjugation inside real sentences. I was uses the past form of to be with first person singular. I wanted and I liked show regular past tense with ed. They needed uses regular past tense with ed. We grow and our goals change are simple present plural subjects using the base form. I am, contracted as I'm, identifies the speaker now. You are uses the second person form of to be. The story also shows that verb forms depend on meaning and time: was, wanted, liked, and needed point to the past, while grow, change, am, and are describe the present.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "What is the purpose of the use-it lesson?",
+              "options": [
+                "To hear verb conjugation in real conversation",
+                "To list only dictionary definitions",
+                "To remove subjects from sentences",
+                "To teach only punctuation"
+              ],
+              "correct": 0,
+              "explanation": "The lecture uses a short story so learners hear conjugation in context."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'When I was your age,' what form of to be is used?",
+              "options": [
+                "was",
+                "were",
+                "am",
+                "are"
+              ],
+              "correct": 0,
+              "explanation": "I was is the past form used in the story."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence from the story uses a regular past tense verb?",
+              "options": [
+                "I wanted to become a nurse.",
+                "We grow up.",
+                "You are helping people.",
+                "I'm a teacher now."
+              ],
+              "correct": 0,
+              "explanation": "Wanted is a regular past tense form ending in ed."
+            },
+            {
+              "type": "mcq",
+              "question": "Which verb in 'I liked the idea of helping people' is regular past tense?",
+              "options": [
+                "liked",
+                "helping",
+                "idea",
+                "people"
+              ],
+              "correct": 0,
+              "explanation": "Liked is the regular past form of like."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'when they needed it the most,' what does needed show?",
+              "options": [
+                "Regular past tense",
+                "Simple present third person singular",
+                "Future tense",
+                "A subject pronoun"
+              ],
+              "correct": 0,
+              "explanation": "Needed is a regular past tense verb."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'we grow up,' why is grow in the base form?",
+              "options": [
+                "We is first person plural",
+                "We is third person singular",
+                "Grow is a noun",
+                "Past tense always uses base form"
+              ],
+              "correct": 0,
+              "explanation": "We is first person plural, so the simple present verb stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'our goals change,' why is change in the base form?",
+              "options": [
+                "The subject goals is plural",
+                "Goals is third person singular",
+                "Change is past tense",
+                "The sentence has no subject"
+              ],
+              "correct": 0,
+              "explanation": "Goals is plural, so the simple present verb stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "What is 'I'm' a contraction of?",
+              "options": [
+                "I am",
+                "I is",
+                "I are",
+                "I was"
+              ],
+              "correct": 0,
+              "explanation": "I'm contracts I am."
+            },
+            {
+              "type": "mcq",
+              "question": "Which form appears in 'you are helping people anyway'?",
+              "options": [
+                "you are",
+                "you is",
+                "you am",
+                "you was"
+              ],
+              "correct": 0,
+              "explanation": "You takes are."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence refers to a present role?",
+              "options": [
+                "I'm a teacher now.",
+                "When I was your age.",
+                "I wanted to become a nurse.",
+                "I liked the idea."
+              ],
+              "correct": 0,
+              "explanation": "Now signals the present, and I'm means I am."
+            }
+          ]
+        },
+        {
+          "id": "udemy_verb_conj_04_practice_it",
+          "title": "Practice it! - Verb Conjugation (1st, 2nd, 3rd Person)",
+          "image": "",
+          "content": "The practice lesson asks learners to identify whether verbs stand in the first, second, or third person and then fill gaps with the correct form of to be. The first set of practice sentences is: Why can't we find common ground? You should be attentive to details. These jeans are too tight. I was too shy to say a word. The Potts will be attending the ceremony as well. The answers are: we = first person, you = second person, these jeans = third person, I = first person, and The Potts = third person.\n\nThe second practice set focuses on to be. The completed answers are: You must be kidding me. How is this possible? If we are invited, we need to think of a present. We have been here for ages. Someone called you when you were running outside. I am so frustrated. Why is it so difficult to find a paid internship now?\n\nThe practice lesson reinforces two habits. First, identify the subject before choosing the verb form. Second, notice whether the sentence needs a present form, past form, participle, or base form of to be. You must be uses the base form after must. How is this possible? uses is because this is third person singular. We are invited uses are with we. We have been uses the past participle been after have. You were running uses were because the sentence is past continuous with you. I am uses am. Why is it difficult? uses is because the subject it is third person singular.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "In 'Why can't we find common ground?', what person is the subject?",
+              "options": [
+                "First person",
+                "Second person",
+                "Third person",
+                "No person"
+              ],
+              "correct": 0,
+              "explanation": "We is first person plural."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'You should be attentive to details,' what person is the subject?",
+              "options": [
+                "Second person",
+                "First person",
+                "Third person",
+                "No person"
+              ],
+              "correct": 0,
+              "explanation": "You is second person."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'These jeans are too tight,' what person is the subject?",
+              "options": [
+                "Third person",
+                "First person",
+                "Second person",
+                "No person"
+              ],
+              "correct": 0,
+              "explanation": "These jeans is a third person subject."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'I was too shy to say a word,' what person is the subject?",
+              "options": [
+                "First person",
+                "Second person",
+                "Third person",
+                "No person"
+              ],
+              "correct": 0,
+              "explanation": "I is first person singular."
+            },
+            {
+              "type": "mcq",
+              "question": "In 'The Potts will be attending the ceremony as well,' what person is the subject?",
+              "options": [
+                "Third person",
+                "First person",
+                "Second person",
+                "No person"
+              ],
+              "correct": 0,
+              "explanation": "The Potts is a third person subject."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice sentence: 'You must ___ kidding me.'",
+              "options": [
+                "be",
+                "is",
+                "am",
+                "are"
+              ],
+              "correct": 0,
+              "explanation": "After must, use the base form be."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice question: 'How ___ this possible?'",
+              "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+              ],
+              "correct": 0,
+              "explanation": "This is third person singular, so use is."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice sentence: 'If we ___ invited, we need to think of a present.'",
+              "options": [
+                "are",
+                "is",
+                "am",
+                "be"
+              ],
+              "correct": 0,
+              "explanation": "We takes are."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice sentence: 'We have ___ here for ages.'",
+              "options": [
+                "been",
+                "are",
+                "be",
+                "was"
+              ],
+              "correct": 0,
+              "explanation": "After have in this perfect form, use the past participle been."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice sentence: 'Someone called you when you ___ running outside.'",
+              "options": [
+                "were",
+                "was",
+                "are",
+                "be"
+              ],
+              "correct": 0,
+              "explanation": "You takes were in this past continuous sentence."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice sentence: 'I ___ so frustrated.'",
+              "options": [
+                "am",
+                "is",
+                "are",
+                "be"
+              ],
+              "correct": 0,
+              "explanation": "I takes am."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice question: 'Why ___ it so difficult to find a paid internship now?'",
+              "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+              ],
+              "correct": 0,
+              "explanation": "It is third person singular, so use is."
+            },
+            {
+              "type": "mcq",
+              "question": "What should you identify before choosing a verb form?",
+              "options": [
+                "The subject",
+                "Only the final word",
+                "Only the punctuation",
+                "Only the object"
+              ],
+              "correct": 0,
+              "explanation": "The practice lesson repeatedly starts by identifying the subject."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence uses a first person plural subject?",
+              "options": [
+                "We have been here for ages.",
+                "You must be kidding me.",
+                "How is this possible?",
+                "I am so frustrated."
+              ],
+              "correct": 0,
+              "explanation": "We is first person plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence uses a second person subject?",
+              "options": [
+                "You should be attentive to details.",
+                "These jeans are too tight.",
+                "I was too shy to say a word.",
+                "The Potts will be attending the ceremony."
+              ],
+              "correct": 0,
+              "explanation": "You is second person."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence uses a third person singular subject?",
+              "options": [
+                "How is this possible?",
+                "We are invited.",
+                "You were running outside.",
+                "I am frustrated."
+              ],
+              "correct": 0,
+              "explanation": "This is third person singular and takes is."
+            }
           ]
         }
       ]
