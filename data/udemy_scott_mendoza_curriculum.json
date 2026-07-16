@@ -1824,24 +1824,24 @@
               "type": "mcq",
               "question": "Which rule correctly describes third person singular in simple present?",
               "options": [
+                "Add s or es to the base form",
                 "Use the base form for all subjects",
                 "Use are for every subject",
-                "Use was for every subject",
-                "Add s or es to the base form"
+                "Use was for every subject"
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "The review says third person singular subjects add s or es."
             },
             {
               "type": "mcq",
               "question": "Which sentence from the review correctly shows third person singular?",
               "options": [
-                "He watches TV every evening.",
                 "He watch TV every evening.",
+                "He watches TV every evening.",
                 "He are watching TV every evening.",
                 "He do watch TV every evening."
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "He is third person singular, so watch becomes watches."
             },
             {
@@ -1849,11 +1849,11 @@
               "question": "Why does 'watch' become 'watches' in the review example?",
               "options": [
                 "All verbs always take es",
-                "Watch ends in ch, so it takes es",
                 "He is plural",
+                "Watch ends in ch, so it takes es",
                 "TV is singular"
               ],
-              "correct": 1,
+              "correct": 2,
               "explanation": "The instructor notes that verbs ending in ch take es."
             },
             {
@@ -1862,34 +1862,34 @@
               "options": [
                 "is not + past verb",
                 "add s to the main verb",
-                "do not/don't or does not/doesn't + base verb",
-                "was not + base verb for all subjects"
+                "was not + base verb for all subjects",
+                "do not/don't or does not/doesn't + base verb"
               ],
-              "correct": 2,
+              "correct": 3,
               "explanation": "The review gives do not/don't or does not/doesn't with the base form."
             },
             {
               "type": "mcq",
               "question": "Which sentence is correct?",
               "options": [
+                "She doesn't like coffee.",
                 "She doesn't likes coffee.",
                 "She don't likes coffee.",
-                "She not like coffee.",
-                "She doesn't like coffee."
+                "She not like coffee."
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "Doesn't carries the third person singular change, so like stays base form."
             },
             {
               "type": "mcq",
               "question": "In 'She doesn't like coffee,' why is the main verb 'like' not 'likes'?",
               "options": [
-                "Does is already conjugated",
                 "Coffee is singular",
+                "Does is already conjugated",
                 "Negative sentences never use verbs",
                 "She is plural"
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "The helping verb does is the conjugated verb; the main verb stays base form."
             },
             {
@@ -1897,11 +1897,11 @@
               "question": "Which form is used with you in simple present?",
               "options": [
                 "The verb with s or es",
-                "The base form",
                 "The past form",
+                "The base form",
                 "The infinitive with to"
               ],
-              "correct": 1,
+              "correct": 2,
               "explanation": "The review states that you uses the base form."
             },
             {
@@ -1910,34 +1910,34 @@
               "options": [
                 "You walks to work every day.",
                 "You does walk to work every day.",
-                "You walk to work every day.",
-                "You is walk to work every day."
+                "You is walk to work every day.",
+                "You walk to work every day."
               ],
-              "correct": 2,
+              "correct": 3,
               "explanation": "You takes the base form walk."
             },
             {
               "type": "mcq",
               "question": "Which question is correctly formed?",
               "options": [
+                "Does she like pizza?",
                 "Does she likes pizza?",
                 "She does like pizza?",
-                "She do like pizza?",
-                "Does she like pizza?"
+                "She do like pizza?"
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "In a simple present question, does comes before she and like stays base form."
             },
             {
               "type": "mcq",
               "question": "Which question from the review is correct for they?",
               "options": [
-                "Do they work on weekends?",
                 "Does they work on weekends?",
+                "Do they work on weekends?",
                 "Do they works on weekends?",
                 "They do works on weekends?"
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "They is third person plural, so use do and keep work in base form."
             },
             {
@@ -1945,11 +1945,11 @@
               "question": "What does inversion mean in the review's question explanation?",
               "options": [
                 "The subject is removed",
-                "The helping verb moves before the subject",
                 "The main verb becomes past tense",
+                "The helping verb moves before the subject",
                 "The object becomes the subject"
               ],
-              "correct": 1,
+              "correct": 2,
               "explanation": "The instructor explains that in questions the verb and subject switch places."
             },
             {
@@ -1958,34 +1958,34 @@
               "options": [
                 "We is",
                 "We am",
-                "We are",
-                "We was"
+                "We was",
+                "We are"
               ],
-              "correct": 2,
+              "correct": 3,
               "explanation": "The review asks this directly and gives we are."
             },
             {
               "type": "mcq",
               "question": "Which sentence is correct?",
               "options": [
+                "We are ready to go.",
                 "We is ready to go.",
                 "We am ready to go.",
-                "We was ready to go.",
-                "We are ready to go."
+                "We was ready to go."
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "We takes are in the simple present."
             },
             {
               "type": "mcq",
               "question": "Which completed sentence is correct? 'She ___ to the market every Saturday.'",
               "options": [
-                "goes",
                 "go",
+                "goes",
                 "going",
                 "are going"
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "She is third person singular, and go becomes goes."
             },
             {
@@ -1993,11 +1993,11 @@
               "question": "Which completed sentence is correct? 'They ___ meat.'",
               "options": [
                 "does not eat",
-                "do not eat",
                 "do not eats",
+                "do not eat",
                 "does not eats"
               ],
-              "correct": 1,
+              "correct": 2,
               "explanation": "They is third person plural, so use do not plus the base form eat."
             },
             {
@@ -2006,34 +2006,34 @@
               "options": [
                 "Do he play the piano?",
                 "Does he plays the piano?",
-                "Does he play the piano?",
-                "He does plays the piano?"
+                "He does plays the piano?",
+                "Does he play the piano?"
               ],
-              "correct": 2,
+              "correct": 3,
               "explanation": "He is third person singular, so use does; play stays base form."
             },
             {
               "type": "mcq",
               "question": "Which completed sentence is correct? 'We ___ excited about the trip.'",
               "options": [
+                "are",
                 "is",
                 "am",
-                "was",
-                "are"
+                "was"
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "We takes are in the simple present."
             },
             {
               "type": "mcq",
               "question": "Which completed sentence is correct? 'You ___ to finish your homework before dinner.'",
               "options": [
-                "need",
                 "needs",
+                "need",
                 "does need",
                 "is need"
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "You takes the base form need."
             },
             {
@@ -2041,11 +2041,11 @@
               "question": "Which pronoun best replaces 'Mrs. Glaire' in the review sentence?",
               "options": [
                 "It",
-                "She",
                 "They",
+                "She",
                 "We"
               ],
-              "correct": 1,
+              "correct": 2,
               "explanation": "Mrs. Glaire is referred to as she."
             },
             {
@@ -2054,34 +2054,34 @@
               "options": [
                 "He",
                 "We",
-                "It",
-                "You"
+                "You",
+                "It"
               ],
-              "correct": 2,
+              "correct": 3,
               "explanation": "The review says an animal of unknown gender can generally be referred to as it."
             },
             {
               "type": "mcq",
               "question": "Which pronoun replaces 'the Lakers' when the sentence means a family/group staying at your place?",
               "options": [
+                "They",
                 "It",
                 "He",
-                "She",
-                "They"
+                "She"
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "The review treats the Lakers as a group of people, so use they."
             },
             {
               "type": "mcq",
               "question": "Which completed sentence is correct? 'My parents ___ watching a movie.'",
               "options": [
-                "are",
                 "is",
+                "are",
                 "am",
                 "was"
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "My parents is third person plural, like they, so use are."
             },
             {
@@ -2089,11 +2089,11 @@
               "question": "Which completed sentence is correct? 'Steve ___ playing outside.'",
               "options": [
                 "are",
-                "is",
                 "am",
+                "is",
                 "were"
               ],
-              "correct": 1,
+              "correct": 2,
               "explanation": "Steve is third person singular, so use is."
             },
             {
@@ -2102,274 +2102,58 @@
               "options": [
                 "is",
                 "are",
-                "am",
-                "were"
+                "were",
+                "am"
               ],
-              "correct": 2,
+              "correct": 3,
               "explanation": "I takes am."
             },
             {
               "type": "mcq",
               "question": "Which question is correct?",
               "options": [
+                "Are you free tonight?",
                 "Is you free tonight?",
                 "Am you free tonight?",
-                "Was you free tonight?",
-                "Are you free tonight?"
+                "Was you free tonight?"
               ],
-              "correct": 3,
+              "correct": 0,
               "explanation": "You takes are, and questions place are before the subject."
             },
             {
               "type": "mcq",
               "question": "Why is 'It was so cold yesterday' correct instead of 'It is so cold yesterday'?",
               "options": [
-                "Yesterday signals past time",
                 "It is plural",
+                "Yesterday signals past time",
                 "Cold is a verb",
                 "Was is always present tense"
               ],
-              "correct": 0,
+              "correct": 1,
               "explanation": "The review points out that yesterday moves the sentence into the past."
-            },
-            {
-              "type": "mcq",
-              "question": "In the review video, why is 'He watches TV every evening' correct?",
-              "options": [
-                "He is plural and watch takes es",
-                "He is third person singular and watch takes es",
-                "TV is third person singular",
-                "Every evening makes the verb past tense"
-              ],
-              "correct": 1,
-              "explanation": "He is third person singular; watch ends in ch, so it becomes watches."
-            },
-            {
-              "type": "mcq",
-              "question": "Which negative sentence follows the review rule?",
-              "options": [
-                "She doesn't likes coffee.",
-                "She don't likes coffee.",
-                "She doesn't like coffee.",
-                "She not likes coffee."
-              ],
-              "correct": 2,
-              "explanation": "Doesn't carries the third person singular form, so the main verb stays like."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review example: 'They ___ meat.'",
-              "options": [
-                "does not eat",
-                "do not eats",
-                "doesn't eats",
-                "do not eat"
-              ],
-              "correct": 3,
-              "explanation": "They is third person plural, so use do not plus the base verb eat."
-            },
-            {
-              "type": "mcq",
-              "question": "Which question is correct according to the review?",
-              "options": [
-                "Does she like pizza?",
-                "Does she likes pizza?",
-                "Do she like pizza?",
-                "She does likes pizza?"
-              ],
-              "correct": 0,
-              "explanation": "Use does before she, and keep like in the base form."
-            },
-            {
-              "type": "mcq",
-              "question": "What does inversion mean in the question examples?",
-              "options": [
-                "The subject disappears",
-                "The helper verb comes before the subject",
-                "The main verb becomes plural",
-                "The object becomes the verb"
-              ],
-              "correct": 1,
-              "explanation": "The review explains that question structure moves do/does before the subject."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review question: '___ they work on weekends?'",
-              "options": [
-                "Does",
-                "Are",
-                "Do",
-                "Was"
-              ],
-              "correct": 2,
-              "explanation": "They takes do in simple present questions."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review question: '___ he play the piano?'",
-              "options": [
-                "Do",
-                "Is",
-                "Were",
-                "Does"
-              ],
-              "correct": 3,
-              "explanation": "He is third person singular, so the helper is does."
             },
             {
               "type": "mcq",
               "question": "Why is 'Does he plays the piano?' wrong?",
               "options": [
-                "After does, the main verb must stay base form",
                 "He is plural",
                 "Does is past tense",
+                "After does, the main verb must stay base form",
                 "Piano is third person singular"
               ],
-              "correct": 0,
+              "correct": 2,
               "explanation": "The helper does is conjugated; play should not become plays."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'We ___ ready to go.'",
-              "options": [
-                "is",
-                "are",
-                "am",
-                "was"
-              ],
-              "correct": 1,
-              "explanation": "We takes are with the verb to be."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'We ___ excited about the trip.'",
-              "options": [
-                "is",
-                "am",
-                "are",
-                "was"
-              ],
-              "correct": 2,
-              "explanation": "We takes are in simple present."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'You ___ to finish your homework before dinner.'",
-              "options": [
-                "needs",
-                "does need",
-                "is need",
-                "need"
-              ],
-              "correct": 3,
-              "explanation": "You uses the base form need."
-            },
-            {
-              "type": "mcq",
-              "question": "Which pronoun replaces 'Mrs. Glaire' in the review?",
-              "options": [
-                "She",
-                "They",
-                "It",
-                "We"
-              ],
-              "correct": 0,
-              "explanation": "Mrs. Glaire is treated as one female subject, so use she."
-            },
-            {
-              "type": "mcq",
-              "question": "Which pronoun replaces 'a bird' in the review sentence?",
-              "options": [
-                "They",
-                "It",
-                "She",
-                "We"
-              ],
-              "correct": 1,
-              "explanation": "The review uses it for the bird when gender is unknown/not relevant."
-            },
-            {
-              "type": "mcq",
-              "question": "Which pronoun replaces 'The Lakers' when the sentence means a family staying over?",
-              "options": [
-                "It",
-                "He",
-                "They",
-                "She"
-              ],
-              "correct": 2,
-              "explanation": "The Lakers is treated as a group of people, so use they."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'My parents ___ watching a movie.'",
-              "options": [
-                "is",
-                "am",
-                "was",
-                "are"
-              ],
-              "correct": 3,
-              "explanation": "My parents is plural, like they, so use are."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'Steve ___ playing outside.'",
-              "options": [
-                "is",
-                "are",
-                "am",
-                "were"
-              ],
-              "correct": 0,
-              "explanation": "Steve is third person singular, so use is."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'I ___ melting on the couch.'",
-              "options": [
-                "is",
-                "am",
-                "are",
-                "were"
-              ],
-              "correct": 1,
-              "explanation": "I takes am in simple present."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review question: '___ you free tonight?'",
-              "options": [
-                "Is",
-                "Am",
-                "Are",
-                "Was"
-              ],
-              "correct": 2,
-              "explanation": "You takes are, and the question starts with are."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the review sentence: 'It ___ so cold yesterday.'",
-              "options": [
-                "is",
-                "are",
-                "am",
-                "was"
-              ],
-              "correct": 3,
-              "explanation": "Yesterday signals past time, and it takes was."
             },
             {
               "type": "mcq",
               "question": "What is the safest review strategy before choosing a verb form?",
               "options": [
-                "Find the subject first",
                 "Count the number of words",
                 "Look only at the object",
-                "Always add s"
+                "Always add s",
+                "Find the subject first"
               ],
-              "correct": 0,
+              "correct": 3,
               "explanation": "The review repeatedly works from the subject to the verb form."
             }
           ]
