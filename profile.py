@@ -15,8 +15,8 @@ COURSES = {
     "udemy_scott_mendoza": {
         "title": "Udemey Scott Mendosa English Course",
         "curriculum": "data/udemy_scott_mendoza_curriculum.json",
-        "questions": None,
-        "show_challenges": False,
+        "questions": "data/udemy_scott_mendoza_questions.json",
+        "show_challenges": True,
     },
 }
 

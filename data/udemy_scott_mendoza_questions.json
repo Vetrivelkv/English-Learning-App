@@ -1,0 +1,770 @@
+{
+  "topics": [
+    {
+      "name": "Parts of Speech",
+      "rounds": [
+        {
+          "round_number": 1,
+          "title": "Sentence Parts Mastery",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Which option is a complete sentence?",
+              "options": [
+                "The train arrived late.",
+                "Because the train",
+                "Arrived late",
+                "The late train"
+              ],
+              "correct_option_index": 0,
+              "explanation": "A sentence needs a complete thought with a subject and predicate."
+            },
+            {
+              "type": "mcq",
+              "question": "In \"The artist painted a mural,\" what is the subject?",
+              "options": [
+                "painted",
+                "The artist",
+                "a mural",
+                "artist painted"
+              ],
+              "correct_option_index": 1,
+              "explanation": "The subject tells who or what the sentence is about."
+            },
+            {
+              "type": "mcq",
+              "question": "In \"The artist painted a mural,\" what is the predicate?",
+              "options": [
+                "The artist",
+                "a mural",
+                "painted a mural",
+                "artist painted"
+              ],
+              "correct_option_index": 2,
+              "explanation": "The predicate tells what the subject did."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is the verb in \"The children laughed loudly\"?",
+              "options": [
+                "children",
+                "loudly",
+                "The",
+                "laughed"
+              ],
+              "correct_option_index": 3,
+              "explanation": "Laughed is the action word."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is a noun in \"Bright stars filled the sky\"?",
+              "options": [
+                "stars",
+                "Bright",
+                "filled",
+                "the"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Stars names things, so it is a noun."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option best describes a sentence?",
+              "options": [
+                "A list of nouns",
+                "A complete thought",
+                "Any two words",
+                "Only an action"
+              ],
+              "correct_option_index": 1,
+              "explanation": "The lesson explains sentences as complete thoughts."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence has an object?",
+              "options": [
+                "Maya slept.",
+                "The window opened.",
+                "Maya opened the window.",
+                "Maya is tired."
+              ],
+              "correct_option_index": 2,
+              "explanation": "The window receives the action opened."
+            },
+            {
+              "type": "mcq",
+              "question": "In \"The dog chased the ball,\" what receives the action?",
+              "options": [
+                "The dog",
+                "chased",
+                "dog chased",
+                "the ball"
+              ],
+              "correct_option_index": 3,
+              "explanation": "The object receives the action of the verb."
+            },
+            {
+              "type": "mcq",
+              "question": "Which group contains a subject and a predicate?",
+              "options": [
+                "Birds migrate.",
+                "Under the table",
+                "Very quickly",
+                "The red bicycle"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Birds is the subject and migrate is the predicate."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word tells what the subject does in \"Students study grammar\"?",
+              "options": [
+                "Students",
+                "study",
+                "grammar",
+                "Students grammar"
+              ],
+              "correct_option_index": 1,
+              "explanation": "Study is the verb in the predicate."
+            }
+          ]
+        },
+        {
+          "round_number": 2,
+          "title": "Nouns, Verbs, and Objects",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Which option is a common noun?",
+              "options": [
+                "teacher",
+                "London",
+                "Monday",
+                "Sarah"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Teacher is a general name for a person."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option is a proper noun?",
+              "options": [
+                "country",
+                "India",
+                "river",
+                "teacher"
+              ],
+              "correct_option_index": 1,
+              "explanation": "India names a specific country."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence uses a verb as an action?",
+              "options": [
+                "The chef is kind.",
+                "The chef seems tired.",
+                "The chef chopped onions.",
+                "The chef was ready."
+              ],
+              "correct_option_index": 2,
+              "explanation": "Chopped is an action verb."
+            },
+            {
+              "type": "mcq",
+              "question": "In \"Lena bought a notebook,\" what is the direct object?",
+              "options": [
+                "Lena",
+                "bought",
+                "Lena bought",
+                "a notebook"
+              ],
+              "correct_option_index": 3,
+              "explanation": "A notebook receives the action bought."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is the noun in \"The quiet library closed early\"?",
+              "options": [
+                "library",
+                "quiet",
+                "closed",
+                "early"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Library names a place."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is the verb in \"The quiet library closed early\"?",
+              "options": [
+                "quiet",
+                "closed",
+                "library",
+                "early"
+              ],
+              "correct_option_index": 1,
+              "explanation": "Closed tells what the library did."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option is an indirect object in \"Ana gave Tom a pen\"?",
+              "options": [
+                "Ana",
+                "gave",
+                "Tom",
+                "a pen"
+              ],
+              "correct_option_index": 2,
+              "explanation": "Tom receives the direct object, a pen."
+            },
+            {
+              "type": "mcq",
+              "question": "Which question helps find the direct object?",
+              "options": [
+                "Who is speaking?",
+                "When did it happen?",
+                "Where is the adjective?",
+                "What received the action?"
+              ],
+              "correct_option_index": 3,
+              "explanation": "A direct object receives the verb action."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence has no direct object?",
+              "options": [
+                "The baby slept.",
+                "The baby held a toy.",
+                "The baby dropped a spoon.",
+                "The baby kicked the ball."
+              ],
+              "correct_option_index": 0,
+              "explanation": "Slept does not transfer action to an object."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option best identifies \"homework\" in \"Ravi finished his homework\"?",
+              "options": [
+                "Subject",
+                "Direct object",
+                "Verb",
+                "Conjunction"
+              ],
+              "correct_option_index": 1,
+              "explanation": "Homework receives the action finished."
+            }
+          ]
+        },
+        {
+          "round_number": 3,
+          "title": "Modifiers, Prepositions, and Connectors",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Which word is an adjective in \"The green door opened\"?",
+              "options": [
+                "green",
+                "door",
+                "opened",
+                "The"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Green modifies the noun door."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is an adverb in \"She answered quickly\"?",
+              "options": [
+                "She",
+                "quickly",
+                "answered",
+                "answered quickly"
+              ],
+              "correct_option_index": 1,
+              "explanation": "Quickly modifies the verb answered."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is a determiner in \"Those books are heavy\"?",
+              "options": [
+                "books",
+                "are",
+                "Those",
+                "heavy"
+              ],
+              "correct_option_index": 2,
+              "explanation": "Those points to which books."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence contains a prepositional phrase?",
+              "options": [
+                "The keys disappeared.",
+                "The keys are missing.",
+                "The keys jingled.",
+                "The keys are on the table."
+              ],
+              "correct_option_index": 3,
+              "explanation": "On the table is a prepositional phrase."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is the preposition in \"We walked through the park\"?",
+              "options": [
+                "through",
+                "walked",
+                "park",
+                "We"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Through shows the relationship between walked and park."
+            },
+            {
+              "type": "mcq",
+              "question": "Which word is a conjunction in \"I studied and passed\"?",
+              "options": [
+                "I",
+                "and",
+                "studied",
+                "passed"
+              ],
+              "correct_option_index": 1,
+              "explanation": "And connects studied and passed."
+            },
+            {
+              "type": "mcq",
+              "question": "Which conjunction best completes \"I wanted tea, ___ I made coffee\"?",
+              "options": [
+                "and",
+                "because",
+                "but",
+                "while"
+              ],
+              "correct_option_index": 2,
+              "explanation": "But shows contrast."
+            },
+            {
+              "type": "mcq",
+              "question": "Which option is a coordinating conjunction?",
+              "options": [
+                "under",
+                "very",
+                "those",
+                "or"
+              ],
+              "correct_option_index": 3,
+              "explanation": "Or connects choices."
+            },
+            {
+              "type": "mcq",
+              "question": "Which phrase modifies where the action happened in \"They met after lunch\"?",
+              "options": [
+                "after lunch",
+                "They",
+                "met",
+                "They met"
+              ],
+              "correct_option_index": 0,
+              "explanation": "After lunch is a prepositional phrase showing time."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly uses a connector?",
+              "options": [
+                "She was tired, under she rested.",
+                "She was tired, so she rested.",
+                "She was tired, very she rested.",
+                "She was tired, the she rested."
+              ],
+              "correct_option_index": 1,
+              "explanation": "So connects cause and result."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verb Conjugation",
+      "rounds": [
+        {
+          "round_number": 1,
+          "title": "Person and Number Challenge",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "What person and number is \"I\"?",
+              "options": [
+                "First person singular",
+                "First person plural",
+                "Second person singular",
+                "Third person singular"
+              ],
+              "correct_option_index": 0,
+              "explanation": "I refers to the speaker alone."
+            },
+            {
+              "type": "mcq",
+              "question": "What person and number is \"we\"?",
+              "options": [
+                "First person singular",
+                "First person plural",
+                "Second person plural",
+                "Third person plural"
+              ],
+              "correct_option_index": 1,
+              "explanation": "We includes the speaker and at least one other person."
+            },
+            {
+              "type": "mcq",
+              "question": "What person is \"you\"?",
+              "options": [
+                "First person",
+                "Third person",
+                "Second person",
+                "No person"
+              ],
+              "correct_option_index": 2,
+              "explanation": "You addresses the listener or listeners."
+            },
+            {
+              "type": "mcq",
+              "question": "Which set is third person singular?",
+              "options": [
+                "I, we",
+                "you, we",
+                "they, we",
+                "he, she, it"
+              ],
+              "correct_option_index": 3,
+              "explanation": "He, she, and it refer to one subject being talked about."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pronoun is third person plural?",
+              "options": [
+                "they",
+                "I",
+                "you",
+                "he"
+              ],
+              "correct_option_index": 0,
+              "explanation": "They refers to people or things being talked about."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject is third person singular?",
+              "options": [
+                "we",
+                "the cat",
+                "you",
+                "the cats"
+              ],
+              "correct_option_index": 1,
+              "explanation": "The cat is one thing being talked about."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject is first person plural?",
+              "options": [
+                "my brother",
+                "you and Sam",
+                "my brother and I",
+                "Sam and Tina"
+              ],
+              "correct_option_index": 2,
+              "explanation": "My brother and I includes the speaker."
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject is second person plural?",
+              "options": [
+                "they",
+                "we",
+                "he",
+                "you all"
+              ],
+              "correct_option_index": 3,
+              "explanation": "You all addresses multiple listeners."
+            },
+            {
+              "type": "mcq",
+              "question": "Which replacement is correct for \"John and Mary\"?",
+              "options": [
+                "they",
+                "he",
+                "she",
+                "we"
+              ],
+              "correct_option_index": 0,
+              "explanation": "John and Mary are third person plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Which replacement is correct for \"John and I\"?",
+              "options": [
+                "they",
+                "we",
+                "he",
+                "you"
+              ],
+              "correct_option_index": 1,
+              "explanation": "John and I includes the speaker, so use we."
+            }
+          ]
+        },
+        {
+          "round_number": 2,
+          "title": "Simple Present Conjugation Challenge",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Complete: \"She ___ breakfast every morning.\"",
+              "options": [
+                "eats",
+                "eat",
+                "are eating",
+                "eating"
+              ],
+              "correct_option_index": 0,
+              "explanation": "She is third person singular, so eat becomes eats."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"They ___ to school.\"",
+              "options": [
+                "walks",
+                "walk",
+                "walking",
+                "is walk"
+              ],
+              "correct_option_index": 1,
+              "explanation": "They is third person plural, so use the base form walk."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"It ___ during winter.\"",
+              "options": [
+                "snow",
+                "snowing",
+                "snows",
+                "are snow"
+              ],
+              "correct_option_index": 2,
+              "explanation": "It is third person singular, so snow becomes snows."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"We ___ on Saturdays.\"",
+              "options": [
+                "works",
+                "working",
+                "is work",
+                "work"
+              ],
+              "correct_option_index": 3,
+              "explanation": "We is first person plural, so use the base form work."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"You ___ to take a break.\"",
+              "options": [
+                "need",
+                "needs",
+                "needing",
+                "is need"
+              ],
+              "correct_option_index": 0,
+              "explanation": "You uses the base form in simple present."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"He ___ TV every evening.\"",
+              "options": [
+                "watch",
+                "watches",
+                "watching",
+                "are watch"
+              ],
+              "correct_option_index": 1,
+              "explanation": "He is third person singular, and watch takes es."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"They ___ eat meat.\"",
+              "options": [
+                "does not",
+                "is not",
+                "do not",
+                "was not"
+              ],
+              "correct_option_index": 2,
+              "explanation": "They takes do not in simple present negatives."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"___ she like pizza?\"",
+              "options": [
+                "Do",
+                "Is",
+                "Were",
+                "Does"
+              ],
+              "correct_option_index": 3,
+              "explanation": "She is third person singular, so the helper is does."
+            },
+            {
+              "type": "mcq",
+              "question": "Why is \"Does she likes pizza?\" wrong?",
+              "options": [
+                "The main verb must stay base form after does",
+                "She is plural",
+                "Does is past tense",
+                "Pizza controls the verb"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Does is conjugated, so like stays base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence is correct?",
+              "options": [
+                "Does he plays the piano?",
+                "Does he play the piano?",
+                "Do he play the piano?",
+                "He does plays the piano?"
+              ],
+              "correct_option_index": 1,
+              "explanation": "Does goes before he, and play stays base form."
+            }
+          ]
+        },
+        {
+          "round_number": 3,
+          "title": "To Be and Real Use Challenge",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Complete: \"I ___ a student.\"",
+              "options": [
+                "am",
+                "is",
+                "are",
+                "be"
+              ],
+              "correct_option_index": 0,
+              "explanation": "I takes am."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"We ___ ready to go.\"",
+              "options": [
+                "is",
+                "are",
+                "am",
+                "was"
+              ],
+              "correct_option_index": 1,
+              "explanation": "We takes are."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Steve ___ playing outside.\"",
+              "options": [
+                "are",
+                "am",
+                "is",
+                "were"
+              ],
+              "correct_option_index": 2,
+              "explanation": "Steve is third person singular, so use is."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"It ___ so cold yesterday.\"",
+              "options": [
+                "is",
+                "are",
+                "am",
+                "was"
+              ],
+              "correct_option_index": 3,
+              "explanation": "Yesterday marks past time; it takes was."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Someone called you when you ___ running outside.\"",
+              "options": [
+                "were",
+                "was",
+                "are",
+                "be"
+              ],
+              "correct_option_index": 0,
+              "explanation": "Past continuous with you uses were."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"You must ___ kidding me!\"",
+              "options": [
+                "is",
+                "be",
+                "am",
+                "are"
+              ],
+              "correct_option_index": 1,
+              "explanation": "After must, use base form be."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"We have ___ here for ages.\"",
+              "options": [
+                "be",
+                "are",
+                "been",
+                "was"
+              ],
+              "correct_option_index": 2,
+              "explanation": "Have needs the past participle been."
+            },
+            {
+              "type": "mcq",
+              "question": "In \"I have never regretted my choice,\" what does the verb phrase show?",
+              "options": [
+                "Simple future",
+                "Third person singular habit",
+                "A command",
+                "Life experience connected to now"
+              ],
+              "correct_option_index": 3,
+              "explanation": "Have never regretted connects past experience to the present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence uses the correct form of to be?",
+              "options": [
+                "They are lawyers.",
+                "They is lawyers.",
+                "They am lawyers.",
+                "They be lawyers."
+              ],
+              "correct_option_index": 0,
+              "explanation": "They takes are."
+            },
+            {
+              "type": "mcq",
+              "question": "What should you check first before choosing a verb form?",
+              "options": [
+                "The last word only",
+                "The subject",
+                "The punctuation only",
+                "The longest option"
+              ],
+              "correct_option_index": 1,
+              "explanation": "Subject first, then person, number, and time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

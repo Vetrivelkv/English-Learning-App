@@ -15,8 +15,8 @@ COURSES = {
         "title": "Udemey Scott Mendosa English Course",
         "description": "Study the Scott Mendoza Udemy course with video-based classes, subclasses, and quizzes.",
         "curriculum": "data/udemy_scott_mendoza_curriculum.json",
-        "questions": None,
-        "show_challenges": False,
+        "questions": "data/udemy_scott_mendoza_questions.json",
+        "show_challenges": True,
     },
 }
 
