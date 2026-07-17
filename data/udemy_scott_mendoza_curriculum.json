@@ -2385,79 +2385,79 @@
         {
           "id": "udemy_verb_conj_04_practice_it",
           "title": "Practice it! - Verb Conjugation (1st, 2nd, 3rd Person)",
-          "image": "",
-          "content": "The practice lesson asks learners to identify whether verbs stand in the first, second, or third person and then fill gaps with the correct form of to be. The first set of practice sentences is: Why can't we find common ground? You should be attentive to details. These jeans are too tight. I was too shy to say a word. The Potts will be attending the ceremony as well. The answers are: we = first person, you = second person, these jeans = third person, I = first person, and The Potts = third person.\n\nThe second practice set focuses on to be. The completed answers are: You must be kidding me. How is this possible? If we are invited, we need to think of a present. We have been here for ages. Someone called you when you were running outside. I am so frustrated. Why is it so difficult to find a paid internship now?\n\nThe practice lesson reinforces two habits. First, identify the subject before choosing the verb form. Second, notice whether the sentence needs a present form, past form, participle, or base form of to be. You must be uses the base form after must. How is this possible? uses is because this is third person singular. We are invited uses are with we. We have been uses the past participle been after have. You were running uses were because the sentence is past continuous with you. I am uses am. Why is it difficult? uses is because the subject it is third person singular.",
+          "image": "assets/verb_conjugation_practice_it_exercises.jpg",
+          "content": "### Practice-It Lab: Do The Work Before You Check\n\nThis final video is a practice session. It gives you two tasks, then reveals the answers. Treat this subclass like a mini worksheet: answer first, then check yourself.\n\n### Task 1: Identify The Person\n\nDecide whether the subject is **1st person**, **2nd person**, or **3rd person**.\n\n| Practice Sentence | Subject To Notice | Answer | Why |\n|---|---|---|---|\n| Why can't **we** find a common ground? | we | 1st person | the speaker is included |\n| **You** should be attentive to details. | you | 2nd person | the speaker talks directly to someone |\n| **These jeans** are too tight! | these jeans | 3rd person | things being talked about |\n| **I** was too shy to say a word. | I | 1st person | the speaker talks about self |\n| **The Potts** will be attending the ceremony as well. | The Potts | 3rd person | a family/group being talked about |\n\n### Task 2: Fill The Gaps With `To Be`\n\nThe second exercise asks for the correct form of **to be**. The video answers are:\n\n| Prompt | Correct Sentence | Why |\n|---|---|---|\n| You must ___ kidding me! How ___ this possible? | You must **be** kidding me! How **is** this possible? | after `must`, use base `be`; `this` takes `is` |\n| If we ___ invited, we need to think of a present. | If we **are** invited, we need to think of a present. | `we` takes `are` |\n| We have ___ here for ages! | We have **been** here for ages! | after `have`, use past participle `been` |\n| Someone called you when you ___ running outside. | Someone called you when you **were** running outside. | past continuous with `you` uses `were` |\n| I ___ so frustrated! Why ___ it so difficult...? | I **am** so frustrated! Why **is** it so difficult...? | `I` takes `am`; `it` takes `is` |\n\n### How To Practice Like The Video\n\n1. **Find the subject** before touching the verb.\n2. Decide whether it is **1st, 2nd, or 3rd person**.\n3. Check if the sentence needs present, past, base form, or participle.\n4. For `to be`, choose from **be, am, is, are, was, were, been**.\n5. Read the complete sentence out loud. If it sounds wrong, re-check the subject and time clue.\n\n### Key Patterns From The Exercise\n\n| Pattern | Example | Memory Hook |\n|---|---|---|\n| modal + be | You must **be** kidding me. | after modal verbs like `must`, use base `be` |\n| this/it + is | How **is** this possible? / Why **is** it difficult? | singular thing/idea takes `is` |\n| we + are | If we **are** invited... | `we are` |\n| have + been | We have **been** here... | perfect form uses `been` |\n| you + were | you **were** running | past continuous with `you` uses `were` |\n| I + am | I **am** frustrated | `I am` |\n\n### Recap\n\nThis practice lesson is the bridge from knowing the chart to using it quickly. The correct answer is not magic. It comes from subject + time clue + verb pattern.\n",
           "questions": [
             {
               "type": "mcq",
-              "question": "In 'Why can't we find common ground?', what person is the subject?",
+              "question": "In 'Why can't we find a common ground?', what person is the subject?",
               "options": [
-                "Second person",
                 "First person",
+                "Second person",
                 "Third person",
-                "No person"
+                "No subject"
               ],
-              "correct": 1,
-              "explanation": "We is first person plural."
+              "correct": 0,
+              "explanation": "We is first person because the speaker is included."
             },
             {
               "type": "mcq",
               "question": "In 'You should be attentive to details,' what person is the subject?",
               "options": [
                 "First person",
-                "Third person",
                 "Second person",
-                "No person"
+                "Third person",
+                "No subject"
               ],
-              "correct": 2,
-              "explanation": "You is second person."
+              "correct": 1,
+              "explanation": "You is second person because the speaker is addressing someone directly."
             },
             {
               "type": "mcq",
-              "question": "In 'These jeans are too tight,' what person is the subject?",
+              "question": "In 'These jeans are too tight!', what person is the subject?",
               "options": [
                 "First person",
                 "Second person",
-                "No person",
-                "Third person"
+                "Third person",
+                "No subject"
               ],
-              "correct": 3,
-              "explanation": "These jeans is a third person subject."
+              "correct": 2,
+              "explanation": "These jeans are things being talked about, so they are third person."
             },
             {
               "type": "mcq",
               "question": "In 'I was too shy to say a word,' what person is the subject?",
               "options": [
-                "First person",
                 "Second person",
                 "Third person",
-                "No person"
+                "No subject",
+                "First person"
               ],
-              "correct": 0,
-              "explanation": "I is first person singular."
+              "correct": 3,
+              "explanation": "I is first person."
             },
             {
               "type": "mcq",
               "question": "In 'The Potts will be attending the ceremony as well,' what person is the subject?",
               "options": [
-                "First person",
                 "Third person",
+                "First person",
                 "Second person",
-                "No person"
+                "No subject"
               ],
-              "correct": 1,
-              "explanation": "The Potts is a third person subject."
+              "correct": 0,
+              "explanation": "The Potts are being talked about, so the subject is third person."
             },
             {
               "type": "mcq",
-              "question": "Complete the practice sentence: 'You must ___ kidding me.'",
+              "question": "Complete the practice sentence: 'You must ___ kidding me!'",
               "options": [
                 "is",
-                "am",
                 "be",
+                "am",
                 "are"
               ],
-              "correct": 2,
+              "correct": 1,
               "explanation": "After must, use the base form be."
             },
             {
@@ -2466,119 +2466,215 @@
               "options": [
                 "are",
                 "am",
-                "be",
-                "is"
+                "is",
+                "be"
               ],
-              "correct": 3,
-              "explanation": "This is third person singular, so use is."
+              "correct": 2,
+              "explanation": "This is singular, so use is."
             },
             {
               "type": "mcq",
               "question": "Complete the practice sentence: 'If we ___ invited, we need to think of a present.'",
               "options": [
-                "are",
                 "is",
                 "am",
-                "be"
+                "be",
+                "are"
               ],
-              "correct": 0,
+              "correct": 3,
               "explanation": "We takes are."
             },
             {
               "type": "mcq",
-              "question": "Complete the practice sentence: 'We have ___ here for ages.'",
+              "question": "Complete the practice sentence: 'We have ___ here for ages!'",
               "options": [
-                "are",
                 "been",
+                "are",
                 "be",
                 "was"
               ],
-              "correct": 1,
-              "explanation": "After have in this perfect form, use the past participle been."
+              "correct": 0,
+              "explanation": "Have needs the past participle been."
             },
             {
               "type": "mcq",
               "question": "Complete the practice sentence: 'Someone called you when you ___ running outside.'",
               "options": [
                 "was",
-                "are",
                 "were",
+                "are",
                 "be"
               ],
-              "correct": 2,
-              "explanation": "You takes were in this past continuous sentence."
+              "correct": 1,
+              "explanation": "This is past continuous with you, so use were."
             },
             {
               "type": "mcq",
-              "question": "Complete the practice sentence: 'I ___ so frustrated.'",
-              "options": [
-                "is",
-                "are",
-                "be",
-                "am"
-              ],
-              "correct": 3,
-              "explanation": "I takes am."
-            },
-            {
-              "type": "mcq",
-              "question": "Complete the practice question: 'Why ___ it so difficult to find a paid internship now?'",
+              "question": "Complete the practice sentence: 'I ___ so frustrated!'",
               "options": [
                 "is",
                 "are",
                 "am",
                 "be"
               ],
-              "correct": 0,
+              "correct": 2,
+              "explanation": "I takes am."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete the practice question: 'Why ___ it so difficult to find a paid internship now?'",
+              "options": [
+                "are",
+                "am",
+                "be",
+                "is"
+              ],
+              "correct": 3,
               "explanation": "It is third person singular, so use is."
             },
             {
               "type": "mcq",
-              "question": "What should you identify before choosing a verb form?",
+              "question": "Which pair from the video is correct?",
               "options": [
-                "Only the final word",
-                "The subject",
-                "Only the punctuation",
-                "Only the object"
+                "we -> 1st person",
+                "you -> 3rd person",
+                "I -> 2nd person",
+                "these jeans -> 1st person"
+              ],
+              "correct": 0,
+              "explanation": "We is first person because it includes the speaker."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pair from the video is correct?",
+              "options": [
+                "The Potts -> 1st person",
+                "you -> 2nd person",
+                "I -> 3rd person",
+                "we -> 2nd person"
               ],
               "correct": 1,
-              "explanation": "The practice lesson repeatedly starts by identifying the subject."
-            },
-            {
-              "type": "mcq",
-              "question": "Which sentence uses a first person plural subject?",
-              "options": [
-                "You must be kidding me.",
-                "How is this possible?",
-                "We have been here for ages.",
-                "I am so frustrated."
-              ],
-              "correct": 2,
-              "explanation": "We is first person plural."
-            },
-            {
-              "type": "mcq",
-              "question": "Which sentence uses a second person subject?",
-              "options": [
-                "These jeans are too tight.",
-                "I was too shy to say a word.",
-                "The Potts will be attending the ceremony.",
-                "You should be attentive to details."
-              ],
-              "correct": 3,
               "explanation": "You is second person."
             },
             {
               "type": "mcq",
-              "question": "Which sentence uses a third person singular subject?",
+              "question": "Which pair from the video is correct?",
               "options": [
-                "How is this possible?",
-                "We are invited.",
-                "You were running outside.",
-                "I am frustrated."
+                "we -> 3rd person",
+                "you -> 1st person",
+                "The Potts -> 3rd person",
+                "I -> 2nd person"
+              ],
+              "correct": 2,
+              "explanation": "The Potts are a group being talked about, so third person."
+            },
+            {
+              "type": "mcq",
+              "question": "Why is 'be' correct after 'must'?",
+              "options": [
+                "Must always takes is",
+                "You is third person singular",
+                "Be is past tense",
+                "Modal verbs take the base verb after them"
+              ],
+              "correct": 3,
+              "explanation": "After modal verbs like must, use the base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Why is 'been' correct in 'We have been here for ages'?",
+              "options": [
+                "Have needs the past participle",
+                "We always takes been",
+                "Here is plural",
+                "Been is simple present"
               ],
               "correct": 0,
-              "explanation": "This is third person singular and takes is."
+              "explanation": "The perfect form uses have plus the past participle been."
+            },
+            {
+              "type": "mcq",
+              "question": "Why is 'were' correct in 'you were running outside'?",
+              "options": [
+                "You always takes was",
+                "It is a past continuous form with you",
+                "Running is third person",
+                "Were is the base form"
+              ],
+              "correct": 1,
+              "explanation": "Past continuous uses was/were plus -ing; with you, use were."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct?",
+              "options": [
+                "You must is kidding me!",
+                "You must are kidding me!",
+                "You must be kidding me!",
+                "You must am kidding me!"
+              ],
+              "correct": 2,
+              "explanation": "Must is followed by the base form be."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct?",
+              "options": [
+                "If we is invited, we need to think of a present.",
+                "If we am invited, we need to think of a present.",
+                "If we be invited, we need to think of a present.",
+                "If we are invited, we need to think of a present."
+              ],
+              "correct": 3,
+              "explanation": "We takes are."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct?",
+              "options": [
+                "We have been here for ages.",
+                "We have are here for ages.",
+                "We have be here for ages.",
+                "We have was here for ages."
+              ],
+              "correct": 0,
+              "explanation": "Have been is the correct perfect form."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct?",
+              "options": [
+                "Someone called you when you was running outside.",
+                "Someone called you when you were running outside.",
+                "Someone called you when you are running outside.",
+                "Someone called you when you be running outside."
+              ],
+              "correct": 1,
+              "explanation": "Called marks past time, and you takes were."
+            },
+            {
+              "type": "mcq",
+              "question": "Which completed sentence is correct?",
+              "options": [
+                "I is so frustrated!",
+                "I are so frustrated!",
+                "I am so frustrated!",
+                "I be so frustrated!"
+              ],
+              "correct": 2,
+              "explanation": "I takes am."
+            },
+            {
+              "type": "mcq",
+              "question": "What is the best first step in this practice lesson?",
+              "options": [
+                "Guess the shortest option",
+                "Always choose is",
+                "Ignore the time clue",
+                "Find the subject"
+              ],
+              "correct": 3,
+              "explanation": "The practice flow starts by finding the subject."
             }
           ]
         }
