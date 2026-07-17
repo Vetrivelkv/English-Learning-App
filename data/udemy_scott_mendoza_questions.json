@@ -765,6 +765,461 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Subject Verb Agreement",
+      "rounds": [
+        {
+          "round_number": 1,
+          "title": "Agreement Foundations",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Choose the correct sentence.",
+              "options": [
+                "Liz is an accountant and she has a typical 8-5 job.",
+                "Liz are an accountant and she have a typical 8-5 job.",
+                "Liz is an accountant and she have a typical 8-5 job.",
+                "Liz are an accountant and she has a typical 8-5 job."
+              ],
+              "explanation": "Liz/she is third-person singular, so is and has are correct.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Which subject takes the regular simple-present verb \"works\"?",
+              "options": [
+                "I",
+                "He",
+                "You",
+                "They"
+              ],
+              "explanation": "He is third-person singular, so a regular verb adds s.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"We ___ every morning.\"",
+              "options": [
+                "runs",
+                "is running",
+                "run",
+                "has run"
+              ],
+              "explanation": "We is plural, so the base form run is correct.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"I ___ ready.\"",
+              "options": [
+                "is",
+                "are",
+                "were",
+                "am"
+              ],
+              "explanation": "The to be form with I in simple present is am.",
+              "correct_option_index": 3
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"They ___ ready.\"",
+              "options": [
+                "are",
+                "is",
+                "am",
+                "has"
+              ],
+              "explanation": "They takes are in simple present.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "What is the first step in subject-verb agreement?",
+              "options": [
+                "Find the longest word.",
+                "Find the real subject.",
+                "Choose the verb that sounds fancy.",
+                "Always use the plural verb."
+              ],
+              "explanation": "The real subject controls the verb.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"She ___ every day.\"",
+              "options": [
+                "work",
+                "working",
+                "works",
+                "worked"
+              ],
+              "explanation": "She is third-person singular, so works is correct.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"You ___ every morning.\"",
+              "options": [
+                "runs",
+                "is run",
+                "has runs",
+                "run"
+              ],
+              "explanation": "You uses the base verb in simple present.",
+              "correct_option_index": 3
+            },
+            {
+              "type": "mcq",
+              "question": "Which pair is correct for to be?",
+              "options": [
+                "He is / we are",
+                "He are / we is",
+                "He am / we are",
+                "He is / we am"
+              ],
+              "explanation": "He takes is; we takes are.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence has correct agreement?",
+              "options": [
+                "The subject and verb matches in person and number.",
+                "The subject and verb match in person and number.",
+                "The subjects and verb matches in person and number.",
+                "The subject and verbs matching in person and number."
+              ],
+              "explanation": "A compound subject takes the plural verb match.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"It ___ outside in winter.\"",
+              "options": [
+                "snow",
+                "are snowing",
+                "snows",
+                "have snowed"
+              ],
+              "explanation": "It is third-person singular.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"My friends ___ nearby.\"",
+              "options": [
+                "lives",
+                "is living",
+                "has lived",
+                "live"
+              ],
+              "explanation": "Friends is plural, so live is correct.",
+              "correct_option_index": 3
+            }
+          ]
+        },
+        {
+          "round_number": 2,
+          "title": "Tricky Subjects and Interruptions",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Complete: \"Everyone ___ going to the party.\"",
+              "options": [
+                "is",
+                "are",
+                "were",
+                "have"
+              ],
+              "explanation": "Everyone is singular.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Each of the students ___ a laptop.\"",
+              "options": [
+                "have",
+                "has",
+                "are having",
+                "were having"
+              ],
+              "explanation": "Each is singular.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"John, as well as his friends, ___ soccer.\"",
+              "options": [
+                "love",
+                "are like",
+                "loves",
+                "don't like"
+              ],
+              "explanation": "As well as his friends is extra information; John controls the verb.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"The book, as well as the notes, ___ on the table.\"",
+              "options": [
+                "are",
+                "were",
+                "have been",
+                "is"
+              ],
+              "explanation": "Book is the real singular subject.",
+              "correct_option_index": 3
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"My friend, along with her colleagues, ___ at the door.\"",
+              "options": [
+                "is",
+                "are",
+                "were",
+                "have"
+              ],
+              "explanation": "Along with her colleagues does not change the singular subject friend.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"No one ___ to work 16 hours a day.\"",
+              "options": [
+                "want",
+                "wants",
+                "are wanting",
+                "have wanted"
+              ],
+              "explanation": "No one is a singular indefinite pronoun.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Someone ___ left their bag.\"",
+              "options": [
+                "have",
+                "are",
+                "has",
+                "were"
+              ],
+              "explanation": "Someone is singular, so has is correct.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence is correct?",
+              "options": [
+                "My sister, as well as her friends, love going to art galleries.",
+                "My sister, as well as her friends, are loving going to art galleries.",
+                "My sister, as well as her friends, have love going to art galleries.",
+                "My sister, as well as her friends, loves going to art galleries."
+              ],
+              "explanation": "The real subject is my sister.",
+              "correct_option_index": 3
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"A majority of the staff ___ in favor of the new policy.\"",
+              "options": [
+                "is",
+                "are",
+                "were",
+                "have"
+              ],
+              "explanation": "The lesson treats staff/majority as one unit in this example.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"The team ___ preparing for the big game.\"",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "have"
+              ],
+              "explanation": "Team is treated as one unit.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"The family ___ going on vacation.\"",
+              "options": [
+                "are",
+                "have",
+                "is",
+                "were"
+              ],
+              "explanation": "Family is treated as a singular collective noun in American English.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"The team ___ a lot of games.\"",
+              "options": [
+                "lose",
+                "are losing",
+                "have lose",
+                "loses"
+              ],
+              "explanation": "Team is singular here, so loses is correct.",
+              "correct_option_index": 3
+            }
+          ]
+        },
+        {
+          "round_number": 3,
+          "title": "Proximity, There, and Quantity Phrases",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Complete: \"Neither the cat nor the dogs ___ around the house.\"",
+              "options": [
+                "run",
+                "runs",
+                "is running",
+                "was running"
+              ],
+              "explanation": "Dogs is closer to the verb and plural.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Either my teammates or the captain ___ the warm-up drills.\"",
+              "options": [
+                "run",
+                "runs",
+                "are running",
+                "have run"
+              ],
+              "explanation": "Captain is closer and singular.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Neither the teacher nor the students ___ ready.\"",
+              "options": [
+                "is",
+                "was",
+                "are",
+                "has been"
+              ],
+              "explanation": "Students is closer and plural.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Neither the students nor the teacher ___ ready.\"",
+              "options": [
+                "are",
+                "were",
+                "have been",
+                "is"
+              ],
+              "explanation": "Teacher is closer and singular.",
+              "correct_option_index": 3
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"There ___ many reasons for the delay.\"",
+              "options": [
+                "are",
+                "is",
+                "has",
+                "isn't"
+              ],
+              "explanation": "The real subject is many reasons, plural.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"There ___ a book and two pens on the table.\"",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "have"
+              ],
+              "explanation": "In the shown pattern, the verb agrees with the closest subject after there: a book.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"There ___ two pens and a book on the table.\"",
+              "options": [
+                "is",
+                "has",
+                "are",
+                "was"
+              ],
+              "explanation": "The closest subject after there is two pens, plural.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"A lot of the cake ___ gone.\"",
+              "options": [
+                "are",
+                "were",
+                "have",
+                "is"
+              ],
+              "explanation": "Cake is singular/uncountable, so is is correct.",
+              "correct_option_index": 3
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"A lot of the cakes ___ gone.\"",
+              "options": [
+                "are",
+                "is",
+                "has",
+                "was"
+              ],
+              "explanation": "Cakes is plural, so are is correct.",
+              "correct_option_index": 0
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Some of the money ___ missing.\"",
+              "options": [
+                "are",
+                "is",
+                "have",
+                "were"
+              ],
+              "explanation": "Money is singular/uncountable.",
+              "correct_option_index": 1
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Some of the people ___ missing.\"",
+              "options": [
+                "is",
+                "has",
+                "are",
+                "was"
+              ],
+              "explanation": "People is plural.",
+              "correct_option_index": 2
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Ten dollars ___ a high price to pay for socks.\"",
+              "options": [
+                "are",
+                "were",
+                "have been",
+                "is"
+              ],
+              "explanation": "Ten dollars is treated as one amount here.",
+              "correct_option_index": 3
+            }
+          ]
+        }
+      ]
     }
   ]
 }

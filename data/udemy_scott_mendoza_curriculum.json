@@ -1,6 +1,6 @@
 {
   "course_title": "Udemey Scott Mendosa English Course",
-  "source_section": "Section 2: How English Works - A Quick Review; Section 6: Verb Conjugation (1st, 2nd, 3rd Person)",
+  "source_section": "Section 2: How English Works - A Quick Review; Section 6: Verb Conjugation (1st, 2nd, 3rd Person); Section 7: Subject-Verb Agreement",
   "topics": [
     {
       "name": "Parts of Speech",
@@ -2675,6 +2675,427 @@
               ],
               "correct": 3,
               "explanation": "The practice flow starts by finding the subject."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subject Verb Agreement",
+      "subtopics": [
+        {
+          "id": "subject_verb_agreement_learn",
+          "title": "Learn it! - Subject-Verb Agreement",
+          "image": "",
+          "content": "### What is discussed in this video\n\nThis lesson introduces **subject-verb agreement**. The big idea is simple: the verb must match the subject in **person** and **number**.\n\nScott's definition from the video is that subject-verb agreement makes sure the **verb form matches its subject** in:\n\n| Feature | Meaning | Quick Example |\n|---|---|---|\n| Person | 1st, 2nd, or 3rd person | I / you / he, she, it, they |\n| Number | singular or plural | she = singular, they = plural |\n\n### The video anchor sentence\n\n**Liz is an accountant and she has a typical 8-5 job.**\n\n- **Liz** is one person, so the sentence uses **is**.\n- **she** refers to Liz, so it is also third-person singular.\n- Because **she** is third-person singular, the verb becomes **has**, not **have**.\n\n### Regular verbs in simple present\n\nThe lesson reviews the simple-present pattern:\n\n| Subject | Regular Verb |\n|---|---|\n| I | work |\n| You | work |\n| He / She / It | works |\n| We | work |\n| They | work |\n\nOnly **third-person singular** adds **s** or **es** with regular simple-present verbs.\n\nVideo examples:\n\n- **I run** every morning.\n- **You run** every morning.\n- **We run** every morning.\n- **They run** every morning.\n- **He works** / **She works** / **It works**.\n\n### Irregular verb: to be\n\nThe video separates regular verbs from **to be**, because **to be** does not follow the normal s/es pattern.\n\n| Subject | To Be |\n|---|---|\n| I | am |\n| You | are |\n| He / She / It | is |\n| We | are |\n| They | are |\n\nExamples:\n\n- **I am** ready.\n- **You are** ready.\n- **He is** ready.\n- **We are** ready.\n- **They are** ready.\n\n### The thinking order\n\nUse this order before choosing a verb:\n\n1. Find the real **subject**.\n2. Decide if it is singular or plural.\n3. Decide if it is 1st, 2nd, or 3rd person.\n4. If it is a regular simple-present verb, add **s/es** only for third-person singular.\n5. If the verb is **to be**, choose the memorized form: **am, is, are**.\n\n### Main point\n\nSubject-verb agreement is not about the closest random word. It is about the real subject. Once you find the subject, the verb choice becomes much cleaner.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "What does subject-verb agreement make sure of?",
+              "options": [
+                "The verb form matches the subject in person and number.",
+                "The object always comes after the verb.",
+                "Every sentence uses past tense.",
+                "The subject and object are the same word."
+              ],
+              "correct": 0,
+              "explanation": "The lesson defines agreement as matching the verb with the subject in person and number."
+            },
+            {
+              "type": "mcq",
+              "question": "In the video sentence \"Liz is an accountant and she has a typical 8-5 job,\" why are \"is\" and \"has\" correct?",
+              "options": [
+                "Liz is plural.",
+                "Liz/she is third-person singular.",
+                "The sentence is in future tense.",
+                "The object decides the verb."
+              ],
+              "correct": 1,
+              "explanation": "Liz and she refer to one person being talked about, so third-person singular forms are used."
+            },
+            {
+              "type": "mcq",
+              "question": "Which simple-present verb agrees with \"he/she/it\" for regular verbs?",
+              "options": [
+                "work",
+                "working",
+                "works",
+                "worked"
+              ],
+              "correct": 2,
+              "explanation": "Third-person singular regular verbs usually add s or es in the simple present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence matches the video pattern for a plural subject?",
+              "options": [
+                "They runs every morning.",
+                "They is running every morning.",
+                "They has run every morning.",
+                "They run every morning."
+              ],
+              "correct": 3,
+              "explanation": "Plural subjects like they use the base verb in the simple present."
+            },
+            {
+              "type": "mcq",
+              "question": "Which pair correctly shows the irregular verb \"to be\" in simple present?",
+              "options": [
+                "I am / they are",
+                "I are / they is",
+                "I is / they am",
+                "I be / they be"
+              ],
+              "correct": 0,
+              "explanation": "The video separates regular verbs from irregular to be: I am, you are, he/she/it is, we/they are."
+            },
+            {
+              "type": "mcq",
+              "question": "What should you check before choosing the verb form?",
+              "options": [
+                "Only the final word of the sentence",
+                "The subject person and number",
+                "Only whether the sentence has an adjective",
+                "Only the object after the verb"
+              ],
+              "correct": 1,
+              "explanation": "Agreement starts by finding the subject, then deciding whether it is singular/plural and 1st/2nd/3rd person."
+            },
+            {
+              "type": "mcq",
+              "question": "Choose the correct sentence.",
+              "options": [
+                "We works every morning.",
+                "We is work every morning.",
+                "We work every morning.",
+                "We working every morning."
+              ],
+              "correct": 2,
+              "explanation": "We is first-person plural, so a regular simple-present verb stays in base form."
+            },
+            {
+              "type": "mcq",
+              "question": "Choose the correct \"to be\" form: \"He ___ ready.\"",
+              "options": [
+                "am",
+                "are",
+                "were",
+                "is"
+              ],
+              "correct": 3,
+              "explanation": "He is third-person singular, so the simple-present form of to be is is."
+            }
+          ]
+        },
+        {
+          "id": "subject_verb_agreement_review",
+          "title": "Review it! - Subject-Verb Agreement",
+          "image": "",
+          "content": "### What is discussed in this video\n\nThis lesson works like a review quiz. Scott shows a sentence, asks which verb agrees, then explains the rule. The focus is on tricky subjects where learners often choose the verb from the wrong noun.\n\n### 1. Singular indefinite pronouns\n\nSome words look broad, but they are treated as **singular**.\n\nVideo example:\n\n**Everyone is going to the party.**\n\nUse singular verbs with:\n\n- everyone\n- everybody\n- someone\n- somebody\n- no one\n- nobody\n- anyone\n- anybody\n- each\n- either / neither when used alone\n\n### 2. Neither / either with `or` and `nor`\n\nWhen two subjects are joined by **or** or **nor**, use the **rule of proximity**. The verb agrees with the subject closest to it.\n\nVideo examples:\n\n| Sentence | Closest Subject | Correct Verb |\n|---|---|---|\n| Neither the cat nor the dogs ___ around the house. | dogs | run |\n| Either my teammates or the captain ___ the warm-up drills. | captain | runs |\n| My sister or my parents ___ me a ride home. | parents | give |\n| My parents or my sister ___ me a ride home. | sister | gives |\n\n### 3. Extra information does not control the verb\n\nPhrases like **as well as**, **along with**, and parenthetical information do not become the subject.\n\nVideo examples:\n\n- **John, as well as his friends, loves soccer.**\n- **My sister, as well as her friends, loves going to art galleries.**\n- **The book, as well as the notes, is on the table.**\n- **My friend, along with her colleagues, is at the door.**\n\nThe extra phrase may be plural, but the real subject is still singular.\n\n### 4. Compound subjects with `and`\n\nSubjects joined by **and** are normally plural.\n\nVideo examples:\n\n- **My brother and his friends enjoy playing soccer.**\n- **John and Carol work together at the coffee shop.**\n\n### 5. There is / there are\n\nIn sentences beginning with **there**, the real subject comes after the verb.\n\nVideo examples:\n\n- **There are many reasons for the delay.**\n- **There are a lot of people waiting in line.**\n\n### 6. Collective nouns\n\nA collective noun names a group. In American English, a group acting as one unit is usually treated as singular.\n\nVideo examples:\n\n- **The team is preparing for the big game.**\n- **The team loses a lot of games.**\n- **A majority of the staff is in favor of the new policy.**\n\n### Main point\n\nThe review is training you to stop guessing from sound alone. Find the real subject, ignore extra phrases, and apply the rule for that subject type.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Complete the video example: \"Everyone ___ going to the party.\"",
+              "options": [
+                "is",
+                "are",
+                "were",
+                "have"
+              ],
+              "correct": 0,
+              "explanation": "Everyone is a singular indefinite pronoun, so it takes is."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Neither the cat nor the dogs ___ around the house.\"",
+              "options": [
+                "runs",
+                "run",
+                "is running",
+                "was running"
+              ],
+              "correct": 1,
+              "explanation": "With neither/nor, the verb agrees with the closer subject. Dogs is plural, so use run."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"John, as well as his friends, ___ soccer.\"",
+              "options": [
+                "love",
+                "are like",
+                "loves",
+                "don't like"
+              ],
+              "correct": 2,
+              "explanation": "The phrase as well as his friends is extra information. The real subject is John, singular."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"There ___ many reasons for the delay.\"",
+              "options": [
+                "is",
+                "have",
+                "isn't",
+                "are"
+              ],
+              "correct": 3,
+              "explanation": "In there constructions, the real subject comes after the verb. Many reasons is plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Each of the students ___ a laptop.\"",
+              "options": [
+                "has",
+                "have",
+                "are having",
+                "is have"
+              ],
+              "correct": 0,
+              "explanation": "Each is singular, even when followed by a plural prepositional phrase."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"My brother and his friends ___ playing soccer.\"",
+              "options": [
+                "enjoys",
+                "enjoy",
+                "is enjoying",
+                "has enjoyed"
+              ],
+              "correct": 1,
+              "explanation": "Two subjects joined by and usually make a plural subject, so use the base verb enjoy."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"A majority of the staff ___ in favor of the new policy.\"",
+              "options": [
+                "are",
+                "were",
+                "is",
+                "have"
+              ],
+              "correct": 2,
+              "explanation": "The video treats majority of the staff as a unit in this example, so singular is is used."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"The team ___ a lot of games.\"",
+              "options": [
+                "lose",
+                "are losing",
+                "have lose",
+                "loses"
+              ],
+              "correct": 3,
+              "explanation": "In American English, collective nouns like team are often singular when acting as one unit."
+            }
+          ]
+        },
+        {
+          "id": "subject_verb_agreement_use",
+          "title": "Use it! - Subject-Verb Agreement",
+          "image": "",
+          "content": "### Use-It Lesson: Applying The Rules In Real Sentences\n\nThis subclass turns the rules into sentence decisions. The goal is to read a sentence and quickly ask: **Which word is the real subject?**\n\n### A clean decision checklist\n\nUse this checklist every time:\n\n1. Cross out interrupting phrases.\n2. Find the subject.\n3. Check whether the subject is singular or plural.\n4. If the subject uses **or/nor**, look at the closer subject.\n5. If the sentence begins with **there**, look after the verb.\n6. If the subject is a quantity phrase, look at the noun after **of**.\n\n### Interrupting phrases\n\nThe middle phrase may be loud, but it does not control the verb.\n\n| Sentence | Real Subject | Correct Verb |\n|---|---|---|\n| The book, as well as the notes, ___ on the table. | book | is |\n| My friend, along with her colleagues, ___ at the door. | friend | is |\n| John, as well as his friends, ___ soccer. | John | loves |\n\n### Or / nor: nearest subject wins\n\nWhen subjects are joined by **or** or **nor**, the closer subject decides the verb.\n\n| Sentence | Closer Subject | Correct Verb |\n|---|---|---|\n| Neither the teacher nor the students ___ ready. | students | are |\n| Neither the students nor the teacher ___ ready. | teacher | is |\n| My sister or my parents ___ me a ride home. | parents | give |\n| My parents or my sister ___ me a ride home. | sister | gives |\n\n### Collective nouns and one-unit thinking\n\nA collective noun can name many people, but it can still behave like one unit.\n\n| Sentence | Why |\n|---|---|\n| The team is preparing for the big game. | team acts as one group |\n| The family is going on vacation. | family acts as one group |\n| The team loses a lot of games. | team is treated as singular |\n\n### Amounts, distances, and periods of time\n\nWhen an amount is treated as one unit, use a singular verb.\n\n- **Ten dollars is** a high price to pay for socks.\n\nWhen the meaning is individual pieces, plural can make sense.\n\n- **Ten dollars are** scattered on the floor.  \n  Here the meaning is ten separate dollar bills.\n\n### Quantity phrases\n\nFor phrases like **a lot of**, **some of**, and **a majority of**, look at the noun that follows.\n\n| Phrase | Noun After Of | Correct Verb |\n|---|---|---|\n| A lot of the cake ___ gone. | cake | is |\n| A lot of the cakes ___ gone. | cakes | are |\n| Some of the money ___ missing. | money | is |\n| Some of the people ___ missing. | people | are |\n\n### Main point\n\nSubject-verb agreement is a reading skill. The correct verb is usually obvious after you identify the actual subject relationship.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Which sentence correctly ignores the interrupting phrase?",
+              "options": [
+                "The book, as well as the notes, is on the table.",
+                "The book, as well as the notes, are on the table.",
+                "The book, as well as the notes, were on the table.",
+                "The book, as well as the notes, have on the table."
+              ],
+              "correct": 0,
+              "explanation": "Phrases like as well as do not change the subject. Book is singular."
+            },
+            {
+              "type": "mcq",
+              "question": "Choose the correct sentence using the rule of proximity.",
+              "options": [
+                "Neither the students nor the teacher are ready.",
+                "Neither the students nor the teacher is ready.",
+                "Neither the students nor the teacher be ready.",
+                "Neither the students nor the teacher were ready yesterday."
+              ],
+              "correct": 1,
+              "explanation": "With nor, the verb agrees with the closest subject. Teacher is singular, so is."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence is correct?",
+              "options": [
+                "Neither the teacher nor the students is ready.",
+                "Neither the teacher nor the students has ready.",
+                "Neither the teacher nor the students are ready.",
+                "Neither the teacher nor the students was ready."
+              ],
+              "correct": 2,
+              "explanation": "The closest subject is students, plural, so use are."
+            },
+            {
+              "type": "mcq",
+              "question": "Choose the sentence that treats a group as one unit.",
+              "options": [
+                "The family are going on vacation.",
+                "The family go on vacation.",
+                "The family were going on vacation tomorrow.",
+                "The family is going on vacation."
+              ],
+              "correct": 3,
+              "explanation": "In American English, family is usually singular when the group acts as one unit."
+            },
+            {
+              "type": "mcq",
+              "question": "Choose the correct sentence for a distance/amount as one unit.",
+              "options": [
+                "Ten dollars is a high price to pay for socks.",
+                "Ten dollars are a high price to pay for socks.",
+                "Ten dollars have a high price to pay for socks.",
+                "Ten dollars were a high price tomorrow."
+              ],
+              "correct": 0,
+              "explanation": "A sum of money considered as one amount can take a singular verb."
+            },
+            {
+              "type": "mcq",
+              "question": "Which sentence changes meaning because the money is not treated as one amount?",
+              "options": [
+                "Ten dollars is scattered on the floor.",
+                "Ten dollars are scattered on the floor.",
+                "Ten dollars has scattered on the floor.",
+                "Ten dollars was scattered on the floor."
+              ],
+              "correct": 1,
+              "explanation": "When the speaker means individual dollar bills, the subject can be treated as plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Someone ___ left their bag.\"",
+              "options": [
+                "have",
+                "are",
+                "has",
+                "were"
+              ],
+              "correct": 2,
+              "explanation": "Someone is a singular indefinite pronoun, so it takes has."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"A lot of the cakes ___ gone.\"",
+              "options": [
+                "is",
+                "has",
+                "was",
+                "are"
+              ],
+              "correct": 3,
+              "explanation": "For phrases like a lot of, some of, and a majority of, check the noun after of. Cakes is plural."
+            }
+          ]
+        },
+        {
+          "id": "subject_verb_agreement_practice",
+          "title": "Practice it! - Subject-Verb Agreement",
+          "image": "",
+          "content": "### Practice-It Lab: Do The Work Before You Check\n\nThis subclass is a focused practice set for the whole Subject-Verb Agreement class. Try to answer before looking at the explanation.\n\n### Practice Set 1: Find the real subject\n\n| Prompt | Real Subject | Correct Verb |\n|---|---|---|\n| Everyone ___ going to the party. | everyone | is |\n| Each of the students ___ a laptop. | each | has |\n| No one ___ to work 16 hours a day. | no one | wants |\n| The team ___ a lot of games. | team | loses |\n\n### Practice Set 2: Ignore extra information\n\n| Prompt | Real Subject | Correct Verb |\n|---|---|---|\n| John, as well as his friends, ___ soccer. | John | loves |\n| My sister, as well as her friends, ___ art galleries. | sister | loves |\n| The book, as well as the notes, ___ on the table. | book | is |\n| My friend, along with her colleagues, ___ at the door. | friend | is |\n\n### Practice Set 3: Use proximity\n\n| Prompt | Closer Subject | Correct Verb |\n|---|---|---|\n| Neither the cat nor the dogs ___ around the house. | dogs | run |\n| Either my teammates or the captain ___ warm-up drills. | captain | runs |\n| My sister or my parents ___ me a ride home. | parents | give |\n| My parents or my sister ___ me a ride home. | sister | gives |\n\n### Practice Set 4: There + quantity phrases\n\n| Prompt | Subject Clue | Correct Verb |\n|---|---|---|\n| There ___ many reasons for the delay. | reasons | are |\n| There ___ a lot of people waiting in line. | people | are |\n| Some of the money ___ missing. | money | is |\n| Some of the people ___ missing. | people | are |\n\n### Final memory hook\n\nDo not let nearby plural words trick you. The verb belongs to the subject, not to every noun in the sentence.",
+          "questions": [
+            {
+              "type": "mcq",
+              "question": "Complete: \"My sister or my parents ___ me a ride home.\"",
+              "options": [
+                "give",
+                "gives",
+                "is giving",
+                "has given"
+              ],
+              "correct": 0,
+              "explanation": "With or, the verb agrees with the closer subject. Parents is plural, so give."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"My parents or my sister ___ me a ride home.\"",
+              "options": [
+                "give",
+                "gives",
+                "are giving",
+                "have given"
+              ],
+              "correct": 1,
+              "explanation": "With or, the closer subject is sister, singular, so gives."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"There ___ a lot of people waiting in line.\"",
+              "options": [
+                "is",
+                "has",
+                "are",
+                "was"
+              ],
+              "correct": 2,
+              "explanation": "People is the real plural subject after there."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"No one ___ to work 16 hours a day.\"",
+              "options": [
+                "want",
+                "are wanting",
+                "have wanted",
+                "wants"
+              ],
+              "correct": 3,
+              "explanation": "No one is singular, so the third-person singular verb wants is correct."
+            },
+            {
+              "type": "mcq",
+              "question": "Which is correct?",
+              "options": [
+                "The team is preparing for the big game.",
+                "The team are preparing for the big game.",
+                "The team have preparing for the big game.",
+                "The team be preparing for the big game."
+              ],
+              "correct": 0,
+              "explanation": "Team is a collective noun treated as one unit here."
+            },
+            {
+              "type": "mcq",
+              "question": "Which is correct?",
+              "options": [
+                "John and Carol works together at the coffee shop.",
+                "John and Carol work together at the coffee shop.",
+                "John and Carol is working together at the coffee shop.",
+                "John and Carol has worked together at the coffee shop."
+              ],
+              "correct": 1,
+              "explanation": "John and Carol is a compound subject joined by and, so it is plural."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Some of the money ___ missing.\"",
+              "options": [
+                "are",
+                "have",
+                "is",
+                "were"
+              ],
+              "correct": 2,
+              "explanation": "Money is uncountable/singular in this phrase, so use is."
+            },
+            {
+              "type": "mcq",
+              "question": "Complete: \"Some of the people ___ missing.\"",
+              "options": [
+                "is",
+                "has",
+                "was",
+                "are"
+              ],
+              "correct": 3,
+              "explanation": "People is plural, so use are."
             }
           ]
         }

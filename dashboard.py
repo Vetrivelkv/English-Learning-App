@@ -150,12 +150,13 @@ def render():
                     status = c_map.get(t_name, {}).get(r_num, {})
                     passed = status.get("passed", False)
                     h_score = status.get("high_score", 0)
+                    question_count = len(rnd.get("questions", []))
 
                     with cols[j]:
                         with st.container(border=True):
                             st.write(f"**Round {r_num}:** {rnd['title']}")
                             if passed:
-                                st.success(f"Passed ({h_score}/10)")
+                                st.success(f"Passed ({h_score}/{question_count})")
                             elif is_unlocked:
                                 st.info("Ready")
                             else:
